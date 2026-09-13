@@ -5,7 +5,7 @@
       "name": "Adafruit KiCad Library",
       "description": "Symbols and footprints adapted from Adafruit's hardware library.",
       "description_full": "Schematic symbols and footprints mechanically converted from the Adafruit EAGLE Library (adafruit/Adafruit-Eagle-Library) for use in KiCad 8 and later: 666 symbols and 643 footprints. Unofficial community packaging - Adafruit publishes no native KiCad library or PCM feed. The conversion is automated and unreviewed part by part, so verify footprint geometry against the manufacturer drawing before committing a board to fabrication.",
-      "identifier": "com.github.adafruit.kicad-library",
+      "identifier": "com.github.enkhbold470.adafruit-kicad-library",
       "type": "library",
       "author": {
         "name": "Adafruit Industries",
@@ -34,10 +34,10 @@
           "version": "1.0.0",
           "status": "testing",
           "kicad_version": "8.0",
-          "download_url": "https://github.com/enkhbold470/adafruit-kicad-pcm/releases/download/v1.0.0/kicad-library-1.0.0.zip",
-          "download_sha256": "bee446acd77d13a080c610ddf230bac9826bedc073b0d40662d083a361a91e80",
-          "download_size": 793277,
-          "install_size": 7492927
+          "download_url": "https://github.com/enkhbold470/adafruit-kicad-pcm/releases/download/v1.0.0/adafruit-kicad-library-1.0.0.zip",
+          "download_sha256": "9f52d85453d76c5289c356451366efe74238815303dfb5c7487bbb99b9cb51f8",
+          "download_size": 793281,
+          "install_size": 7492939
         }
       ]
     }
