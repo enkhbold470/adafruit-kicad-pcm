@@ -1,0 +1,60 @@
+Adafruit KiCad Library — PCM add-on
+===================================
+
+LIBRARY CONTENT
+---------------
+The schematic symbols and footprints distributed by this package are derived
+from the Adafruit EAGLE Library:
+
+    Copyright (c) Adafruit Industries
+    Source:  https://github.com/adafruit/Adafruit-Eagle-Library
+    License: Creative Commons Attribution-ShareAlike 4.0 International
+             (CC-BY-SA-4.0)
+             https://creativecommons.org/licenses/by-sa/4.0/
+
+Redistributed under the same CC-BY-SA-4.0 terms, as ShareAlike requires.
+
+STATEMENT OF MODIFICATIONS
+--------------------------
+As required by section 3(a)(1)(B) of CC-BY-SA-4.0, the following changes were
+made to the original material:
+
+  * EAGLE packages (adafruit.lbr) were mechanically converted to KiCad 8
+    footprint files (.kicad_mod) by tools/eagle2kicad.py in this repository.
+  * EAGLE devicesets and symbols were converted to a KiCad 8 symbol library
+    (.kicad_sym), one symbol per deviceset/device variant, with pin numbers
+    resolved from the EAGLE <connect> elements.
+  * Coordinates were mirrored in Y for footprints, because KiCad board
+    coordinates increase downward while EAGLE's increase upward.
+  * Octagonal pads were converted to circular pads; KiCad has no octagon pad
+    primitive.
+  * Copper keepout geometry on EAGLE layers 41, 42 and 43 was dropped.
+  * No part was redrawn, retuned or dimensionally altered by hand.
+
+This derivative was not produced by, reviewed by, or endorsed by Adafruit
+Industries.
+
+PACKAGING AND CONVERSION SCRIPTS
+--------------------------------
+The scripts in tools/ and the packaging metadata are:
+
+    Copyright (c) 2026 Inky Ganbold
+    MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

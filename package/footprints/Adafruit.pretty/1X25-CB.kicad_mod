@@ -1,0 +1,110 @@
+(footprint "1X25-CB"
+	(version 20240108)
+	(generator "eagle2kicad")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(attr through_hole)
+	(property "Reference" "REF**"
+		(at 0.0000 0.0000 0)
+		(layer "F.SilkS")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Value" "1X25-CB"
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Footprint" "Adafruit:1X25-CB"
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Datasheet" ""
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Description" ""
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(pad "1" thru_hole circle
+		(at -17.7800 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "2" thru_hole circle
+		(at -15.2400 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "3" thru_hole circle
+		(at -12.7000 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "4" thru_hole circle
+		(at -10.1600 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "5" thru_hole circle
+		(at -7.6200 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "6" thru_hole circle
+		(at -5.0800 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "7" thru_hole circle
+		(at -2.5400 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "8" thru_hole circle
+		(at 0.0000 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "9" thru_hole circle
+		(at 2.5400 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "10" thru_hole circle
+		(at 5.0800 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "11" thru_hole circle
+		(at 7.6200 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "12" thru_hole circle
+		(at 10.1600 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "13" thru_hole circle
+		(at 12.7000 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "14" thru_hole circle
+		(at 15.2400 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+	(pad "15" thru_hole circle
+		(at 17.7800 -0.0000 90)
+		(size 1.7780 1.7780) (drill 1.0160)
+		(layers "*.Cu" "*.Mask")
+	)
+)

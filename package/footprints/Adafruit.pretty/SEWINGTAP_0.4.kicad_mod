@@ -1,0 +1,48 @@
+(footprint "SEWINGTAP_0.4"
+	(version 20240108)
+	(generator "eagle2kicad")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(attr through_hole)
+	(property "Reference" "REF**"
+		(at 0.0000 0.0000 0)
+		(layer "F.SilkS")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Value" "SEWINGTAP_0.4"
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Footprint" "Adafruit:SEWINGTAP_0.4"
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Datasheet" ""
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Description" ""
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(fp_poly
+		(pts (xy -4.4450 1.3970) (xy 1.3970 1.3970) (xy 4.4450 1.3970) (xy 0.0000 -1.2700))
+		(stroke (width 0.1270) (type solid)) (fill solid) (layer "F.Cu")
+	)
+	(fp_poly
+		(pts (xy -4.4450 1.3970) (xy 1.3970 1.3970) (xy 4.4450 1.3970) (xy 0.0000 -1.2700))
+		(stroke (width 0.1270) (type solid)) (fill solid) (layer "F.Mask")
+	)
+	(pad "TAP" thru_hole circle
+		(at 0.0000 -0.0000 0)
+		(size 2.1844 2.1844) (drill 1.2000)
+		(layers "*.Cu" "*.Mask")
+	)
+)

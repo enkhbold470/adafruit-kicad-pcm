@@ -1,0 +1,40 @@
+(footprint "1X1-BIGPOGO"
+	(version 20240108)
+	(generator "eagle2kicad")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(attr through_hole)
+	(property "Reference" "REF**"
+		(at 0.0000 0.0000 0)
+		(layer "F.SilkS")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Value" "1X1-BIGPOGO"
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Footprint" "Adafruit:1X1-BIGPOGO"
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Datasheet" ""
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Description" ""
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(pad "P$1" thru_hole oval
+		(at 0.0000 -0.0000 0)
+		(size 5.0800 2.5400) (drill 1.4000)
+		(layers "*.Cu" "*.Mask")
+	)
+)

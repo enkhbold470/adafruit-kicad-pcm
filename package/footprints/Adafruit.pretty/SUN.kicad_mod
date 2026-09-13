@@ -1,0 +1,80 @@
+(footprint "SUN"
+	(version 20240108)
+	(generator "eagle2kicad")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(attr smd)
+	(property "Reference" "REF**"
+		(at 0.0000 0.0000 0)
+		(layer "F.SilkS")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Value" "SUN"
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Footprint" "Adafruit:SUN"
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Datasheet" ""
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(property "Description" ""
+		(at 0.0000 0.0000 0)
+		(layer "F.Fab")
+		(hide yes)
+		(effects (font (size 1 1) (thickness 0.15)))
+	)
+	(pad "P$1" smd oval
+		(at 0.0000 -0.0000 0)
+		(size 2.5400 2.5400)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "P$2" smd oval
+		(at 0.0000 -2.5400 90)
+		(size 1.2700 0.3048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "P$3" smd oval
+		(at 0.0000 2.5400 90)
+		(size 1.2700 0.3048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "P$4" smd oval
+		(at 2.5400 -0.0000 180)
+		(size 1.2700 0.3048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "P$5" smd oval
+		(at -2.5400 -0.0000 180)
+		(size 1.2700 0.3048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "P$6" smd oval
+		(at 2.0320 -1.7780 45)
+		(size 1.2700 0.3048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "P$7" smd oval
+		(at 2.0320 1.7780 135)
+		(size 1.2700 0.3048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "P$8" smd oval
+		(at -2.0320 1.7780 225)
+		(size 1.2700 0.3048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+	(pad "P$9" smd oval
+		(at -2.0320 -1.7780 315)
+		(size 1.2700 0.3048)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+	)
+)

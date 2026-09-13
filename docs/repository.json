@@ -1,0 +1,22 @@
+{
+  "$schema": "https://go.kicad.org/pcm/schemas/v1",
+  "name": "Adafruit KiCad Library (community)",
+  "maintainer": {
+    "name": "Inky Ganbold",
+    "contact": {
+      "web": "https://github.com/enkhbold470"
+    }
+  },
+  "packages": {
+    "url": "https://enkhbold470.github.io/adafruit-kicad-pcm/packages.json",
+    "sha256": "e5ed17a2904ed48bbb6010b0931b2e75e3cb62ef9872377081cd11354bf3ca35",
+    "update_timestamp": 1789286901,
+    "update_time_utc": "2026-09-13 08:08:21"
+  },
+  "resources": {
+    "url": "https://enkhbold470.github.io/adafruit-kicad-pcm/resources.zip",
+    "sha256": "3e3e3691878e0d8c74536e4f98c50692543274c306c778fe6725122a4770d3c7",
+    "update_timestamp": 1789286901,
+    "update_time_utc": "2026-09-13 08:08:21"
+  }
+}
