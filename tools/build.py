@@ -134,6 +134,11 @@ NOW = time.time()
 
 def main():
     DIST.mkdir(exist_ok=True)
+    # Clear stale zips: the archive name derives from the identifier and
+    # version, so editing either leaves an orphan behind that is easy to
+    # publish by mistake.
+    for old in DIST.glob("*.zip"):
+        old.unlink()
     meta = json.loads((PKG / "metadata.json").read_text())
     version = validate(meta)
     if fail.n:
