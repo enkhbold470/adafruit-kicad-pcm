@@ -14,7 +14,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:BTN_CK_KSS"
+	(property "Footprint" "PCM_Adafruit:BTN_CK_KSS"
 		(at -1.8860 -1.1440 0)
 		(layer "F.Fab")
 		(hide yes)

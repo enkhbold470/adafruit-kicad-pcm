@@ -15,7 +15,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:ILI9325_28INCH_TS"
+	(property "Footprint" "PCM_Adafruit:ILI9325_28INCH_TS"
 		(at 0.0000 0.0000 0)
 		(layer "F.Fab")
 		(hide yes)

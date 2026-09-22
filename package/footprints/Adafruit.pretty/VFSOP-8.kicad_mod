@@ -15,7 +15,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:VFSOP-8"
+	(property "Footprint" "PCM_Adafruit:VFSOP-8"
 		(at -0.2500 0.9000 90)
 		(layer "F.Fab")
 		(hide yes)

@@ -14,7 +14,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:TFT_2.83IN_240X320_50PIN"
+	(property "Footprint" "PCM_Adafruit:TFT_2.83IN_240X320_50PIN"
 		(at 14.7260 16.1250 0)
 		(layer "F.Fab")
 		(hide yes)

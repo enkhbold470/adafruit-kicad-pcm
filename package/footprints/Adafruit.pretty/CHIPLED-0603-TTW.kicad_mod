@@ -15,7 +15,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:CHIPLED-0603-TTW"
+	(property "Footprint" "PCM_Adafruit:CHIPLED-0603-TTW"
 		(at 1.9050 1.2700 90)
 		(layer "F.Fab")
 		(hide yes)

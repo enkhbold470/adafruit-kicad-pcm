@@ -15,7 +15,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:153CLV-0605"
+	(property "Footprint" "PCM_Adafruit:153CLV-0605"
 		(at -3.4250 4.8850 0)
 		(layer "F.Fab")
 		(hide yes)

@@ -15,7 +15,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:USB-MINIB-THM"
+	(property "Footprint" "PCM_Adafruit:USB-MINIB-THM"
 		(at -3.3100 1.6500 0)
 		(layer "F.Fab")
 		(hide yes)

@@ -14,7 +14,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:PUSHBUTTON_SMD_SJ"
+	(property "Footprint" "PCM_Adafruit:PUSHBUTTON_SMD_SJ"
 		(at -1.7780 0.7620 0)
 		(layer "F.Fab")
 		(hide yes)

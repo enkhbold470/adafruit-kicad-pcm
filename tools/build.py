@@ -132,6 +132,25 @@ def stamp(path):
 NOW = time.time()
 
 
+def older_versions(meta):
+    """Keep earlier releases installable: their download_* fields are only
+    known from the feed we published last time, so carry them over from
+    docs/packages.json rather than recomputing (the old zip is untouched)."""
+    prior = {}
+    feed = ROOT / "docs" / "packages.json"
+    if feed.exists():
+        for p in json.loads(feed.read_text()).get("packages", []):
+            if p.get("identifier") == meta.get("identifier"):
+                prior = {v["version"]: v for v in p.get("versions", []) if "download_sha256" in v}
+    kept = []
+    for v in meta["versions"][1:]:
+        if v["version"] in prior:
+            kept.append(prior[v["version"]])
+        else:
+            warn(f"version {v['version']} has no published download info; dropped from the feed")
+    return kept
+
+
 def main():
     DIST.mkdir(exist_ok=True)
     # Clear stale zips: the archive name derives from the identifier and
@@ -155,7 +174,7 @@ def main():
     entry.update(download_url=url, download_sha256=sha256(zip_path),
                  download_size=zip_path.stat().st_size, install_size=install_size)
     pkg = {k: v for k, v in meta.items() if k != "$schema"}
-    pkg["versions"] = [entry]
+    pkg["versions"] = [entry] + older_versions(meta)
 
     packages = DIST / "packages.json"
     packages.write_text(json.dumps(

@@ -15,7 +15,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:CHIP-LED0603"
+	(property "Footprint" "PCM_Adafruit:CHIP-LED0603"
 		(at 1.9050 0.6350 90)
 		(layer "F.Fab")
 		(hide yes)

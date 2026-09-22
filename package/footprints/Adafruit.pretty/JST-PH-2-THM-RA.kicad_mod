@@ -15,7 +15,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:JST-PH-2-THM-RA"
+	(property "Footprint" "PCM_Adafruit:JST-PH-2-THM-RA"
 		(at 0.0000 0.0000 0)
 		(layer "F.Fab")
 		(hide yes)

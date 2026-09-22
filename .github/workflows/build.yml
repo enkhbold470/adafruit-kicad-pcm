@@ -1,0 +1,49 @@
+# Regenerate both libraries from their sources, insist the committed output
+# is what the tools produce, run the structural checks, and build the PCM zip.
+# Releases stay manual (see README): the feed's sha256 must come from the very
+# zip that gets attached to the GitHub release.
+name: build
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Convert the EAGLE library
+        run: python3 tools/eagle2kicad.py tools/adafruit.lbr package/ --prefix Adafruit
+      - name: Build the board modules from the pinned manifest
+        run: python3 tools/build_boards.py
+      - name: Committed output must match what the tools generate
+        run: git diff --exit-code --stat -- package/
+      - name: Structural checks
+        run: python3 tools/verify.py tools/adafruit.lbr package/ --kicad-cli none
+      - name: Package
+        env:
+          GH_OWNER: ${{ github.repository_owner }}
+          GH_REPO: ${{ github.event.repository.name }}
+        run: ./build.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pcm-package
+          path: dist/*.zip
+
+  kicad-load:
+    # KiCad itself is the only judge of whether a library loads. This caught
+    # 28 symbols and a footprint that the structural checks alone passed.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install kicad-cli (no bundled libraries)
+        run: |
+          sudo add-apt-repository -y ppa:kicad/kicad-9.0-releases
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends kicad
+      - name: Load every library with kicad-cli
+        run: python3 tools/verify.py tools/adafruit.lbr package/ --kicad-cli kicad-cli

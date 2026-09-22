@@ -14,7 +14,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:TFT_CTP28"
+	(property "Footprint" "PCM_Adafruit:TFT_CTP28"
 		(at -25.1000 35.3000 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -32,8 +32,7 @@
 		(hide yes)
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(fp_text user "2.83\"
-240x320 Display"
+	(fp_text user "2.83\"\n240x320 Display"
 		(at 0.0000 -26.4000 0)
 		(layer "F.Fab")
 		(effects (font (size 1.676 1.676) (thickness 0.251)))

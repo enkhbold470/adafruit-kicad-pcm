@@ -1,0 +1,2567 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "brd2module")
+	(generator_version "8.0")
+(symbol "Adafruit_TCS3448_Light_Color_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 11.43 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_TCS3448_Light_Color_Sensor"
+		(at -7.62 -11.43 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_TCS3448_Light_Color_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6525"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit TCS3448 14-Channel Light / Color Sensor Breakout - STEMMA QT / Qwiic (Adafruit product 6525) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-TCS3448-14-Channel-Light-Color-Sensor-Breakout-PCB@ff0a1a5 \"Adafruit TCS3448 14-Channel Light Color Sensor Breakout rev E.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout light color sensor tcs3448"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_TCS3448_Light_Color_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_TCS3448_Light_Color_Sensor_0_1"
+		(rectangle (start -7.62 7.62) (end 7.62 -7.62)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_TCS3448_Light_Color_Sensor_1_1"
+		(pin passive line
+			(at -10.16 5.08 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 2.54 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 0 0)
+			(length 2.54)
+			(name "GPIO"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 -2.54 0)
+			(length 2.54)
+			(name "INT"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 10.16 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -10.16 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_TSL2585_UVA_Light_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -10.16 11.43 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_TSL2585_UVA_Light_Sensor"
+		(at -10.16 -11.43 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_TSL2585_UVA_Light_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6524"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit TSL2585 Digital UVA and Ambient Light Sensor - STEMMA QT (Adafruit product 6524) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-TSL2585-Digital-UVA-and-Ambient-Light-Sensor-PCB@44dec43 \"Adafruit TSL2585 Digital UVA and Ambient Light Sensor - STEMMA QT.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout uva ambient light sensor tsl2585"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_TSL2585_UVA_Light_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_TSL2585_UVA_Light_Sensor_0_1"
+		(rectangle (start -10.16 7.62) (end 10.16 -7.62)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_TSL2585_UVA_Light_Sensor_1_1"
+		(pin passive line
+			(at -12.7 5.08 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 2.54 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 0 0)
+			(length 2.54)
+			(name "SYNC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -2.54 0)
+			(length 2.54)
+			(name "INT_3V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 10.16 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -10.16 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_TMF8801_ToF_Distance_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -8.89 13.97 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_TMF8801_ToF_Distance_Sensor"
+		(at -8.89 -13.97 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_TMF8801_ToF_Distance_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6522"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit TMF8801 Time of Flight Distance Sensor - 20mm to 2.5m - STEMMA QT / Qwiic (Adafruit product 6522) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-TMF8801-Time-of-Flight-Distance-Sensor-PCB@274138c \"Adafruit TMF8801 Time of Flight Sensor rev B.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout time of flight distance sensor tmf8801"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_TMF8801_ToF_Distance_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_TMF8801_ToF_Distance_Sensor_0_1"
+		(rectangle (start -8.89 10.16) (end 8.89 -10.16)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_TMF8801_ToF_Distance_Sensor_1_1"
+		(pin passive line
+			(at -11.43 7.62 0)
+			(length 2.54)
+			(name "GPIO0"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 5.08 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 2.54 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 0 0)
+			(length 2.54)
+			(name "INT"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 -2.54 0)
+			(length 2.54)
+			(name "EN"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "7"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 -5.08 0)
+			(length 2.54)
+			(name "GPIO1"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "8"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 12.7 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -12.7 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_GP8403_I2C_DAC"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -11.43 15.24 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_GP8403_I2C_DAC"
+		(at -11.43 -15.24 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_GP8403_I2C_DAC"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6516"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit GP8403 Breakout Board I2C DAC with 12V Booster + NVM - STEMMA QT / qwiic (Adafruit product 6516) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-GP8403-Breakout-Board-PCB@e1326df \"Adafruit GP8403 Breakout Board rev B.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout dac 0-10v gp8403"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_GP8403_I2C_DAC"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_GP8403_I2C_DAC_0_1"
+		(rectangle (start -11.43 11.43) (end 11.43 -11.43)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_GP8403_I2C_DAC_1_1"
+		(pin passive line
+			(at -13.97 8.89 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -13.97 6.35 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -13.97 3.81 0)
+			(length 2.54)
+			(name "VOUT0"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -13.97 1.27 0)
+			(length 2.54)
+			(name "VOUT1"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -13.97 -1.27 0)
+			(length 2.54)
+			(name "12V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "7"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -13.97 -3.81 0)
+			(length 2.54)
+			(name "VOUT1_2"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "8"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -13.97 -6.35 0)
+			(length 2.54)
+			(name "VOUT0_2"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "9"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 13.97 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -1.27 -13.97 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 1.27 -13.97 90)
+			(length 2.54)
+			(name "GND_2"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "10"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_SCD43_CO2_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 8.89 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_SCD43_CO2_Sensor"
+		(at -7.62 -8.89 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_SCD43_CO2_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6512"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit SCD-43 - True CO2 Temperature and Humidity Sensor - STEMMA QT / Qwiic (Adafruit product 6512) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-SCD-4x-PCB@c839954 \"Adafruit SCD43 rev A.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout co2 temperature humidity sensor scd43 scd4x"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_SCD43_CO2_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_SCD43_CO2_Sensor_0_1"
+		(rectangle (start -7.62 5.08) (end 7.62 -5.08)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_SCD43_CO2_Sensor_1_1"
+		(pin passive line
+			(at -10.16 2.54 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 0 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -1.27 7.62 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 1.27 7.62 270)
+			(length 2.54)
+			(name "3.3V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -7.62 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_SCD41_CO2_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 8.89 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_SCD41_CO2_Sensor"
+		(at -7.62 -8.89 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_SCD41_CO2_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/5190"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit SCD-41 - True CO2 Temperature and Humidity Sensor - STEMMA QT / Qwiic (Adafruit product 5190) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-SCD-4x-PCB@c839954 \"Adafruit SCD-41.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout co2 temperature humidity sensor scd41 scd4x"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_SCD41_CO2_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_SCD41_CO2_Sensor_0_1"
+		(rectangle (start -7.62 5.08) (end 7.62 -5.08)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_SCD41_CO2_Sensor_1_1"
+		(pin passive line
+			(at -10.16 2.54 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 0 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -1.27 7.62 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 1.27 7.62 270)
+			(length 2.54)
+			(name "3.3V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -7.62 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_TMF8806_ToF_Distance_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -8.89 13.97 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_TMF8806_ToF_Distance_Sensor"
+		(at -8.89 -13.97 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_TMF8806_ToF_Distance_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6501"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit TMF8806 Time of Flight Distance Sensor - 10mm to 5m - STEMMA QT / Qwiic (Adafruit product 6501) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-TMF8806-Time-of-Flight-Distance-Sensor-PCB@00602b9 \"Adafruit TMF8806 Time of Flight Sensor rev B.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout time of flight distance sensor tmf8806"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_TMF8806_ToF_Distance_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_TMF8806_ToF_Distance_Sensor_0_1"
+		(rectangle (start -8.89 10.16) (end 8.89 -10.16)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_TMF8806_ToF_Distance_Sensor_1_1"
+		(pin passive line
+			(at -11.43 7.62 0)
+			(length 2.54)
+			(name "GPIO0"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 5.08 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 2.54 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 0 0)
+			(length 2.54)
+			(name "INT"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 -2.54 0)
+			(length 2.54)
+			(name "EN"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "7"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 -5.08 0)
+			(length 2.54)
+			(name "GPIO1"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "8"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 12.7 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -12.7 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_MAX44009_Lux_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 10.16 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_MAX44009_Lux_Sensor"
+		(at -7.62 -10.16 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_MAX44009_Lux_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6498"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit MAX44009 Wide-range Lux Light Sensor - 188,000 Lux Max - STEMMA QT / Qwiic (Adafruit product 6498) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-MAX44009-Lux-Light-Sensor-PCB@8105e22 \"Adafruit MAX44009 Lux Light Sensor.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout lux light sensor max44009"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_MAX44009_Lux_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_MAX44009_Lux_Sensor_0_1"
+		(rectangle (start -7.62 6.35) (end 7.62 -6.35)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_MAX44009_Lux_Sensor_1_1"
+		(pin passive line
+			(at -10.16 3.81 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 1.27 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 -1.27 0)
+			(length 2.54)
+			(name "INT"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -1.27 8.89 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 1.27 8.89 270)
+			(length 2.54)
+			(name "3.3V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -8.89 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_Terminal_Block_BFF"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 13.97 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_Terminal_Block_BFF"
+		(at -7.62 -13.97 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_Terminal_Block_BFF"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6495"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit Terminal Block BFF Add-On for QT Py and Xiao (Adafruit product 6495) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-Terminal-Block-BFF-PCB@6e2c47d \"Adafruit Terminal Block BFF.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit bff qt py xiao terminal block add-on"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_Terminal_Block_BFF"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_Terminal_Block_BFF_0_1"
+		(rectangle (start -7.62 10.16) (end 7.62 -10.16)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_Terminal_Block_BFF_1_1"
+		(pin passive line
+			(at -10.16 7.62 0)
+			(length 2.54)
+			(name "RX"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 5.08 0)
+			(length 2.54)
+			(name "SCK"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 2.54 0)
+			(length 2.54)
+			(name "MISO"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 0 0)
+			(length 2.54)
+			(name "MOSI"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 -2.54 0)
+			(length 2.54)
+			(name "A0"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "8"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 -5.08 0)
+			(length 2.54)
+			(name "A1"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "9"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at 10.16 7.62 180)
+			(length 2.54)
+			(name "A2"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "10"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at 10.16 5.08 180)
+			(length 2.54)
+			(name "A3"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "11"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at 10.16 2.54 180)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "12"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at 10.16 0 180)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "13"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at 10.16 -2.54 180)
+			(length 2.54)
+			(name "TX"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "14"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -1.27 12.7 270)
+			(length 2.54)
+			(name "3.3V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 1.27 12.7 270)
+			(length 2.54)
+			(name "+5V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "7"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -12.7 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_ADS7128_ADC_GPIO_Expander"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -8.89 12.7 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_ADS7128_ADC_GPIO_Expander"
+		(at -8.89 -15.24 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_ADS7128_ADC_GPIO_Expander"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6494"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit ADS7128 8-Channel ADC and GPIO Expander - STEMMA QT / Qwiic (Adafruit product 6494) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-ADS7128-8-Channel-ADC-and-GPIO-Expander-PCB@ecc6fd2 \"Adafruit ADS7128 8-Channel ADC and GPIO Expander.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout adc gpio expander ads7128"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_ADS7128_ADC_GPIO_Expander"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_ADS7128_ADC_GPIO_Expander_0_1"
+		(rectangle (start -8.89 11.43) (end 8.89 -11.43)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_ADS7128_ADC_GPIO_Expander_1_1"
+		(pin passive line
+			(at -11.43 8.89 0)
+			(length 2.54)
+			(name "A0"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 6.35 0)
+			(length 2.54)
+			(name "A1"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 3.81 0)
+			(length 2.54)
+			(name "A2"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 1.27 0)
+			(length 2.54)
+			(name "A3"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 -1.27 0)
+			(length 2.54)
+			(name "A4"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 -3.81 0)
+			(length 2.54)
+			(name "A5"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 -6.35 0)
+			(length 2.54)
+			(name "A6"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "7"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at 11.43 8.89 180)
+			(length 2.54)
+			(name "A7"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "8"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at 11.43 6.35 180)
+			(length 2.54)
+			(name "DVDD"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "9"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at 11.43 3.81 180)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "11"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at 11.43 1.27 180)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "12"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at 11.43 -1.27 180)
+			(length 2.54)
+			(name "ADDR"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "13"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at 11.43 -3.81 180)
+			(length 2.54)
+			(name "ALERT"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "14"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at 11.43 -6.35 180)
+			(length 2.54)
+			(name "AVDD"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "15"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -1.27 -13.97 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "10"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 1.27 -13.97 90)
+			(length 2.54)
+			(name "GND_2"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "16"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_VCNL4030_Proximity_Lux_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 10.16 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_VCNL4030_Proximity_Lux_Sensor"
+		(at -7.62 -10.16 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_VCNL4030_Proximity_Lux_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6491"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit VCNL4030 Proximity and Lux Sensor - STEMMA QT / Qwiic (Adafruit product 6491) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-VCNL4030-Proximity-and-Lux-Sensor-PCB@2cb43e9 \"Adafruit VCNL4030 Proximity and Lux Breakout.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout proximity lux sensor vcnl4030"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_VCNL4030_Proximity_Lux_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_VCNL4030_Proximity_Lux_Sensor_0_1"
+		(rectangle (start -7.62 6.35) (end 7.62 -6.35)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_VCNL4030_Proximity_Lux_Sensor_1_1"
+		(pin passive line
+			(at -10.16 3.81 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 1.27 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 -1.27 0)
+			(length 2.54)
+			(name "INT"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -1.27 8.89 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 1.27 8.89 270)
+			(length 2.54)
+			(name "3.3V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -8.89 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_TMAG5273A2_Hall_Magnetometer"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 10.16 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_TMAG5273A2_Hall_Magnetometer"
+		(at -7.62 -10.16 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_TMAG5273A2_Hall_Magnetometer"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6490"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit TMAG5273 (A2) 3D Hall Effect Magnetometer - ±133mT / 266mT - STEMMA QT (Adafruit product 6490) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-TMAG5273-3D-Hall-Effect-Magnetometer-Breakout-PCB@543c3c9 \"Adafruit TMAG5273A2 3D Hall Effect Magnetometer Breakout.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout 3d hall effect magnetometer tmag5273 a2"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_TMAG5273A2_Hall_Magnetometer"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_TMAG5273A2_Hall_Magnetometer_0_1"
+		(rectangle (start -7.62 6.35) (end 7.62 -6.35)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_TMAG5273A2_Hall_Magnetometer_1_1"
+		(pin passive line
+			(at -10.16 3.81 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 1.27 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 -1.27 0)
+			(length 2.54)
+			(name "!INT"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -1.27 8.89 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 1.27 8.89 270)
+			(length 2.54)
+			(name "3.3V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -8.89 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_TMAG5273A1_Hall_Magnetometer"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 10.16 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_TMAG5273A1_Hall_Magnetometer"
+		(at -7.62 -10.16 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_TMAG5273A1_Hall_Magnetometer"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6489"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit TMAG5273 (A1) 3D Hall Effect Magnetometer Breakout - ±40mT, ±80mT - STEMMA QT (Adafruit product 6489) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-TMAG5273-3D-Hall-Effect-Magnetometer-Breakout-PCB@543c3c9 \"Adafruit TMAG5273A1 3D Hall Effect Magnetometer Breakout.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout 3d hall effect magnetometer tmag5273 a1"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_TMAG5273A1_Hall_Magnetometer"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_TMAG5273A1_Hall_Magnetometer_0_1"
+		(rectangle (start -7.62 6.35) (end 7.62 -6.35)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_TMAG5273A1_Hall_Magnetometer_1_1"
+		(pin passive line
+			(at -10.16 3.81 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 1.27 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 -1.27 0)
+			(length 2.54)
+			(name "!INT"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -1.27 8.89 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 1.27 8.89 270)
+			(length 2.54)
+			(name "3.3V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -8.89 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_TMP119_Temperature_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 11.43 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_TMP119_Temperature_Sensor"
+		(at -7.62 -11.43 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_TMP119_Temperature_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6482"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit TMP119 High-Precision ±0.03°C I2C Temperature Sensor - STEMMA QT / Qwiic (Adafruit product 6482) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-TMP119-Temperature-Sensor-PCB@fe8ae26 \"Adafruit TMP119 Temperature Sensor.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout precision temperature sensor tmp119"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_TMP119_Temperature_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_TMP119_Temperature_Sensor_0_1"
+		(rectangle (start -7.62 7.62) (end 7.62 -7.62)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_TMP119_Temperature_Sensor_1_1"
+		(pin passive line
+			(at -10.16 5.08 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 2.54 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 0 0)
+			(length 2.54)
+			(name "INT"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 -2.54 0)
+			(length 2.54)
+			(name "ADDR"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 10.16 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -10.16 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_TCS3430_Tri-Stimulus_Color_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 11.43 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_TCS3430_Tri-Stimulus_Color_Sensor"
+		(at -7.62 -11.43 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_TCS3430_Tri-Stimulus_Color_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6479"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit TCS3430 / TCS34303 Ambient Tri-Stimulus Color Sensor (Adafruit product 6479) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-TCS3430-Ambient-Tri-Stimulus-Color-Sensor-PCB@66a56ff \"Adafruit TCS3430 Ambient Tri-Stimulus Color Sensor.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout tri-stimulus color sensor tcs3430 tcs34303"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_TCS3430_Tri-Stimulus_Color_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_TCS3430_Tri-Stimulus_Color_Sensor_0_1"
+		(rectangle (start -7.62 7.62) (end 7.62 -7.62)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_TCS3430_Tri-Stimulus_Color_Sensor_1_1"
+		(pin passive line
+			(at -10.16 5.08 0)
+			(length 2.54)
+			(name "1.8V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 2.54 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 0 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 -2.54 0)
+			(length 2.54)
+			(name "INT"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 10.16 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -10.16 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_STCC4_SHT41_CO2_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 10.16 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_STCC4_SHT41_CO2_Sensor"
+		(at -7.62 -10.16 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_STCC4_SHT41_CO2_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6478"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit STCC4 and SHT41 - CO2, Temperature & Humidity Sensor - STEMMA QT / Qwiic (Adafruit product 6478) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-STCC4-and-SHT41-CO2-Temperature-and-Humidity-Sensor-PCB@3bf8a8e \"Adafruit STCC4 and SHT41 CO2 Temperature and Humidity Sensor.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout co2 temperature humidity sensor stcc4 sht41"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_STCC4_SHT41_CO2_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_STCC4_SHT41_CO2_Sensor_0_1"
+		(rectangle (start -7.62 6.35) (end 7.62 -6.35)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_STCC4_SHT41_CO2_Sensor_1_1"
+		(pin passive line
+			(at -10.16 3.81 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 1.27 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 -1.27 0)
+			(length 2.54)
+			(name "ADDR"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -1.27 8.89 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 1.27 8.89 270)
+			(length 2.54)
+			(name "3.3V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -8.89 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_AS7343_Light_Color_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 11.43 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_AS7343_Light_Color_Sensor"
+		(at -7.62 -11.43 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_AS7343_Light_Color_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6477"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit AS7343 14-Channel Light / Color Sensor Breakout - STEMMA QT / Qwiic (Adafruit product 6477) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-AS7343-14-Channel-Light-Color-Sensor-PCB@ce4bb79 \"Adafruit AS7343 14 Channel Light Color Sensor Breakout.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout light color sensor as7343"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_AS7343_Light_Color_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_AS7343_Light_Color_Sensor_0_1"
+		(rectangle (start -7.62 7.62) (end 7.62 -7.62)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_AS7343_Light_Color_Sensor_1_1"
+		(pin passive line
+			(at -10.16 5.08 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 2.54 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 0 0)
+			(length 2.54)
+			(name "GPIO"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 -2.54 0)
+			(length 2.54)
+			(name "INT"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 10.16 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -10.16 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_AS7331_UV_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -8.89 11.43 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_AS7331_UV_Sensor"
+		(at -8.89 -11.43 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_AS7331_UV_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6476"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit AS7331 UV / UVA / UVB / UVC Sensor Breakout - STEMMA QT / Qwiic (Adafruit product 6476) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-AS7331-UV-UVA-UVB-UVC-Sensor-PCB@3e07d4e \"Adafruit AS7331 UV UVA UVB UVC Sensor.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout uv uva uvb uvc sensor as7331"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_AS7331_UV_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_AS7331_UV_Sensor_0_1"
+		(rectangle (start -8.89 7.62) (end 8.89 -7.62)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_AS7331_UV_Sensor_1_1"
+		(pin passive line
+			(at -11.43 5.08 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 2.54 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 0 0)
+			(length 2.54)
+			(name "SYN"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -11.43 -2.54 0)
+			(length 2.54)
+			(name "READY"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 10.16 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -10.16 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_MatrixPortal_S3"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -10.16 17.78 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_MatrixPortal_S3"
+		(at -10.16 -17.78 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_MatrixPortal_S3"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/5778"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit Matrix Portal S3 CircuitPython Powered Internet Display (product 5778; 6475 is the u.FL variant of the same board) (Adafruit product 5778) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-MatrixPortal-S3-PCB@1ff841b \"Adafruit MatrixPortal S3.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit matrix portal s3 esp32-s3 rgb matrix hub75 devboard"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_MatrixPortal_S3"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_MatrixPortal_S3_0_1"
+		(rectangle (start -10.16 13.97) (end 10.16 -13.97)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_MatrixPortal_S3_1_1"
+		(pin passive line
+			(at -12.7 11.43 0)
+			(length 2.54)
+			(name "A4"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 8.89 0)
+			(length 2.54)
+			(name "A3"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 6.35 0)
+			(length 2.54)
+			(name "A2"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 3.81 0)
+			(length 2.54)
+			(name "A1"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 1.27 0)
+			(length 2.54)
+			(name "RXI"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "7"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -1.27 0)
+			(length 2.54)
+			(name "TXO"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "8"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -3.81 0)
+			(length 2.54)
+			(name "TXD0"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "9"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -6.35 0)
+			(length 2.54)
+			(name "BOOT0"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "10"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -8.89 0)
+			(length 2.54)
+			(name "!RESET"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "11"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 16.51 270)
+			(length 2.54)
+			(name "3.3V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -16.51 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_APDS9999_Proximity_Light_Color_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 10.16 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_APDS9999_Proximity_Light_Color_Sensor"
+		(at -7.62 -10.16 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_APDS9999_Proximity_Light_Color_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6461"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit APDS9999 Proximity, Lux Light & Color Sensor - STEMMA QT / Qwiic (Adafruit product 6461) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-APDS9999-Proximity-Light-and-Color-Sensor-PCB@0f0fc27 \"Adafruit APDS9999 Proximity Light Color Sensor.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout proximity lux color sensor apds9999"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_APDS9999_Proximity_Light_Color_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_APDS9999_Proximity_Light_Color_Sensor_0_1"
+		(rectangle (start -7.62 6.35) (end 7.62 -6.35)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_APDS9999_Proximity_Light_Color_Sensor_1_1"
+		(pin passive line
+			(at -10.16 3.81 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 1.27 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 -1.27 0)
+			(length 2.54)
+			(name "INT"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -1.27 8.89 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 1.27 8.89 270)
+			(length 2.54)
+			(name "3.3V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -8.89 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_SGP41_Gas_Sensor"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -7.62 8.89 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_SGP41_Gas_Sensor"
+		(at -7.62 -8.89 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_SGP41_Gas_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6455"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit SGP41 Multi-Pixel Gas Sensor Breakout - VOC & NOx - STEMMA QT / Qwiic (Adafruit product 6455) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-SGP41-Gas-Sensor-Breakout-PCB@9c8e8c6 \"Adafruit SGP41 Gas Sensor Breakout rev A.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout voc nox gas sensor sgp41"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_SGP41_Gas_Sensor"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_SGP41_Gas_Sensor_0_1"
+		(rectangle (start -7.62 5.08) (end 7.62 -5.08)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_SGP41_Gas_Sensor_1_1"
+		(pin passive line
+			(at -10.16 2.54 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -10.16 0 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at -1.27 7.62 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 1.27 7.62 270)
+			(length 2.54)
+			(name "3.3V"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -7.62 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+(symbol "Adafruit_ADS122C04_24-Bit_ADC"
+	(pin_names (offset 0.254))
+	(exclude_from_sim no)
+	(in_bom yes)
+	(on_board yes)
+	(property "Reference" "A"
+		(at -10.16 19.05 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Value" "Adafruit_ADS122C04_24-Bit_ADC"
+		(at -10.16 -19.05 0)
+		(effects (font (size 1.27 1.27)) (justify left))
+	)
+	(property "Footprint" "PCM_Adafruit_Boards:Adafruit_ADS122C04_24-Bit_ADC"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Datasheet" "https://www.adafruit.com/product/6432"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "Description" "Adafruit ADS122C04 24-Bit ADC - 4 Channel 2-kSPS - STEMMA QT / Qwiic (Adafruit product 6432) as a placeable module: board outline, mounting holes and header pins. Generated from adafruit/Adafruit-ADS122C04-24-Bit-ADC-PCB@bb60e30 \"Adafruit ADS122C04 24-Bit ADC.brd\""
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_keywords" "adafruit stemma qt i2c breakout 24-bit adc ads122c04"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(property "ki_fp_filters" "Adafruit_ADS122C04_24-Bit_ADC"
+		(at 0 0 0)
+		(effects (font (size 1.27 1.27)) (justify left) (hide yes))
+	)
+	(symbol "Adafruit_ADS122C04_24-Bit_ADC_0_1"
+		(rectangle (start -10.16 15.24) (end 10.16 -15.24)
+			(stroke (width 0.254) (type default)) (fill (type background))
+		)
+	)
+	(symbol "Adafruit_ADS122C04_24-Bit_ADC_1_1"
+		(pin passive line
+			(at -12.7 12.7 0)
+			(length 2.54)
+			(name "REF_N"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "1"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 10.16 0)
+			(length 2.54)
+			(name "AIN3"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "2"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 7.62 0)
+			(length 2.54)
+			(name "AIN2"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "3"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 5.08 0)
+			(length 2.54)
+			(name "AIN1"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "4"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 2.54 0)
+			(length 2.54)
+			(name "AIN0"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "5"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 0 0)
+			(length 2.54)
+			(name "REF_P"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "6"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -2.54 0)
+			(length 2.54)
+			(name "SCL"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "9"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -5.08 0)
+			(length 2.54)
+			(name "SDA"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "10"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -7.62 0)
+			(length 2.54)
+			(name "!DRDY"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "11"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin passive line
+			(at -12.7 -10.16 0)
+			(length 2.54)
+			(name "!RESET"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "12"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 17.78 270)
+			(length 2.54)
+			(name "VCC"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "7"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+		(pin power_in line
+			(at 0 -17.78 90)
+			(length 2.54)
+			(name "GND"
+				(effects (font (size 1.27 1.27)))
+			)
+			(number "8"
+				(effects (font (size 1.27 1.27)))
+			)
+		)
+	)
+)
+)

@@ -15,7 +15,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:INDUCTOR_5X5MM_TDK_VLC5045"
+	(property "Footprint" "PCM_Adafruit:INDUCTOR_5X5MM_TDK_VLC5045"
 		(at -4.0000 4.0000 0)
 		(layer "F.Fab")
 		(hide yes)

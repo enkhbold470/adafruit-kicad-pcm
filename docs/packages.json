@@ -3,8 +3,8 @@
   "packages": [
     {
       "name": "Adafruit KiCad Library",
-      "description": "Symbols and footprints adapted from Adafruit's hardware library.",
-      "description_full": "Schematic symbols and footprints mechanically converted from the Adafruit EAGLE Library (adafruit/Adafruit-Eagle-Library) for use in KiCad 8 and later: 666 symbols and 643 footprints. Unofficial community packaging - Adafruit publishes no native KiCad library or PCM feed. The conversion is automated and unreviewed part by part, so verify footprint geometry against the manufacturer drawing before committing a board to fabrication.",
+      "description": "Adafruit parts library (symbols, footprints) plus placeable module footprints for recent Adafruit boards.",
+      "description_full": "Two libraries in one package. Adafruit: 666 schematic symbols and 643 footprints mechanically converted from the Adafruit EAGLE Library (adafruit/Adafruit-Eagle-Library). Adafruit_Boards: 22 module footprints and symbols for Adafruit boards released in 2026 (STEMMA QT sensor breakouts, Terminal Block BFF, Matrix Portal S3 ...), each generated from Adafruit's published EAGLE board file: board outline, mounting holes and header pins numbered in order, with the net name kept as each pad's pin function. Unofficial community packaging - Adafruit publishes no native KiCad library or PCM feed. The conversion is automated and unreviewed part by part, so verify footprint geometry against the manufacturer drawing before committing a board to fabrication. No 3D models are included.",
       "identifier": "com.github.enkhbold470.adafruit-kicad-library",
       "type": "library",
       "author": {
@@ -21,15 +21,28 @@
       },
       "license": "CC-BY-SA-4.0",
       "resources": {
-        "homepage": "https://github.com/adafruit/Adafruit-Eagle-Library"
+        "homepage": "https://github.com/enkhbold470/adafruit-kicad-pcm",
+        "Adafruit EAGLE library": "https://github.com/adafruit/Adafruit-Eagle-Library"
       },
       "tags": [
         "adafruit",
         "library",
         "symbols",
-        "footprints"
+        "footprints",
+        "modules",
+        "stemma qt",
+        "breakout"
       ],
       "versions": [
+        {
+          "version": "1.1.0",
+          "status": "testing",
+          "kicad_version": "8.0",
+          "download_url": "https://github.com/enkhbold470/adafruit-kicad-pcm/releases/download/v1.1.0/adafruit-kicad-library-1.1.0.zip",
+          "download_sha256": "7950f919128026e6830adae1371b2441cb260368c127198198c326701d43dec8",
+          "download_size": 828700,
+          "install_size": 7704534
+        },
         {
           "version": "1.0.0",
           "status": "testing",

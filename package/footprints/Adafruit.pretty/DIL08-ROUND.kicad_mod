@@ -15,7 +15,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:DIL08-ROUND"
+	(property "Footprint" "PCM_Adafruit:DIL08-ROUND"
 		(at -3.5560 0.6350 0)
 		(layer "F.Fab")
 		(hide yes)

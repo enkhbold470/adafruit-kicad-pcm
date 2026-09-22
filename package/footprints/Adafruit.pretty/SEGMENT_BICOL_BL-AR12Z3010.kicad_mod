@@ -15,7 +15,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:SEGMENT_BICOL_BL-AR12Z3010"
+	(property "Footprint" "PCM_Adafruit:SEGMENT_BICOL_BL-AR12Z3010"
 		(at -5.0800 16.5100 0)
 		(layer "F.Fab")
 		(hide yes)

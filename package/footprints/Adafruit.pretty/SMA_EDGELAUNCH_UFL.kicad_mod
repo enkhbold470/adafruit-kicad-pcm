@@ -14,7 +14,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:SMA_EDGELAUNCH_UFL"
+	(property "Footprint" "PCM_Adafruit:SMA_EDGELAUNCH_UFL"
 		(at 5.0800 7.6200 180)
 		(layer "F.Fab")
 		(hide yes)

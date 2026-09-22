@@ -14,7 +14,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:TACT_PANA-EVQ"
+	(property "Footprint" "PCM_Adafruit:TACT_PANA-EVQ"
 		(at -3.0160 2.4510 0)
 		(layer "F.Fab")
 		(hide yes)

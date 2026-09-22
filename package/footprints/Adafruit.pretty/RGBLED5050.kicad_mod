@@ -14,7 +14,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:RGBLED5050"
+	(property "Footprint" "PCM_Adafruit:RGBLED5050"
 		(at -2.0000 4.1000 0)
 		(layer "F.Fab")
 		(hide yes)

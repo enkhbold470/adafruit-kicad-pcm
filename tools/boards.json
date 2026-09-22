@@ -1,0 +1,247 @@
+{
+  "_comment": "Sources for tools/build_boards.py. Each .brd is pinned to an upstream commit and sha256; bump both to update a board.",
+  "boards": [
+    {
+      "name": "Adafruit_TCS3448_Light_Color_Sensor",
+      "pid": 6525,
+      "title": "Adafruit TCS3448 14-Channel Light / Color Sensor Breakout - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6525",
+      "repo": "adafruit/Adafruit-TCS3448-14-Channel-Light-Color-Sensor-Breakout-PCB",
+      "path": "Adafruit TCS3448 14-Channel Light Color Sensor Breakout rev E.brd",
+      "commit": "ff0a1a5f90e632625c85892d8cf30d9bbd2179b3",
+      "sha256": "f1927e0a9050d3b2e1671a58b58fdf7801ceeb36c7ebc33df668eb976b437938",
+      "keywords": "adafruit stemma qt i2c breakout light color sensor tcs3448"
+    },
+    {
+      "name": "Adafruit_TSL2585_UVA_Light_Sensor",
+      "pid": 6524,
+      "title": "Adafruit TSL2585 Digital UVA and Ambient Light Sensor - STEMMA QT",
+      "url": "https://www.adafruit.com/product/6524",
+      "repo": "adafruit/Adafruit-TSL2585-Digital-UVA-and-Ambient-Light-Sensor-PCB",
+      "path": "Adafruit TSL2585 Digital UVA and Ambient Light Sensor - STEMMA QT.brd",
+      "commit": "44dec43c6e0927a54c2997a7a7390ba1acd15175",
+      "sha256": "aeddbf44a96d808542d5532922e9f38e2540c77da5fb4bbdefb7e33c9925b250",
+      "keywords": "adafruit stemma qt i2c breakout uva ambient light sensor tsl2585"
+    },
+    {
+      "name": "Adafruit_TMF8801_ToF_Distance_Sensor",
+      "pid": 6522,
+      "title": "Adafruit TMF8801 Time of Flight Distance Sensor - 20mm to 2.5m - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6522",
+      "repo": "adafruit/Adafruit-TMF8801-Time-of-Flight-Distance-Sensor-PCB",
+      "path": "Adafruit TMF8801 Time of Flight Sensor rev B.brd",
+      "commit": "274138c355638a4b1282ef5aafc4cb650fb32329",
+      "sha256": "03a182123b1c4fabec6705797fbd9f84c8e4fba6626dcc2b5e1e6b7facd0310f",
+      "keywords": "adafruit stemma qt i2c breakout time of flight distance sensor tmf8801"
+    },
+    {
+      "name": "Adafruit_GP8403_I2C_DAC",
+      "pid": 6516,
+      "title": "Adafruit GP8403 Breakout Board I2C DAC with 12V Booster + NVM - STEMMA QT / qwiic",
+      "url": "https://www.adafruit.com/product/6516",
+      "repo": "adafruit/Adafruit-GP8403-Breakout-Board-PCB",
+      "path": "Adafruit GP8403 Breakout Board rev B.brd",
+      "commit": "e1326df4fb03b1c9efe779644eaa711c6aadbcd8",
+      "sha256": "4e7fcc3098182dfa155d00224cb4a088911280e6c1dfa19ee7577d6582f2b53f",
+      "keywords": "adafruit stemma qt i2c breakout dac 0-10v gp8403"
+    },
+    {
+      "name": "Adafruit_SCD43_CO2_Sensor",
+      "pid": 6512,
+      "title": "Adafruit SCD-43 - True CO2 Temperature and Humidity Sensor - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6512",
+      "repo": "adafruit/Adafruit-SCD-4x-PCB",
+      "path": "Adafruit SCD43 rev A.brd",
+      "commit": "c83995482b4c830a835caef158e6196a507025b3",
+      "sha256": "6f7fc00e9efa317afb414456aa410247864ca3bfdb56ae0974be43bff97b9d94",
+      "keywords": "adafruit stemma qt i2c breakout co2 temperature humidity sensor scd43 scd4x"
+    },
+    {
+      "name": "Adafruit_SCD41_CO2_Sensor",
+      "pid": 5190,
+      "title": "Adafruit SCD-41 - True CO2 Temperature and Humidity Sensor - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/5190",
+      "repo": "adafruit/Adafruit-SCD-4x-PCB",
+      "path": "Adafruit SCD-41.brd",
+      "commit": "c83995482b4c830a835caef158e6196a507025b3",
+      "sha256": "ff2209c94618f266f03a1f8fcde63c90703752aaea600e6d5fa7c5a4af365881",
+      "keywords": "adafruit stemma qt i2c breakout co2 temperature humidity sensor scd41 scd4x"
+    },
+    {
+      "name": "Adafruit_TMF8806_ToF_Distance_Sensor",
+      "pid": 6501,
+      "title": "Adafruit TMF8806 Time of Flight Distance Sensor - 10mm to 5m - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6501",
+      "repo": "adafruit/Adafruit-TMF8806-Time-of-Flight-Distance-Sensor-PCB",
+      "path": "Adafruit TMF8806 Time of Flight Sensor rev B.brd",
+      "commit": "00602b9a3252e047cf1d8824c6d0e8f7dfc026cc",
+      "sha256": "bd39877e6c2f692cb9169cc61741e578e74b09f9d95c29345798989b09db863a",
+      "keywords": "adafruit stemma qt i2c breakout time of flight distance sensor tmf8806"
+    },
+    {
+      "name": "Adafruit_MAX44009_Lux_Sensor",
+      "pid": 6498,
+      "title": "Adafruit MAX44009 Wide-range Lux Light Sensor - 188,000 Lux Max - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6498",
+      "repo": "adafruit/Adafruit-MAX44009-Lux-Light-Sensor-PCB",
+      "path": "Adafruit MAX44009 Lux Light Sensor.brd",
+      "commit": "8105e22700e71f254633c947bb89a1d9bafbcb18",
+      "sha256": "8728dd81e6025b0883c0ba0f5dc484620c9cad1e6d269862be2fe970de09426e",
+      "keywords": "adafruit stemma qt i2c breakout lux light sensor max44009"
+    },
+    {
+      "name": "Adafruit_Terminal_Block_BFF",
+      "pid": 6495,
+      "title": "Adafruit Terminal Block BFF Add-On for QT Py and Xiao",
+      "url": "https://www.adafruit.com/product/6495",
+      "repo": "adafruit/Adafruit-Terminal-Block-BFF-PCB",
+      "path": "Adafruit Terminal Block BFF.brd",
+      "commit": "6e2c47d43d37a4911910750956fb27c9459b2a57",
+      "sha256": "55f77c300ddcc0ad81f95a9c4cae483383d4f54df6b168b61071ea9bab2a09aa",
+      "keywords": "adafruit bff qt py xiao terminal block add-on"
+    },
+    {
+      "name": "Adafruit_ADS7128_ADC_GPIO_Expander",
+      "pid": 6494,
+      "title": "Adafruit ADS7128 8-Channel ADC and GPIO Expander - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6494",
+      "repo": "adafruit/Adafruit-ADS7128-8-Channel-ADC-and-GPIO-Expander-PCB",
+      "path": "Adafruit ADS7128 8-Channel ADC and GPIO Expander.brd",
+      "commit": "ecc6fd2b2e97ae7e0e1799c3c15e738a79b1287c",
+      "sha256": "0e7b207298b736df652413b06d7e31a9bd38918d05259275ef048e20d1747e0d",
+      "keywords": "adafruit stemma qt i2c breakout adc gpio expander ads7128"
+    },
+    {
+      "name": "Adafruit_VCNL4030_Proximity_Lux_Sensor",
+      "pid": 6491,
+      "title": "Adafruit VCNL4030 Proximity and Lux Sensor - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6491",
+      "repo": "adafruit/Adafruit-VCNL4030-Proximity-and-Lux-Sensor-PCB",
+      "path": "Adafruit VCNL4030 Proximity and Lux Breakout.brd",
+      "commit": "2cb43e92b39950b2a3431f76c197c378cac2ba3e",
+      "sha256": "c4d0248cd2608d44f18d6b12aac55ec99734d282d034b9a63e62cccb39893085",
+      "keywords": "adafruit stemma qt i2c breakout proximity lux sensor vcnl4030"
+    },
+    {
+      "name": "Adafruit_TMAG5273A2_Hall_Magnetometer",
+      "pid": 6490,
+      "title": "Adafruit TMAG5273 (A2) 3D Hall Effect Magnetometer - \u00b1133mT / 266mT - STEMMA QT",
+      "url": "https://www.adafruit.com/product/6490",
+      "repo": "adafruit/Adafruit-TMAG5273-3D-Hall-Effect-Magnetometer-Breakout-PCB",
+      "path": "Adafruit TMAG5273A2 3D Hall Effect Magnetometer Breakout.brd",
+      "commit": "543c3c93357a56703c6f33de5c8e277451bf9f1d",
+      "sha256": "59dfde338d015479b2d5a05e18f42f83ff6005be907bb00f83c73e9371499c94",
+      "keywords": "adafruit stemma qt i2c breakout 3d hall effect magnetometer tmag5273 a2"
+    },
+    {
+      "name": "Adafruit_TMAG5273A1_Hall_Magnetometer",
+      "pid": 6489,
+      "title": "Adafruit TMAG5273 (A1) 3D Hall Effect Magnetometer Breakout - \u00b140mT, \u00b180mT - STEMMA QT",
+      "url": "https://www.adafruit.com/product/6489",
+      "repo": "adafruit/Adafruit-TMAG5273-3D-Hall-Effect-Magnetometer-Breakout-PCB",
+      "path": "Adafruit TMAG5273A1 3D Hall Effect Magnetometer Breakout.brd",
+      "commit": "543c3c93357a56703c6f33de5c8e277451bf9f1d",
+      "sha256": "82f4e2ee60cbc045db2fe6bf51e6c48f66313e21494c0ce28c489d3f6893b3c0",
+      "keywords": "adafruit stemma qt i2c breakout 3d hall effect magnetometer tmag5273 a1"
+    },
+    {
+      "name": "Adafruit_TMP119_Temperature_Sensor",
+      "pid": 6482,
+      "title": "Adafruit TMP119 High-Precision \u00b10.03\u00b0C I2C Temperature Sensor - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6482",
+      "repo": "adafruit/Adafruit-TMP119-Temperature-Sensor-PCB",
+      "path": "Adafruit TMP119 Temperature Sensor.brd",
+      "commit": "fe8ae26b0f8362aa93a8074374984c1da7bf01aa",
+      "sha256": "0eba7c02e03f31863515e873f8d7b7faaf2c8ec209477e63a34599e5658eda1b",
+      "keywords": "adafruit stemma qt i2c breakout precision temperature sensor tmp119"
+    },
+    {
+      "name": "Adafruit_TCS3430_Tri-Stimulus_Color_Sensor",
+      "pid": 6479,
+      "title": "Adafruit TCS3430 / TCS34303 Ambient Tri-Stimulus Color Sensor",
+      "url": "https://www.adafruit.com/product/6479",
+      "repo": "adafruit/Adafruit-TCS3430-Ambient-Tri-Stimulus-Color-Sensor-PCB",
+      "path": "Adafruit TCS3430 Ambient Tri-Stimulus Color Sensor.brd",
+      "commit": "66a56ff8cdb46158dbb87cbe5cc557d7ff14b6e1",
+      "sha256": "e8b351e9de98ea5dc3c2edd9e5f25f013a4acfe05c3c24cff2eea0e5b7c4d56d",
+      "keywords": "adafruit stemma qt i2c breakout tri-stimulus color sensor tcs3430 tcs34303"
+    },
+    {
+      "name": "Adafruit_STCC4_SHT41_CO2_Sensor",
+      "pid": 6478,
+      "title": "Adafruit STCC4 and SHT41 - CO2, Temperature & Humidity Sensor - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6478",
+      "repo": "adafruit/Adafruit-STCC4-and-SHT41-CO2-Temperature-and-Humidity-Sensor-PCB",
+      "path": "Adafruit STCC4 and SHT41 CO2 Temperature and Humidity Sensor.brd",
+      "commit": "3bf8a8ea4042964af182c617ce1ab904cc4a7bd1",
+      "sha256": "756e9efe91ab128ac8eae841599ca88b9bdba5e0506bd836947dba42974b1e23",
+      "keywords": "adafruit stemma qt i2c breakout co2 temperature humidity sensor stcc4 sht41"
+    },
+    {
+      "name": "Adafruit_AS7343_Light_Color_Sensor",
+      "pid": 6477,
+      "title": "Adafruit AS7343 14-Channel Light / Color Sensor Breakout - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6477",
+      "repo": "adafruit/Adafruit-AS7343-14-Channel-Light-Color-Sensor-PCB",
+      "path": "Adafruit AS7343 14 Channel Light Color Sensor Breakout.brd",
+      "commit": "ce4bb797425e7eecbcbe1ded1232209a2d995e7e",
+      "sha256": "093e3c9206558a9c004b85eefe9c2ca5d1b282b8b9f63792b2f28ce8cdfe79c2",
+      "keywords": "adafruit stemma qt i2c breakout light color sensor as7343"
+    },
+    {
+      "name": "Adafruit_AS7331_UV_Sensor",
+      "pid": 6476,
+      "title": "Adafruit AS7331 UV / UVA / UVB / UVC Sensor Breakout - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6476",
+      "repo": "adafruit/Adafruit-AS7331-UV-UVA-UVB-UVC-Sensor-PCB",
+      "path": "Adafruit AS7331 UV UVA UVB UVC Sensor.brd",
+      "commit": "3e07d4ead4e060f03129066e03426ed243d007ec",
+      "sha256": "85111a2e5b38dd525c2ca1120bb0c5db8601c585e89964eb28e707acf009b916",
+      "keywords": "adafruit stemma qt i2c breakout uv uva uvb uvc sensor as7331"
+    },
+    {
+      "name": "Adafruit_MatrixPortal_S3",
+      "pid": 5778,
+      "title": "Adafruit Matrix Portal S3 CircuitPython Powered Internet Display (product 5778; 6475 is the u.FL variant of the same board)",
+      "url": "https://www.adafruit.com/product/5778",
+      "repo": "adafruit/Adafruit-MatrixPortal-S3-PCB",
+      "path": "Adafruit MatrixPortal S3.brd",
+      "commit": "1ff841b511d7dc153ae8d4c0b148d33cb3b2ba85",
+      "sha256": "985aaa4bcc94beb3f8f85c4298989ec8e2036bc032c2509ee4ff19c8fbfa46e7",
+      "keywords": "adafruit matrix portal s3 esp32-s3 rgb matrix hub75 devboard"
+    },
+    {
+      "name": "Adafruit_APDS9999_Proximity_Light_Color_Sensor",
+      "pid": 6461,
+      "title": "Adafruit APDS9999 Proximity, Lux Light & Color Sensor - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6461",
+      "repo": "adafruit/Adafruit-APDS9999-Proximity-Light-and-Color-Sensor-PCB",
+      "path": "Adafruit APDS9999 Proximity Light Color Sensor.brd",
+      "commit": "0f0fc27bab6c79a684ce17a6ab397f63f98f74bd",
+      "sha256": "b8d2acbc193f93cb42bdd25c8328625fbf937d71b19b83be31e2ba49e2ff4d01",
+      "keywords": "adafruit stemma qt i2c breakout proximity lux color sensor apds9999"
+    },
+    {
+      "name": "Adafruit_SGP41_Gas_Sensor",
+      "pid": 6455,
+      "title": "Adafruit SGP41 Multi-Pixel Gas Sensor Breakout - VOC & NOx - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6455",
+      "repo": "adafruit/Adafruit-SGP41-Gas-Sensor-Breakout-PCB",
+      "path": "Adafruit SGP41 Gas Sensor Breakout rev A.brd",
+      "commit": "9c8e8c6d195e430a3537b0dca20fe7e310ece822",
+      "sha256": "a20c8bddd53446b7dbb918b35a25ec0b1a851194e85340d3b20277cb3529e2a5",
+      "keywords": "adafruit stemma qt i2c breakout voc nox gas sensor sgp41"
+    },
+    {
+      "name": "Adafruit_ADS122C04_24-Bit_ADC",
+      "pid": 6432,
+      "title": "Adafruit ADS122C04 24-Bit ADC - 4 Channel 2-kSPS - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/6432",
+      "repo": "adafruit/Adafruit-ADS122C04-24-Bit-ADC-PCB",
+      "path": "Adafruit ADS122C04 24-Bit ADC.brd",
+      "commit": "bb60e307305d48648d0d77d3edcdef25bee5c94a",
+      "sha256": "34b8736670da2cbc1154a81d4d6d4439c209634117e73bf0feff3ea2ba02c4d9",
+      "keywords": "adafruit stemma qt i2c breakout 24-bit adc ads122c04"
+    }
+  ]
+}

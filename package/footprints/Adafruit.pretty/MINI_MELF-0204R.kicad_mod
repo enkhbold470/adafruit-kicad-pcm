@@ -15,7 +15,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:MINI_MELF-0204R"
+	(property "Footprint" "PCM_Adafruit:MINI_MELF-0204R"
 		(at -1.2700 2.2225 0)
 		(layer "F.Fab")
 		(hide yes)

@@ -15,7 +15,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO08"
+	(property "Footprint" "PCM_Adafruit:SO08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -148,7 +148,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO08"
+	(property "Footprint" "PCM_Adafruit:SO08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -278,7 +278,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO08"
+	(property "Footprint" "PCM_Adafruit:SO08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -408,7 +408,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO08"
+	(property "Footprint" "PCM_Adafruit:SO08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -538,7 +538,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TDFN14"
+	(property "Footprint" "PCM_Adafruit:TDFN14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -731,7 +731,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DO41-10"
+	(property "Footprint" "PCM_Adafruit:DO41-10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -809,7 +809,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CERM_OSC"
+	(property "Footprint" "PCM_Adafruit:CERM_OSC"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -971,7 +971,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CSTCR-G"
+	(property "Footprint" "PCM_Adafruit:CSTCR-G"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -1133,7 +1133,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:AWCSR"
+	(property "Footprint" "PCM_Adafruit:AWCSR"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -1283,7 +1283,6 @@
 	)
 )
 (symbol "EG1213"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -1296,7 +1295,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:EG1213"
+	(property "Footprint" "PCM_Adafruit:EG1213"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -1443,7 +1442,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PJ-102A"
+	(property "Footprint" "PCM_Adafruit:PJ-102A"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -1549,7 +1548,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DCJACK_2MM_SMT"
+	(property "Footprint" "PCM_Adafruit:DCJACK_2MM_SMT"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -1655,7 +1654,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C0402"
+	(property "Footprint" "PCM_Adafruit:C0402"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -1727,7 +1726,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C0504"
+	(property "Footprint" "PCM_Adafruit:C0504"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -1799,7 +1798,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C0603"
+	(property "Footprint" "PCM_Adafruit:C0603"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -1871,7 +1870,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C0805"
+	(property "Footprint" "PCM_Adafruit:C0805"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -1943,7 +1942,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C1005"
+	(property "Footprint" "PCM_Adafruit:C1005"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2015,7 +2014,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C1206"
+	(property "Footprint" "PCM_Adafruit:C1206"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2087,7 +2086,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C1210"
+	(property "Footprint" "PCM_Adafruit:C1210"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2159,7 +2158,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C1310"
+	(property "Footprint" "PCM_Adafruit:C1310"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2231,7 +2230,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C1608"
+	(property "Footprint" "PCM_Adafruit:C1608"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2303,7 +2302,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C1812"
+	(property "Footprint" "PCM_Adafruit:C1812"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2375,7 +2374,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C1825"
+	(property "Footprint" "PCM_Adafruit:C1825"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2447,7 +2446,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C2012"
+	(property "Footprint" "PCM_Adafruit:C2012"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2519,7 +2518,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C3216"
+	(property "Footprint" "PCM_Adafruit:C3216"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2591,7 +2590,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C3225"
+	(property "Footprint" "PCM_Adafruit:C3225"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2663,7 +2662,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C4532"
+	(property "Footprint" "PCM_Adafruit:C4532"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2735,7 +2734,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C4564"
+	(property "Footprint" "PCM_Adafruit:C4564"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2807,7 +2806,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C025-024X044"
+	(property "Footprint" "PCM_Adafruit:C025-024X044"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2879,7 +2878,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C025-025X050"
+	(property "Footprint" "PCM_Adafruit:C025-025X050"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -2951,7 +2950,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C025-030X050"
+	(property "Footprint" "PCM_Adafruit:C025-030X050"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3023,7 +3022,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C025-040X050"
+	(property "Footprint" "PCM_Adafruit:C025-040X050"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3095,7 +3094,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C025-050X050"
+	(property "Footprint" "PCM_Adafruit:C025-050X050"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3167,7 +3166,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C025-060X050"
+	(property "Footprint" "PCM_Adafruit:C025-060X050"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3239,7 +3238,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C025_050-024X070"
+	(property "Footprint" "PCM_Adafruit:C025_050-024X070"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3311,7 +3310,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C025_050-025X075"
+	(property "Footprint" "PCM_Adafruit:C025_050-025X075"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3383,7 +3382,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C025_050-035X075"
+	(property "Footprint" "PCM_Adafruit:C025_050-035X075"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3455,7 +3454,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C025_050-045X075"
+	(property "Footprint" "PCM_Adafruit:C025_050-045X075"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3527,7 +3526,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C025_050-055X075"
+	(property "Footprint" "PCM_Adafruit:C025_050-055X075"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3599,7 +3598,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C050-024X044"
+	(property "Footprint" "PCM_Adafruit:C050-024X044"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3671,7 +3670,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C050-025X075"
+	(property "Footprint" "PCM_Adafruit:C050-025X075"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3743,7 +3742,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C050-045X075"
+	(property "Footprint" "PCM_Adafruit:C050-045X075"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3815,7 +3814,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C050-030X075"
+	(property "Footprint" "PCM_Adafruit:C050-030X075"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3887,7 +3886,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C050-050X075"
+	(property "Footprint" "PCM_Adafruit:C050-050X075"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -3959,7 +3958,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C050-055X075"
+	(property "Footprint" "PCM_Adafruit:C050-055X075"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4031,7 +4030,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C050-075X075"
+	(property "Footprint" "PCM_Adafruit:C050-075X075"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4103,7 +4102,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C050H075X075"
+	(property "Footprint" "PCM_Adafruit:C050H075X075"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4175,7 +4174,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C075-032X103"
+	(property "Footprint" "PCM_Adafruit:C075-032X103"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4247,7 +4246,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C075-042X103"
+	(property "Footprint" "PCM_Adafruit:C075-042X103"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4319,7 +4318,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C075-052X106"
+	(property "Footprint" "PCM_Adafruit:C075-052X106"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4391,7 +4390,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C102-043X133"
+	(property "Footprint" "PCM_Adafruit:C102-043X133"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4463,7 +4462,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C102-054X133"
+	(property "Footprint" "PCM_Adafruit:C102-054X133"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4535,7 +4534,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C102-064X133"
+	(property "Footprint" "PCM_Adafruit:C102-064X133"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4607,7 +4606,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C102_152-062X184"
+	(property "Footprint" "PCM_Adafruit:C102_152-062X184"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4679,7 +4678,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C150-054X183"
+	(property "Footprint" "PCM_Adafruit:C150-054X183"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4751,7 +4750,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C150-064X183"
+	(property "Footprint" "PCM_Adafruit:C150-064X183"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4823,7 +4822,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C150-072X183"
+	(property "Footprint" "PCM_Adafruit:C150-072X183"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4895,7 +4894,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C150-084X183"
+	(property "Footprint" "PCM_Adafruit:C150-084X183"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -4967,7 +4966,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C150-091X182"
+	(property "Footprint" "PCM_Adafruit:C150-091X182"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5039,7 +5038,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C225-062X268"
+	(property "Footprint" "PCM_Adafruit:C225-062X268"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5111,7 +5110,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C225-074X268"
+	(property "Footprint" "PCM_Adafruit:C225-074X268"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5183,7 +5182,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C225-087X268"
+	(property "Footprint" "PCM_Adafruit:C225-087X268"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5255,7 +5254,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C225-108X268"
+	(property "Footprint" "PCM_Adafruit:C225-108X268"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5327,7 +5326,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C225-113X268"
+	(property "Footprint" "PCM_Adafruit:C225-113X268"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5399,7 +5398,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C275-093X316"
+	(property "Footprint" "PCM_Adafruit:C275-093X316"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5471,7 +5470,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C275-113X316"
+	(property "Footprint" "PCM_Adafruit:C275-113X316"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5543,7 +5542,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C275-134X316"
+	(property "Footprint" "PCM_Adafruit:C275-134X316"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5615,7 +5614,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C275-205X316"
+	(property "Footprint" "PCM_Adafruit:C275-205X316"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5687,7 +5686,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C325-137X374"
+	(property "Footprint" "PCM_Adafruit:C325-137X374"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5759,7 +5758,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C325-162X374"
+	(property "Footprint" "PCM_Adafruit:C325-162X374"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5831,7 +5830,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C325-182X374"
+	(property "Footprint" "PCM_Adafruit:C325-182X374"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5903,7 +5902,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C375-192X418"
+	(property "Footprint" "PCM_Adafruit:C375-192X418"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -5975,7 +5974,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C375-203X418"
+	(property "Footprint" "PCM_Adafruit:C375-203X418"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6047,7 +6046,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C050-035X075"
+	(property "Footprint" "PCM_Adafruit:C050-035X075"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6119,7 +6118,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C375-155X418"
+	(property "Footprint" "PCM_Adafruit:C375-155X418"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6191,7 +6190,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C075-063X106"
+	(property "Footprint" "PCM_Adafruit:C075-063X106"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6263,7 +6262,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C275-154X316"
+	(property "Footprint" "PCM_Adafruit:C275-154X316"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6335,7 +6334,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C275-173X316"
+	(property "Footprint" "PCM_Adafruit:C275-173X316"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6407,7 +6406,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C0402K"
+	(property "Footprint" "PCM_Adafruit:C0402K"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6479,7 +6478,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C0603K"
+	(property "Footprint" "PCM_Adafruit:C0603K"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6551,7 +6550,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C0805K"
+	(property "Footprint" "PCM_Adafruit:C0805K"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6623,7 +6622,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C1206K"
+	(property "Footprint" "PCM_Adafruit:C1206K"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6695,7 +6694,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C1210K"
+	(property "Footprint" "PCM_Adafruit:C1210K"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6767,7 +6766,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C1812K"
+	(property "Footprint" "PCM_Adafruit:C1812K"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6839,7 +6838,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C1825K"
+	(property "Footprint" "PCM_Adafruit:C1825K"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6911,7 +6910,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C2220K"
+	(property "Footprint" "PCM_Adafruit:C2220K"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -6983,7 +6982,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C2225K"
+	(property "Footprint" "PCM_Adafruit:C2225K"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7055,7 +7054,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CT3216"
+	(property "Footprint" "PCM_Adafruit:CT3216"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7133,7 +7132,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CT3528"
+	(property "Footprint" "PCM_Adafruit:CT3528"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7211,7 +7210,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CT6032"
+	(property "Footprint" "PCM_Adafruit:CT6032"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7289,7 +7288,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CT7343"
+	(property "Footprint" "PCM_Adafruit:CT7343"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7367,7 +7366,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:B45181A"
+	(property "Footprint" "PCM_Adafruit:B45181A"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7445,7 +7444,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:B45181B"
+	(property "Footprint" "PCM_Adafruit:B45181B"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7523,7 +7522,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:B45181C"
+	(property "Footprint" "PCM_Adafruit:B45181C"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7601,7 +7600,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:B45181D"
+	(property "Footprint" "PCM_Adafruit:B45181D"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7679,7 +7678,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT2D4"
+	(property "Footprint" "PCM_Adafruit:TT2D4"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7757,7 +7756,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT2D4L"
+	(property "Footprint" "PCM_Adafruit:TT2D4L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7835,7 +7834,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT2D5"
+	(property "Footprint" "PCM_Adafruit:TT2D5"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7913,7 +7912,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT2D6"
+	(property "Footprint" "PCM_Adafruit:TT2D6"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -7991,7 +7990,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT2D6L"
+	(property "Footprint" "PCM_Adafruit:TT2D6L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -8069,7 +8068,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT2D7L"
+	(property "Footprint" "PCM_Adafruit:TT2D7L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -8147,7 +8146,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT2D7"
+	(property "Footprint" "PCM_Adafruit:TT2D7"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -8225,7 +8224,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT5D10"
+	(property "Footprint" "PCM_Adafruit:TT5D10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -8303,7 +8302,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT5D11"
+	(property "Footprint" "PCM_Adafruit:TT5D11"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -8381,7 +8380,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT5D11L"
+	(property "Footprint" "PCM_Adafruit:TT5D11L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -8459,7 +8458,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT5D6"
+	(property "Footprint" "PCM_Adafruit:TT5D6"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -8537,7 +8536,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT5D6L"
+	(property "Footprint" "PCM_Adafruit:TT5D6L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -8615,7 +8614,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT5D7"
+	(property "Footprint" "PCM_Adafruit:TT5D7"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -8693,7 +8692,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT5D7L"
+	(property "Footprint" "PCM_Adafruit:TT5D7L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -8771,7 +8770,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT5D9"
+	(property "Footprint" "PCM_Adafruit:TT5D9"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -8849,7 +8848,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT5D9L"
+	(property "Footprint" "PCM_Adafruit:TT5D9L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -8927,7 +8926,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ETR1"
+	(property "Footprint" "PCM_Adafruit:ETR1"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9005,7 +9004,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ETR2"
+	(property "Footprint" "PCM_Adafruit:ETR2"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9083,7 +9082,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ETR3"
+	(property "Footprint" "PCM_Adafruit:ETR3"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9161,7 +9160,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ETR4"
+	(property "Footprint" "PCM_Adafruit:ETR4"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9239,7 +9238,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ETR5"
+	(property "Footprint" "PCM_Adafruit:ETR5"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9317,7 +9316,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:P128-35"
+	(property "Footprint" "PCM_Adafruit:P128-35"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9395,7 +9394,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:P128-40"
+	(property "Footprint" "PCM_Adafruit:P128-40"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9473,7 +9472,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:P128-50"
+	(property "Footprint" "PCM_Adafruit:P128-50"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9551,7 +9550,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:P128-60"
+	(property "Footprint" "PCM_Adafruit:P128-60"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9629,7 +9628,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TAP5-45"
+	(property "Footprint" "PCM_Adafruit:TAP5-45"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9707,7 +9706,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TAP5-50"
+	(property "Footprint" "PCM_Adafruit:TAP5-50"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9785,7 +9784,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TAP5-70"
+	(property "Footprint" "PCM_Adafruit:TAP5-70"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9863,7 +9862,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TAP5-60"
+	(property "Footprint" "PCM_Adafruit:TAP5-60"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -9941,7 +9940,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TAP5-80"
+	(property "Footprint" "PCM_Adafruit:TAP5-80"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10019,7 +10018,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:085CS_1R"
+	(property "Footprint" "PCM_Adafruit:085CS_1R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10097,7 +10096,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:085CS_1W"
+	(property "Footprint" "PCM_Adafruit:085CS_1W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10175,7 +10174,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:085CS_1AR"
+	(property "Footprint" "PCM_Adafruit:085CS_1AR"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10253,7 +10252,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:085CS_1AW"
+	(property "Footprint" "PCM_Adafruit:085CS_1AW"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10331,7 +10330,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:139CLL-2R"
+	(property "Footprint" "PCM_Adafruit:139CLL-2R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10409,7 +10408,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:139CLL-2W"
+	(property "Footprint" "PCM_Adafruit:139CLL-2W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10487,7 +10486,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:139CLL-3R"
+	(property "Footprint" "PCM_Adafruit:139CLL-3R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10565,7 +10564,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:139CLL-3W"
+	(property "Footprint" "PCM_Adafruit:139CLL-3W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10643,7 +10642,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:140CLH-0810"
+	(property "Footprint" "PCM_Adafruit:140CLH-0810"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10721,7 +10720,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:140CLH-1010"
+	(property "Footprint" "PCM_Adafruit:140CLH-1010"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10799,7 +10798,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:140CLH-1014"
+	(property "Footprint" "PCM_Adafruit:140CLH-1014"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10877,7 +10876,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:150CLZ-0810"
+	(property "Footprint" "PCM_Adafruit:150CLZ-0810"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -10955,7 +10954,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:150CLZ-1010"
+	(property "Footprint" "PCM_Adafruit:150CLZ-1010"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11033,7 +11032,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:150CLZ-1014"
+	(property "Footprint" "PCM_Adafruit:150CLZ-1014"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11111,7 +11110,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:153CLV-0405"
+	(property "Footprint" "PCM_Adafruit:153CLV-0405"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11189,7 +11188,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:153CLV-0505"
+	(property "Footprint" "PCM_Adafruit:153CLV-0505"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11267,7 +11266,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:153CLV-0605"
+	(property "Footprint" "PCM_Adafruit:153CLV-0605"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11345,7 +11344,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:153CLV-0807"
+	(property "Footprint" "PCM_Adafruit:153CLV-0807"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11423,7 +11422,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:153CLV-0810"
+	(property "Footprint" "PCM_Adafruit:153CLV-0810"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11501,7 +11500,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:153CLV-1010"
+	(property "Footprint" "PCM_Adafruit:153CLV-1010"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11579,7 +11578,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:153CLV-1012"
+	(property "Footprint" "PCM_Adafruit:153CLV-1012"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11657,7 +11656,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:153CLV-1014"
+	(property "Footprint" "PCM_Adafruit:153CLV-1014"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11735,7 +11734,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:175TMP-0808"
+	(property "Footprint" "PCM_Adafruit:175TMP-0808"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11813,7 +11812,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:175TMP-0810"
+	(property "Footprint" "PCM_Adafruit:175TMP-0810"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11891,7 +11890,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:A_3216-18R"
+	(property "Footprint" "PCM_Adafruit:A_3216-18R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -11969,7 +11968,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:A_3216-18W"
+	(property "Footprint" "PCM_Adafruit:A_3216-18W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12047,7 +12046,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:B_3528-21R"
+	(property "Footprint" "PCM_Adafruit:B_3528-21R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12125,7 +12124,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:B_3528-21W"
+	(property "Footprint" "PCM_Adafruit:B_3528-21W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12203,7 +12202,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C_6032-28R"
+	(property "Footprint" "PCM_Adafruit:C_6032-28R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12281,7 +12280,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C_6032-28W"
+	(property "Footprint" "PCM_Adafruit:C_6032-28W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12359,7 +12358,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:D_7343-31R"
+	(property "Footprint" "PCM_Adafruit:D_7343-31R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12437,7 +12436,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:D_7343-31W"
+	(property "Footprint" "PCM_Adafruit:D_7343-31W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12515,7 +12514,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E_7260-38R"
+	(property "Footprint" "PCM_Adafruit:E_7260-38R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12593,7 +12592,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E_7260-38W"
+	(property "Footprint" "PCM_Adafruit:E_7260-38W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12671,7 +12670,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R_2012-12R"
+	(property "Footprint" "PCM_Adafruit:R_2012-12R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12749,7 +12748,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R_2012-12W"
+	(property "Footprint" "PCM_Adafruit:R_2012-12W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12827,7 +12826,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PANASONIC_A"
+	(property "Footprint" "PCM_Adafruit:PANASONIC_A"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12905,7 +12904,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PANASONIC_B"
+	(property "Footprint" "PCM_Adafruit:PANASONIC_B"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -12983,7 +12982,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PANASONIC_C"
+	(property "Footprint" "PCM_Adafruit:PANASONIC_C"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13061,7 +13060,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PANASONIC_D"
+	(property "Footprint" "PCM_Adafruit:PANASONIC_D"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13139,7 +13138,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PANASONIC_E"
+	(property "Footprint" "PCM_Adafruit:PANASONIC_E"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13217,7 +13216,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PANASONIC_F"
+	(property "Footprint" "PCM_Adafruit:PANASONIC_F"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13295,7 +13294,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PANASONIC_G"
+	(property "Footprint" "PCM_Adafruit:PANASONIC_G"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13373,7 +13372,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E1,8-4"
+	(property "Footprint" "PCM_Adafruit:E1,8-4"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13451,7 +13450,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:EB20D"
+	(property "Footprint" "PCM_Adafruit:EB20D"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13529,7 +13528,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:EB22,5D"
+	(property "Footprint" "PCM_Adafruit:EB22,5D"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13607,7 +13606,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:EB25D"
+	(property "Footprint" "PCM_Adafruit:EB25D"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13685,7 +13684,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:EB30D"
+	(property "Footprint" "PCM_Adafruit:EB30D"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13763,7 +13762,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:EB35D"
+	(property "Footprint" "PCM_Adafruit:EB35D"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13841,7 +13840,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E15-5"
+	(property "Footprint" "PCM_Adafruit:E15-5"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13919,7 +13918,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E15-6"
+	(property "Footprint" "PCM_Adafruit:E15-6"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -13997,7 +13996,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E15-9"
+	(property "Footprint" "PCM_Adafruit:E15-9"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -14075,7 +14074,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E2,5-6E"
+	(property "Footprint" "PCM_Adafruit:E2,5-6E"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -14153,7 +14152,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E2-4"
+	(property "Footprint" "PCM_Adafruit:E2-4"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -14231,7 +14230,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E2-5"
+	(property "Footprint" "PCM_Adafruit:E2-5"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -14309,7 +14308,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E2,5RE"
+	(property "Footprint" "PCM_Adafruit:E2,5RE"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -14387,7 +14386,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E2,5-5"
+	(property "Footprint" "PCM_Adafruit:E2,5-5"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -14465,7 +14464,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E2,5-4R"
+	(property "Footprint" "PCM_Adafruit:E2,5-4R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -14543,7 +14542,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E2,5-6"
+	(property "Footprint" "PCM_Adafruit:E2,5-6"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -14621,7 +14620,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E2,5-7"
+	(property "Footprint" "PCM_Adafruit:E2,5-7"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -14699,7 +14698,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E22-10"
+	(property "Footprint" "PCM_Adafruit:E22-10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -14777,7 +14776,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E22-6"
+	(property "Footprint" "PCM_Adafruit:E22-6"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -14855,7 +14854,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E22-9"
+	(property "Footprint" "PCM_Adafruit:E22-9"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -14933,7 +14932,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E25-10"
+	(property "Footprint" "PCM_Adafruit:E25-10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15011,7 +15010,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E25-9"
+	(property "Footprint" "PCM_Adafruit:E25-9"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15089,7 +15088,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E3,5-10"
+	(property "Footprint" "PCM_Adafruit:E3,5-10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15167,7 +15166,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E3,5-8"
+	(property "Footprint" "PCM_Adafruit:E3,5-8"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15245,7 +15244,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E30-10"
+	(property "Footprint" "PCM_Adafruit:E30-10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15323,7 +15322,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E30-12"
+	(property "Footprint" "PCM_Adafruit:E30-12"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15401,7 +15400,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E30-16"
+	(property "Footprint" "PCM_Adafruit:E30-16"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15479,7 +15478,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E35-12"
+	(property "Footprint" "PCM_Adafruit:E35-12"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15557,7 +15556,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E35-14"
+	(property "Footprint" "PCM_Adafruit:E35-14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15635,7 +15634,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E35-16"
+	(property "Footprint" "PCM_Adafruit:E35-16"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15713,7 +15712,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E35-18"
+	(property "Footprint" "PCM_Adafruit:E35-18"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15791,7 +15790,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E45-16"
+	(property "Footprint" "PCM_Adafruit:E45-16"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15869,7 +15868,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E45-18"
+	(property "Footprint" "PCM_Adafruit:E45-18"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -15947,7 +15946,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E45-21"
+	(property "Footprint" "PCM_Adafruit:E45-21"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16025,7 +16024,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E45-22"
+	(property "Footprint" "PCM_Adafruit:E45-22"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16103,7 +16102,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E45-25"
+	(property "Footprint" "PCM_Adafruit:E45-25"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16181,7 +16180,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E5-10,5"
+	(property "Footprint" "PCM_Adafruit:E5-10,5"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16259,7 +16258,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E5-13"
+	(property "Footprint" "PCM_Adafruit:E5-13"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16337,7 +16336,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E5-4"
+	(property "Footprint" "PCM_Adafruit:E5-4"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16415,7 +16414,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E5-5"
+	(property "Footprint" "PCM_Adafruit:E5-5"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16493,7 +16492,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E5-6"
+	(property "Footprint" "PCM_Adafruit:E5-6"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16571,7 +16570,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E5-8,5"
+	(property "Footprint" "PCM_Adafruit:E5-8,5"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16649,7 +16648,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E5R"
+	(property "Footprint" "PCM_Adafruit:E5R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16727,7 +16726,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E50-25"
+	(property "Footprint" "PCM_Adafruit:E50-25"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16805,7 +16804,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E50-30"
+	(property "Footprint" "PCM_Adafruit:E50-30"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16883,7 +16882,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E55-25"
+	(property "Footprint" "PCM_Adafruit:E55-25"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -16961,7 +16960,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E55-30"
+	(property "Footprint" "PCM_Adafruit:E55-30"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -17039,7 +17038,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E7,5-16"
+	(property "Footprint" "PCM_Adafruit:E7,5-16"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -17117,7 +17116,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:E7,5-18"
+	(property "Footprint" "PCM_Adafruit:E7,5-18"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -17195,7 +17194,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TT2D5L"
+	(property "Footprint" "PCM_Adafruit:TT2D5L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -17273,7 +17272,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1206"
+	(property "Footprint" "PCM_Adafruit:1206"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -17375,7 +17374,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LD260"
+	(property "Footprint" "PCM_Adafruit:LD260"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -17477,7 +17476,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LED2X5"
+	(property "Footprint" "PCM_Adafruit:LED2X5"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -17579,7 +17578,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LED3MM"
+	(property "Footprint" "PCM_Adafruit:LED3MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -17681,7 +17680,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LED5MM"
+	(property "Footprint" "PCM_Adafruit:LED5MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -17783,7 +17782,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LSU260"
+	(property "Footprint" "PCM_Adafruit:LSU260"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -17885,7 +17884,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LZR181"
+	(property "Footprint" "PCM_Adafruit:LZR181"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -17987,7 +17986,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:Q62902-B152"
+	(property "Footprint" "PCM_Adafruit:Q62902-B152"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -18089,7 +18088,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:Q62902-B153"
+	(property "Footprint" "PCM_Adafruit:Q62902-B153"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -18191,7 +18190,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:Q62902-B155"
+	(property "Footprint" "PCM_Adafruit:Q62902-B155"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -18293,7 +18292,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:Q62902-B156"
+	(property "Footprint" "PCM_Adafruit:Q62902-B156"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -18395,7 +18394,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SFH480"
+	(property "Footprint" "PCM_Adafruit:SFH480"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -18497,7 +18496,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SFH482"
+	(property "Footprint" "PCM_Adafruit:SFH482"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -18599,7 +18598,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:U57X32"
+	(property "Footprint" "PCM_Adafruit:U57X32"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -18701,7 +18700,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:IRL80A"
+	(property "Footprint" "PCM_Adafruit:IRL80A"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -18803,7 +18802,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:P-LCC-2"
+	(property "Footprint" "PCM_Adafruit:P-LCC-2"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -18905,7 +18904,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:OSRAM-MINI-TOP-LED"
+	(property "Footprint" "PCM_Adafruit:OSRAM-MINI-TOP-LED"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -19007,7 +19006,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:OSRAM-SIDELED"
+	(property "Footprint" "PCM_Adafruit:OSRAM-SIDELED"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -19109,7 +19108,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SMART-LED"
+	(property "Footprint" "PCM_Adafruit:SMART-LED"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -19211,7 +19210,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:P-LCC-2-TOPLED-RG"
+	(property "Footprint" "PCM_Adafruit:P-LCC-2-TOPLED-RG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -19313,7 +19312,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MICRO-SIDELED"
+	(property "Footprint" "PCM_Adafruit:MICRO-SIDELED"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -19415,7 +19414,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:P-LCC-4"
+	(property "Footprint" "PCM_Adafruit:P-LCC-4"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -19517,7 +19516,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CHIP-LED0603"
+	(property "Footprint" "PCM_Adafruit:CHIP-LED0603"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -19619,7 +19618,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CHIP-LED0805"
+	(property "Footprint" "PCM_Adafruit:CHIP-LED0805"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -19721,7 +19720,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MINI-TOPLED-SANTANA"
+	(property "Footprint" "PCM_Adafruit:MINI-TOPLED-SANTANA"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -19823,7 +19822,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CHIPLED_0805"
+	(property "Footprint" "PCM_Adafruit:CHIPLED_0805"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -19925,7 +19924,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CHIPLED_1206"
+	(property "Footprint" "PCM_Adafruit:CHIPLED_1206"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -20027,7 +20026,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CHIPLED_0603"
+	(property "Footprint" "PCM_Adafruit:CHIPLED_0603"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -20129,7 +20128,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CHIPLED-0603-TTW"
+	(property "Footprint" "PCM_Adafruit:CHIPLED-0603-TTW"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -20231,7 +20230,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SMARTLED-TTW"
+	(property "Footprint" "PCM_Adafruit:SMARTLED-TTW"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -20333,7 +20332,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SMLK34"
+	(property "Footprint" "PCM_Adafruit:SMLK34"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -20435,7 +20434,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R0402"
+	(property "Footprint" "PCM_Adafruit:R0402"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -20529,7 +20528,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R0603"
+	(property "Footprint" "PCM_Adafruit:R0603"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -20623,7 +20622,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R0805"
+	(property "Footprint" "PCM_Adafruit:R0805"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -20717,7 +20716,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R0805W"
+	(property "Footprint" "PCM_Adafruit:R0805W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -20811,7 +20810,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R1005"
+	(property "Footprint" "PCM_Adafruit:R1005"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -20905,7 +20904,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R1206"
+	(property "Footprint" "PCM_Adafruit:R1206"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -20999,7 +20998,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R1206W"
+	(property "Footprint" "PCM_Adafruit:R1206W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -21093,7 +21092,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R1210"
+	(property "Footprint" "PCM_Adafruit:R1210"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -21187,7 +21186,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R1210W"
+	(property "Footprint" "PCM_Adafruit:R1210W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -21281,7 +21280,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R2010"
+	(property "Footprint" "PCM_Adafruit:R2010"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -21375,7 +21374,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R2010W"
+	(property "Footprint" "PCM_Adafruit:R2010W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -21469,7 +21468,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R2012"
+	(property "Footprint" "PCM_Adafruit:R2012"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -21563,7 +21562,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R2012W"
+	(property "Footprint" "PCM_Adafruit:R2012W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -21657,7 +21656,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R2512"
+	(property "Footprint" "PCM_Adafruit:R2512"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -21751,7 +21750,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R2512W"
+	(property "Footprint" "PCM_Adafruit:R2512W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -21845,7 +21844,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R3216"
+	(property "Footprint" "PCM_Adafruit:R3216"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -21939,7 +21938,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R3216W"
+	(property "Footprint" "PCM_Adafruit:R3216W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -22033,7 +22032,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R3225"
+	(property "Footprint" "PCM_Adafruit:R3225"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -22127,7 +22126,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R3225W"
+	(property "Footprint" "PCM_Adafruit:R3225W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -22221,7 +22220,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R5025"
+	(property "Footprint" "PCM_Adafruit:R5025"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -22315,7 +22314,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R5025W"
+	(property "Footprint" "PCM_Adafruit:R5025W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -22409,7 +22408,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R6332"
+	(property "Footprint" "PCM_Adafruit:R6332"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -22503,7 +22502,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R6332W"
+	(property "Footprint" "PCM_Adafruit:R6332W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -22597,7 +22596,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:M0805"
+	(property "Footprint" "PCM_Adafruit:M0805"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -22691,7 +22690,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:M1206"
+	(property "Footprint" "PCM_Adafruit:M1206"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -22785,7 +22784,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:M1406"
+	(property "Footprint" "PCM_Adafruit:M1406"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -22879,7 +22878,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:M2012"
+	(property "Footprint" "PCM_Adafruit:M2012"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -22973,7 +22972,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:M2309"
+	(property "Footprint" "PCM_Adafruit:M2309"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -23067,7 +23066,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:M3216"
+	(property "Footprint" "PCM_Adafruit:M3216"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -23161,7 +23160,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:M3516"
+	(property "Footprint" "PCM_Adafruit:M3516"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -23255,7 +23254,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:M5923"
+	(property "Footprint" "PCM_Adafruit:M5923"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -23349,7 +23348,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0204_5"
+	(property "Footprint" "PCM_Adafruit:0204_5"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -23443,7 +23442,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0204_7"
+	(property "Footprint" "PCM_Adafruit:0204_7"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -23537,7 +23536,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0207_10"
+	(property "Footprint" "PCM_Adafruit:0207_10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -23631,7 +23630,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0207_12"
+	(property "Footprint" "PCM_Adafruit:0207_12"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -23725,7 +23724,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0207_15"
+	(property "Footprint" "PCM_Adafruit:0207_15"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -23819,7 +23818,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0207_2V"
+	(property "Footprint" "PCM_Adafruit:0207_2V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -23913,7 +23912,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0207_5V"
+	(property "Footprint" "PCM_Adafruit:0207_5V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -24007,7 +24006,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0207_7"
+	(property "Footprint" "PCM_Adafruit:0207_7"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -24101,7 +24100,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0309_10"
+	(property "Footprint" "PCM_Adafruit:0309_10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -24195,7 +24194,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0309_12"
+	(property "Footprint" "PCM_Adafruit:0309_12"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -24289,7 +24288,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0411_12"
+	(property "Footprint" "PCM_Adafruit:0411_12"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -24383,7 +24382,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0411_15"
+	(property "Footprint" "PCM_Adafruit:0411_15"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -24477,7 +24476,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0411V"
+	(property "Footprint" "PCM_Adafruit:0411V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -24571,7 +24570,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0414_15"
+	(property "Footprint" "PCM_Adafruit:0414_15"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -24665,7 +24664,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0414V"
+	(property "Footprint" "PCM_Adafruit:0414V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -24759,7 +24758,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0617_17"
+	(property "Footprint" "PCM_Adafruit:0617_17"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -24853,7 +24852,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0617_22"
+	(property "Footprint" "PCM_Adafruit:0617_22"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -24947,7 +24946,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0617V"
+	(property "Footprint" "PCM_Adafruit:0617V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -25041,7 +25040,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0922_22"
+	(property "Footprint" "PCM_Adafruit:0922_22"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -25135,7 +25134,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:P0613V"
+	(property "Footprint" "PCM_Adafruit:P0613V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -25229,7 +25228,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:P0613_15"
+	(property "Footprint" "PCM_Adafruit:P0613_15"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -25323,7 +25322,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:P0817_22"
+	(property "Footprint" "PCM_Adafruit:P0817_22"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -25417,7 +25416,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:P0817V"
+	(property "Footprint" "PCM_Adafruit:P0817V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -25511,7 +25510,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:V234_12"
+	(property "Footprint" "PCM_Adafruit:V234_12"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -25605,7 +25604,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:V235_17"
+	(property "Footprint" "PCM_Adafruit:V235_17"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -25699,7 +25698,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:V526-0"
+	(property "Footprint" "PCM_Adafruit:V526-0"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -25793,7 +25792,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MINI_MELF-0102AX"
+	(property "Footprint" "PCM_Adafruit:MINI_MELF-0102AX"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -25887,7 +25886,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0922V"
+	(property "Footprint" "PCM_Adafruit:0922V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -25981,7 +25980,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MINI_MELF-0102R"
+	(property "Footprint" "PCM_Adafruit:MINI_MELF-0102R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -26075,7 +26074,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MINI_MELF-0102W"
+	(property "Footprint" "PCM_Adafruit:MINI_MELF-0102W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -26169,7 +26168,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MINI_MELF-0204R"
+	(property "Footprint" "PCM_Adafruit:MINI_MELF-0204R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -26263,7 +26262,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MINI_MELF-0204W"
+	(property "Footprint" "PCM_Adafruit:MINI_MELF-0204W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -26357,7 +26356,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MINI_MELF-0207R"
+	(property "Footprint" "PCM_Adafruit:MINI_MELF-0207R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -26451,7 +26450,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MINI_MELF-0207W"
+	(property "Footprint" "PCM_Adafruit:MINI_MELF-0207W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -26545,7 +26544,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:RDH_15"
+	(property "Footprint" "PCM_Adafruit:RDH_15"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -26639,7 +26638,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0204V"
+	(property "Footprint" "PCM_Adafruit:0204V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -26733,7 +26732,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0309V"
+	(property "Footprint" "PCM_Adafruit:0309V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -26827,7 +26826,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0805-THM"
+	(property "Footprint" "PCM_Adafruit:0805-THM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -26921,7 +26920,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0805-THM-7"
+	(property "Footprint" "PCM_Adafruit:0805-THM-7"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -27015,7 +27014,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0207_9"
+	(property "Footprint" "PCM_Adafruit:0207_9"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -27109,7 +27108,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:FIDUCIAL_1MM"
+	(property "Footprint" "PCM_Adafruit:FIDUCIAL_1MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -27144,7 +27143,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:USB-MINIB"
+	(property "Footprint" "PCM_Adafruit:USB-MINIB"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -27334,7 +27333,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:USB-MINIB-THM"
+	(property "Footprint" "PCM_Adafruit:USB-MINIB-THM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -27524,7 +27523,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:USB-MINIB-THM-MOLEX"
+	(property "Footprint" "PCM_Adafruit:USB-MINIB-THM-MOLEX"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -27714,7 +27713,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:UMAX10"
+	(property "Footprint" "PCM_Adafruit:UMAX10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -27867,7 +27866,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X2-3.5MM"
+	(property "Footprint" "PCM_Adafruit:1X2-3.5MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -27939,7 +27938,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TC33X"
+	(property "Footprint" "PCM_Adafruit:TC33X"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -28046,7 +28045,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TRIM-3386"
+	(property "Footprint" "PCM_Adafruit:TRIM-3386"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -28153,7 +28152,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:NX8045"
+	(property "Footprint" "PCM_Adafruit:NX8045"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -28235,7 +28234,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:NX5032"
+	(property "Footprint" "PCM_Adafruit:NX5032"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -28317,7 +28316,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:XTAL3215"
+	(property "Footprint" "PCM_Adafruit:XTAL3215"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -28387,7 +28386,6 @@
 	)
 )
 (symbol "OS102011MA1Q"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -28400,7 +28398,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:OS102011MA1Q"
+	(property "Footprint" "PCM_Adafruit:OS102011MA1Q"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -28547,7 +28545,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:EVQ-Q2"
+	(property "Footprint" "PCM_Adafruit:EVQ-Q2"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -28675,7 +28673,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:KMR2"
+	(property "Footprint" "PCM_Adafruit:KMR2"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -28803,7 +28801,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TQFP44"
+	(property "Footprint" "PCM_Adafruit:TQFP44"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -29293,7 +29291,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TQFP32-08"
+	(property "Footprint" "PCM_Adafruit:TQFP32-08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -29663,7 +29661,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MLF32"
+	(property "Footprint" "PCM_Adafruit:MLF32"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -30033,7 +30031,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO92-EBC-OVAL"
+	(property "Footprint" "PCM_Adafruit:TO92-EBC-OVAL"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -30146,7 +30144,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO92-EBC-OVAL"
+	(property "Footprint" "PCM_Adafruit:TO92-EBC-OVAL"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -30263,7 +30261,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:12BH412"
+	(property "Footprint" "PCM_Adafruit:12BH412"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -30329,7 +30327,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:EG1218"
+	(property "Footprint" "PCM_Adafruit:EG1218"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -30452,7 +30450,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PS603"
+	(property "Footprint" "PCM_Adafruit:PS603"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -30552,7 +30550,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL08-ROUND"
+	(property "Footprint" "PCM_Adafruit:DIL08-ROUND"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -30682,7 +30680,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO08"
+	(property "Footprint" "PCM_Adafruit:SO08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -30812,7 +30810,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LED5MMRGB"
+	(property "Footprint" "PCM_Adafruit:LED5MMRGB"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -30986,7 +30984,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:FB"
+	(property "Footprint" "PCM_Adafruit:FB"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -31068,7 +31066,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X01"
+	(property "Footprint" "PCM_Adafruit:1X01"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -31129,7 +31127,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X01-CLEANBIG"
+	(property "Footprint" "PCM_Adafruit:1X01-CLEANBIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -31190,7 +31188,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X1-BIGPOGO"
+	(property "Footprint" "PCM_Adafruit:1X1-BIGPOGO"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -31251,7 +31249,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X09-BIG"
+	(property "Footprint" "PCM_Adafruit:1X09-BIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -31400,7 +31398,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X10-BIG"
+	(property "Footprint" "PCM_Adafruit:1X10-BIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -31560,7 +31558,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PNA460XM"
+	(property "Footprint" "PCM_Adafruit:PNA460XM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -31651,7 +31649,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LED5MMRGB"
+	(property "Footprint" "PCM_Adafruit:LED5MMRGB"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -31834,7 +31832,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PIRANHA5MM"
+	(property "Footprint" "PCM_Adafruit:PIRANHA5MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -32017,7 +32015,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:AL60P"
+	(property "Footprint" "PCM_Adafruit:AL60P"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -32119,7 +32117,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:AL11P"
+	(property "Footprint" "PCM_Adafruit:AL11P"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -32221,7 +32219,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PS12"
+	(property "Footprint" "PCM_Adafruit:PS12"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -32323,7 +32321,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TS12864"
+	(property "Footprint" "PCM_Adafruit:TS12864"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -32604,7 +32602,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CR1220-SMD"
+	(property "Footprint" "PCM_Adafruit:CR1220-SMD"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -32698,7 +32696,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CR1220-THM"
+	(property "Footprint" "PCM_Adafruit:CR1220-THM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -32792,7 +32790,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:IV18"
+	(property "Footprint" "PCM_Adafruit:IV18"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -33358,7 +33356,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PLCC-S28"
+	(property "Footprint" "PCM_Adafruit:PLCC-S28"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -33691,7 +33689,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL08"
+	(property "Footprint" "PCM_Adafruit:DIL08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -33824,7 +33822,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO92"
+	(property "Footprint" "PCM_Adafruit:TO92"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -33908,7 +33906,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO220H"
+	(property "Footprint" "PCM_Adafruit:TO220H"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -33992,7 +33990,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO39"
+	(property "Footprint" "PCM_Adafruit:TO39"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -34076,7 +34074,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO92"
+	(property "Footprint" "PCM_Adafruit:TO92"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -34160,7 +34158,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO252"
+	(property "Footprint" "PCM_Adafruit:TO252"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -34244,7 +34242,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL08"
+	(property "Footprint" "PCM_Adafruit:DIL08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -34377,7 +34375,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO08"
+	(property "Footprint" "PCM_Adafruit:SO08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -34507,7 +34505,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL08"
+	(property "Footprint" "PCM_Adafruit:DIL08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -34637,7 +34635,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO08"
+	(property "Footprint" "PCM_Adafruit:SO08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -34767,7 +34765,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL08"
+	(property "Footprint" "PCM_Adafruit:DIL08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -34897,7 +34895,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL08"
+	(property "Footprint" "PCM_Adafruit:DIL08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -35027,7 +35025,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL08"
+	(property "Footprint" "PCM_Adafruit:DIL08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -35160,7 +35158,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2747"
+	(property "Footprint" "PCM_Adafruit:2747"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -35242,7 +35240,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1800R"
+	(property "Footprint" "PCM_Adafruit:1800R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -35324,7 +35322,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:6000"
+	(property "Footprint" "PCM_Adafruit:6000"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -35406,7 +35404,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LQH55"
+	(property "Footprint" "PCM_Adafruit:LQH55"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -35488,7 +35486,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DO13M"
+	(property "Footprint" "PCM_Adafruit:DO13M"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -35582,7 +35580,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:C4111-15"
+	(property "Footprint" "PCM_Adafruit:C4111-15"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -35676,7 +35674,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:P6T15"
+	(property "Footprint" "PCM_Adafruit:P6T15"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -35770,7 +35768,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CB429-17"
+	(property "Footprint" "PCM_Adafruit:CB429-17"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -35864,7 +35862,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DO201T15"
+	(property "Footprint" "PCM_Adafruit:DO201T15"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -35958,7 +35956,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DO35-7"
+	(property "Footprint" "PCM_Adafruit:DO35-7"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -36052,7 +36050,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:F126Z12"
+	(property "Footprint" "PCM_Adafruit:F126Z12"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -36146,7 +36144,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:AG"
+	(property "Footprint" "PCM_Adafruit:AG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -36240,7 +36238,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO92H"
+	(property "Footprint" "PCM_Adafruit:TO92H"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -36334,7 +36332,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CB417-15"
+	(property "Footprint" "PCM_Adafruit:CB417-15"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -36428,7 +36426,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CB429-15"
+	(property "Footprint" "PCM_Adafruit:CB429-15"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -36522,7 +36520,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DO41-10"
+	(property "Footprint" "PCM_Adafruit:DO41-10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -36616,7 +36614,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DO41-7"
+	(property "Footprint" "PCM_Adafruit:DO41-7"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -36710,7 +36708,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO92"
+	(property "Footprint" "PCM_Adafruit:TO92"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -36824,7 +36822,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO92-INLINE"
+	(property "Footprint" "PCM_Adafruit:TO92-INLINE"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -36926,7 +36924,6 @@
 	)
 )
 (symbol "74_125_N"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -36939,7 +36936,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL14"
+	(property "Footprint" "PCM_Adafruit:DIL14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -37213,7 +37210,6 @@
 	)
 )
 (symbol "74_125_N-LARDO"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -37226,7 +37222,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL14-LARDO"
+	(property "Footprint" "PCM_Adafruit:DIL14-LARDO"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -37512,7 +37508,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ARDUINO"
+	(property "Footprint" "PCM_Adafruit:ARDUINO"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -37902,7 +37898,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ARDUINO-BPLACE"
+	(property "Footprint" "PCM_Adafruit:ARDUINO-BPLACE"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -38292,7 +38288,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ARDUINO-NOHOLE"
+	(property "Footprint" "PCM_Adafruit:ARDUINO-NOHOLE"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -38682,7 +38678,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ARDUINO-NODIM"
+	(property "Footprint" "PCM_Adafruit:ARDUINO-NODIM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -39072,7 +39068,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:JST-PH-2-SMT-RA"
+	(property "Footprint" "PCM_Adafruit:JST-PH-2-SMT-RA"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -39144,7 +39140,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:JST-PH-2-THM"
+	(property "Footprint" "PCM_Adafruit:JST-PH-2-THM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -39216,7 +39212,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:JST-PH-2-THM-RA"
+	(property "Footprint" "PCM_Adafruit:JST-PH-2-THM-RA"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -39288,7 +39284,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:JST-PH-2-SMT"
+	(property "Footprint" "PCM_Adafruit:JST-PH-2-SMT"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -39360,7 +39356,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:B3F-31XX"
+	(property "Footprint" "PCM_Adafruit:B3F-31XX"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -39460,7 +39456,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:B3F-31XX-SKINNIER"
+	(property "Footprint" "PCM_Adafruit:B3F-31XX-SKINNIER"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -39560,7 +39556,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SCDA"
+	(property "Footprint" "PCM_Adafruit:SCDA"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -39747,7 +39743,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SDCARD"
+	(property "Footprint" "PCM_Adafruit:SDCARD"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -39934,7 +39930,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:06132"
+	(property "Footprint" "PCM_Adafruit:06132"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -40109,7 +40105,6 @@
 	)
 )
 (symbol "THUMBPOT_UNNAMED"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -40122,7 +40117,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:THUMBWHEEL"
+	(property "Footprint" "PCM_Adafruit:THUMBWHEEL"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -40320,7 +40315,6 @@
 	)
 )
 (symbol "THUMBPOT_V"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -40333,7 +40327,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:THUMBWHEELV"
+	(property "Footprint" "PCM_Adafruit:THUMBWHEELV"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -40543,7 +40537,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:STX3100"
+	(property "Footprint" "PCM_Adafruit:STX3100"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -40730,7 +40724,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL08"
+	(property "Footprint" "PCM_Adafruit:DIL08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -40863,7 +40857,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL14"
+	(property "Footprint" "PCM_Adafruit:DIL14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -41026,7 +41020,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X08-CLEANBIG"
+	(property "Footprint" "PCM_Adafruit:1X08-CLEANBIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -41164,7 +41158,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X08-BIG"
+	(property "Footprint" "PCM_Adafruit:1X08-BIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -41302,7 +41296,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X08-LOCK"
+	(property "Footprint" "PCM_Adafruit:1X08-LOCK"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -41440,7 +41434,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X08-3.5MM"
+	(property "Footprint" "PCM_Adafruit:1X08-3.5MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -41578,7 +41572,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X03"
+	(property "Footprint" "PCM_Adafruit:1X03"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -41661,7 +41655,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X03-CLEANBIG"
+	(property "Footprint" "PCM_Adafruit:1X03-CLEANBIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -41744,7 +41738,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X06"
+	(property "Footprint" "PCM_Adafruit:1X06"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -41860,7 +41854,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X06-CLEAN"
+	(property "Footprint" "PCM_Adafruit:1X06-CLEAN"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -41976,7 +41970,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X06-CLEANBIG"
+	(property "Footprint" "PCM_Adafruit:1X06-CLEANBIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -42092,7 +42086,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X06-BIG"
+	(property "Footprint" "PCM_Adafruit:1X06-BIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -42208,7 +42202,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X06-BIGLOCK"
+	(property "Footprint" "PCM_Adafruit:1X06-BIGLOCK"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -42324,7 +42318,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X06-3.5MM"
+	(property "Footprint" "PCM_Adafruit:1X06-3.5MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -42440,7 +42434,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO92-INLINE"
+	(property "Footprint" "PCM_Adafruit:TO92-INLINE"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -42535,7 +42529,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO92"
+	(property "Footprint" "PCM_Adafruit:TO92"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -42630,7 +42624,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1035D"
+	(property "Footprint" "PCM_Adafruit:1035D"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -42800,7 +42794,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:JST-8POS"
+	(property "Footprint" "PCM_Adafruit:JST-8POS"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -42930,7 +42924,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:JST-6POS"
+	(property "Footprint" "PCM_Adafruit:JST-6POS"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -43043,7 +43037,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TRIMBLE"
+	(property "Footprint" "PCM_Adafruit:TRIMBLE"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -43161,7 +43155,6 @@
 	)
 )
 (symbol "MIDIJACK"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -43174,7 +43167,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CP-2350"
+	(property "Footprint" "PCM_Adafruit:CP-2350"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -43407,7 +43400,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MICROSD"
+	(property "Footprint" "PCM_Adafruit:MICROSD"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -43604,7 +43597,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23-5L"
+	(property "Footprint" "PCM_Adafruit:SOT23-5L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -43704,7 +43697,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO16"
+	(property "Footprint" "PCM_Adafruit:SO16"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -43917,7 +43910,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:0805-THM"
+	(property "Footprint" "PCM_Adafruit:0805-THM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -44011,7 +44004,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MSOP10"
+	(property "Footprint" "PCM_Adafruit:MSOP10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -44164,7 +44157,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:9.7ELECTRET"
+	(property "Footprint" "PCM_Adafruit:9.7ELECTRET"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -44250,7 +44243,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DCJACK_2MM_PTH"
+	(property "Footprint" "PCM_Adafruit:DCJACK_2MM_PTH"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -44352,7 +44345,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DCJACK_2MM_SMT"
+	(property "Footprint" "PCM_Adafruit:DCJACK_2MM_SMT"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -44442,7 +44435,6 @@
 	)
 )
 (symbol "DUALPOTSW"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -44455,7 +44447,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:RK0971221"
+	(property "Footprint" "PCM_Adafruit:RK0971221"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -44773,7 +44765,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO08"
+	(property "Footprint" "PCM_Adafruit:SO08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -44893,7 +44885,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:USB-MINIB-THM-MOLEX-PWRONLY"
+	(property "Footprint" "PCM_Adafruit:USB-MINIB-THM-MOLEX-PWRONLY"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -45050,7 +45042,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:USB-MINIB-THM-PWRONLY"
+	(property "Footprint" "PCM_Adafruit:USB-MINIB-THM-PWRONLY"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -45207,7 +45199,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TDFN14_3X3MM"
+	(property "Footprint" "PCM_Adafruit:TDFN14_3X3MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -45410,7 +45402,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SQFP-S-7X7-48"
+	(property "Footprint" "PCM_Adafruit:SQFP-S-7X7-48"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -45943,7 +45935,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO220"
+	(property "Footprint" "PCM_Adafruit:TO220"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -46060,7 +46052,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO220-NOHOLE"
+	(property "Footprint" "PCM_Adafruit:TO220-NOHOLE"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -46165,7 +46157,6 @@
 	)
 )
 (symbol "QUAD_OPAMP_P"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -46178,7 +46169,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL14"
+	(property "Footprint" "PCM_Adafruit:DIL14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -46472,7 +46463,6 @@
 	)
 )
 (symbol "QUAD_OPAMP_D"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -46485,7 +46475,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO14"
+	(property "Footprint" "PCM_Adafruit:SO14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -46779,7 +46769,6 @@
 	)
 )
 (symbol "QUAD_OPAMP_P-TI"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -46792,7 +46781,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL14-LARDO"
+	(property "Footprint" "PCM_Adafruit:DIL14-LARDO"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -47098,7 +47087,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MSOP10"
+	(property "Footprint" "PCM_Adafruit:MSOP10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -47251,7 +47240,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:AVRISP"
+	(property "Footprint" "PCM_Adafruit:AVRISP"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -47361,7 +47350,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:AVRISP-BOX"
+	(property "Footprint" "PCM_Adafruit:AVRISP-BOX"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -47471,7 +47460,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23-6"
+	(property "Footprint" "PCM_Adafruit:SOT23-6"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -47584,7 +47573,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SMADIODE"
+	(property "Footprint" "PCM_Adafruit:SMADIODE"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -47662,7 +47651,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DO-1N4148"
+	(property "Footprint" "PCM_Adafruit:DO-1N4148"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -47740,7 +47729,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23-R"
+	(property "Footprint" "PCM_Adafruit:SOT23-R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -47818,7 +47807,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23-W"
+	(property "Footprint" "PCM_Adafruit:SOT23-W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -47896,7 +47885,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOD-523"
+	(property "Footprint" "PCM_Adafruit:SOD-523"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -47974,7 +47963,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOD-123"
+	(property "Footprint" "PCM_Adafruit:SOD-123"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -48052,7 +48041,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOD-323F"
+	(property "Footprint" "PCM_Adafruit:SOD-323F"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -48130,7 +48119,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOD-123FL"
+	(property "Footprint" "PCM_Adafruit:SOD-123FL"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -48208,7 +48197,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO18W"
+	(property "Footprint" "PCM_Adafruit:SO18W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -48431,7 +48420,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL18"
+	(property "Footprint" "PCM_Adafruit:DIL18"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -48654,7 +48643,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SSOP24"
+	(property "Footprint" "PCM_Adafruit:SSOP24"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -48947,7 +48936,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X05-3.5MM"
+	(property "Footprint" "PCM_Adafruit:1X05-3.5MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -49052,7 +49041,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LCD1602"
+	(property "Footprint" "PCM_Adafruit:LCD1602"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -49296,7 +49285,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SUN"
+	(property "Footprint" "PCM_Adafruit:SUN"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -49363,7 +49352,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO92-OVAL"
+	(property "Footprint" "PCM_Adafruit:TO92-OVAL"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -49526,7 +49515,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO92-OVAL"
+	(property "Footprint" "PCM_Adafruit:TO92-OVAL"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -49689,7 +49678,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO92-OVAL"
+	(property "Footprint" "PCM_Adafruit:TO92-OVAL"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -49852,7 +49841,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X22"
+	(property "Footprint" "PCM_Adafruit:2X22"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -50342,7 +50331,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X22-SMT"
+	(property "Footprint" "PCM_Adafruit:2X22-SMT"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -50832,7 +50821,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X22"
+	(property "Footprint" "PCM_Adafruit:2X22"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -51322,7 +51311,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X22-SMT"
+	(property "Footprint" "PCM_Adafruit:2X22-SMT"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -51812,7 +51801,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X22"
+	(property "Footprint" "PCM_Adafruit:1X22"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -52082,7 +52071,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X09-BIG"
+	(property "Footprint" "PCM_Adafruit:2X09-BIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -52330,7 +52319,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X09-CLEANBIG"
+	(property "Footprint" "PCM_Adafruit:2X09-CLEANBIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -52578,7 +52567,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ILI9325_28INCH_TS"
+	(property "Footprint" "PCM_Adafruit:ILI9325_28INCH_TS"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -53068,7 +53057,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1812"
+	(property "Footprint" "PCM_Adafruit:1812"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -53132,7 +53121,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:R1206"
+	(property "Footprint" "PCM_Adafruit:R1206"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -53196,7 +53185,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TQFP32-08"
+	(property "Footprint" "PCM_Adafruit:TQFP32-08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -53566,7 +53555,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X14"
+	(property "Footprint" "PCM_Adafruit:1X14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -53770,7 +53759,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X14-CB"
+	(property "Footprint" "PCM_Adafruit:1X14-CB"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -53974,7 +53963,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X12"
+	(property "Footprint" "PCM_Adafruit:1X12"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -54156,7 +54145,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X12-CB"
+	(property "Footprint" "PCM_Adafruit:1X12-CB"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -54338,7 +54327,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X40-1MM"
+	(property "Footprint" "PCM_Adafruit:1X40-1MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -54788,7 +54777,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X40-0.6MM"
+	(property "Footprint" "PCM_Adafruit:1X40-0.6MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -55238,7 +55227,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X40-0.7MM"
+	(property "Footprint" "PCM_Adafruit:1X40-0.7MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -55688,7 +55677,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X40-0.8MM"
+	(property "Footprint" "PCM_Adafruit:1X40-0.8MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -56138,7 +56127,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X40-0.5MM"
+	(property "Footprint" "PCM_Adafruit:1X40-0.5MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -56588,7 +56577,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X20"
+	(property "Footprint" "PCM_Adafruit:1X20"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -56858,7 +56847,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X20-BIG"
+	(property "Footprint" "PCM_Adafruit:1X20-BIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -57128,7 +57117,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X20"
+	(property "Footprint" "PCM_Adafruit:2X20"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -57618,7 +57607,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X20-BIG"
+	(property "Footprint" "PCM_Adafruit:2X20-BIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -58108,7 +58097,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL28-3"
+	(property "Footprint" "PCM_Adafruit:DIL28-3"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -58441,7 +58430,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X30-0.7MM"
+	(property "Footprint" "PCM_Adafruit:1X30-0.7MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -58822,7 +58811,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X14"
+	(property "Footprint" "PCM_Adafruit:2X14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -59180,7 +59169,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X14-CLEANBIG"
+	(property "Footprint" "PCM_Adafruit:2X14-CLEANBIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -59538,7 +59527,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X14-SMT"
+	(property "Footprint" "PCM_Adafruit:2X14-SMT"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -59884,7 +59873,6 @@
 	)
 )
 (symbol "XF2_-05__15-1"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -59897,7 +59885,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:XF2E-0515-1"
+	(property "Footprint" "PCM_Adafruit:XF2E-0515-1"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -60015,7 +60003,6 @@
 	)
 )
 (symbol "XF2_-05__35-1"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -60028,7 +60015,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:XF2L-0535-1"
+	(property "Footprint" "PCM_Adafruit:XF2L-0535-1"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -60146,7 +60133,6 @@
 	)
 )
 (symbol "40PINFPC_15-1LW"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -60159,7 +60145,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:XF2H-4015-1LW"
+	(property "Footprint" "PCM_Adafruit:XF2H-4015-1LW"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -60977,7 +60963,6 @@
 	)
 )
 (symbol "40PINFPC_4-1734839-0"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -60990,7 +60975,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:4-1734839-0"
+	(property "Footprint" "PCM_Adafruit:4-1734839-0"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -61808,7 +61793,6 @@
 	)
 )
 (symbol "40PINFPC_15-4A"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -61821,7 +61805,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:XF2R-4015-4A"
+	(property "Footprint" "PCM_Adafruit:XF2R-4015-4A"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -62639,7 +62623,6 @@
 	)
 )
 (symbol "40PINFPC_15-1F-REV"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -62652,7 +62635,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:XF2M-4015-1F-REVERSE"
+	(property "Footprint" "PCM_Adafruit:XF2M-4015-1F-REVERSE"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -63482,7 +63465,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:F15D"
+	(property "Footprint" "PCM_Adafruit:F15D"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -63754,7 +63737,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:F15H"
+	(property "Footprint" "PCM_Adafruit:F15H"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -64026,7 +64009,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:F15HP"
+	(property "Footprint" "PCM_Adafruit:F15HP"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -64298,7 +64281,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:F15V"
+	(property "Footprint" "PCM_Adafruit:F15V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -64570,7 +64553,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:F15VP"
+	(property "Footprint" "PCM_Adafruit:F15VP"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -64842,7 +64825,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HDF15V"
+	(property "Footprint" "PCM_Adafruit:HDF15V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -65114,7 +65097,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:F15VB"
+	(property "Footprint" "PCM_Adafruit:F15VB"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -65386,7 +65369,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HDF15H"
+	(property "Footprint" "PCM_Adafruit:HDF15H"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -65646,7 +65629,6 @@
 	)
 )
 (symbol "SFV4R-1STE1LF"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -65659,7 +65641,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SFV4R-1STE1LF"
+	(property "Footprint" "PCM_Adafruit:SFV4R-1STE1LF"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -65769,7 +65751,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO08"
+	(property "Footprint" "PCM_Adafruit:SO08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -65902,7 +65884,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL08"
+	(property "Footprint" "PCM_Adafruit:DIL08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -66035,7 +66017,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X15"
+	(property "Footprint" "PCM_Adafruit:1X15"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -66250,7 +66232,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X15-CB"
+	(property "Footprint" "PCM_Adafruit:1X15-CB"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -66465,7 +66447,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23-5L"
+	(property "Footprint" "PCM_Adafruit:SOT23-5L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -66568,7 +66550,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23-5L"
+	(property "Footprint" "PCM_Adafruit:SOT23-5L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -66671,7 +66653,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TSSOP-8"
+	(property "Footprint" "PCM_Adafruit:TSSOP-8"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -66804,7 +66786,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MSOP10"
+	(property "Footprint" "PCM_Adafruit:MSOP10"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -66957,7 +66939,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:NX3225"
+	(property "Footprint" "PCM_Adafruit:NX3225"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -67066,7 +67048,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SMT-0540-S-R"
+	(property "Footprint" "PCM_Adafruit:SMT-0540-S-R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -67168,7 +67150,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MOLEX_480371000"
+	(property "Footprint" "PCM_Adafruit:MOLEX_480371000"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -67347,7 +67329,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23-6"
+	(property "Footprint" "PCM_Adafruit:SOT23-6"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -67457,7 +67439,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23-6"
+	(property "Footprint" "PCM_Adafruit:SOT23-6"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -67567,7 +67549,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:UDFN-8"
+	(property "Footprint" "PCM_Adafruit:UDFN-8"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -67677,7 +67659,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:FPC_0.5MM-4"
+	(property "Footprint" "PCM_Adafruit:FPC_0.5MM-4"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -67767,7 +67749,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X04-BIG"
+	(property "Footprint" "PCM_Adafruit:1X04-BIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -67857,7 +67839,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X04-CLEANBIG"
+	(property "Footprint" "PCM_Adafruit:1X04-CLEANBIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -67947,7 +67929,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X04-3.5MM"
+	(property "Footprint" "PCM_Adafruit:1X04-3.5MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -68037,7 +68019,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X4-SMT"
+	(property "Footprint" "PCM_Adafruit:1X4-SMT"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -68127,7 +68109,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO16"
+	(property "Footprint" "PCM_Adafruit:SO16"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -68340,7 +68322,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:JUDCOSPST"
+	(property "Footprint" "PCM_Adafruit:JUDCOSPST"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -68444,7 +68426,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:JD-T1800"
+	(property "Footprint" "PCM_Adafruit:JD-T1800"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -68642,7 +68624,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:16LCSP"
+	(property "Footprint" "PCM_Adafruit:16LCSP"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -68792,7 +68774,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:EVQQ7GA50"
+	(property "Footprint" "PCM_Adafruit:EVQQ7GA50"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -68946,7 +68928,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:RN-171"
+	(property "Footprint" "PCM_Adafruit:RN-171"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -69489,7 +69471,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X18"
+	(property "Footprint" "PCM_Adafruit:1X18"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -69737,7 +69719,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X18-BIG"
+	(property "Footprint" "PCM_Adafruit:1X18-BIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -69985,7 +69967,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:RN-ANT"
+	(property "Footprint" "PCM_Adafruit:RN-ANT"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -70073,7 +70055,6 @@
 	)
 )
 (symbol "74_245_N"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -70086,7 +70067,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL20"
+	(property "Footprint" "PCM_Adafruit:DIL20"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -70336,7 +70317,6 @@
 	)
 )
 (symbol "74_245_DW"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -70349,7 +70329,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO20W"
+	(property "Footprint" "PCM_Adafruit:SO20W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -70599,7 +70579,6 @@
 	)
 )
 (symbol "74_245_FK"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -70612,7 +70591,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LCC20"
+	(property "Footprint" "PCM_Adafruit:LCC20"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -70862,7 +70841,6 @@
 	)
 )
 (symbol "74_245_MTC"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -70875,7 +70853,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SSOP20"
+	(property "Footprint" "PCM_Adafruit:SSOP20"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -71137,7 +71115,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X13"
+	(property "Footprint" "PCM_Adafruit:1X13"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -71330,7 +71308,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:1X13-BIG"
+	(property "Footprint" "PCM_Adafruit:1X13-BIG"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -71523,7 +71501,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:QFN20"
+	(property "Footprint" "PCM_Adafruit:QFN20"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -71776,7 +71754,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23"
+	(property "Footprint" "PCM_Adafruit:SOT23"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -71856,7 +71834,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:XBEE"
+	(property "Footprint" "PCM_Adafruit:XBEE"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -72117,7 +72095,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:VFSOP-8"
+	(property "Footprint" "PCM_Adafruit:VFSOP-8"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -72277,7 +72255,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TSSOP14"
+	(property "Footprint" "PCM_Adafruit:TSSOP14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -72477,7 +72455,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TSSOP20"
+	(property "Footprint" "PCM_Adafruit:TSSOP20"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -72757,7 +72735,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:JOYSTICK"
+	(property "Footprint" "PCM_Adafruit:JOYSTICK"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -72904,7 +72882,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CR2032-SMD"
+	(property "Footprint" "PCM_Adafruit:CR2032-SMD"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -72998,7 +72976,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CR2032-THRU"
+	(property "Footprint" "PCM_Adafruit:CR2032-THRU"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -73092,7 +73070,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SEGMENT_BICOL_BL-M12A883XX"
+	(property "Footprint" "PCM_Adafruit:SEGMENT_BICOL_BL-M12A883XX"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -84610,7 +84588,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SEGMENT_BL-M07C881UR"
+	(property "Footprint" "PCM_Adafruit:SEGMENT_BL-M07C881UR"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -89700,7 +89678,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SEGMENT_BL-M12A881UR"
+	(property "Footprint" "PCM_Adafruit:SEGMENT_BL-M12A881UR"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -94790,7 +94768,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SEGMENT_BL-M12A883"
+	(property "Footprint" "PCM_Adafruit:SEGMENT_BL-M12A883"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -99880,7 +99858,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SEGMENT_BL-M15A881"
+	(property "Footprint" "PCM_Adafruit:SEGMENT_BL-M15A881"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -104970,7 +104948,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SEGMENT_BICOL_BL-AR12Z3010"
+	(property "Footprint" "PCM_Adafruit:SEGMENT_BICOL_BL-AR12Z3010"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -107320,7 +107298,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL08-ROUND"
+	(property "Footprint" "PCM_Adafruit:DIL08-ROUND"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -107453,7 +107431,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL28-3"
+	(property "Footprint" "PCM_Adafruit:DIL28-3"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -107783,7 +107761,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL28-3-ROUND"
+	(property "Footprint" "PCM_Adafruit:DIL28-3-ROUND"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -108113,7 +108091,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL08-ROUND"
+	(property "Footprint" "PCM_Adafruit:DIL08-ROUND"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -108246,7 +108224,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:414-VA5R"
+	(property "Footprint" "PCM_Adafruit:414-VA5R"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -108324,7 +108302,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO08"
+	(property "Footprint" "PCM_Adafruit:SO08"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -108454,7 +108432,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO08-SKINNYPADS"
+	(property "Footprint" "PCM_Adafruit:SO08-SKINNYPADS"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -108584,7 +108562,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:RGBLED5050"
+	(property "Footprint" "PCM_Adafruit:RGBLED5050"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -108783,7 +108761,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SEWINGTAP_0.5"
+	(property "Footprint" "PCM_Adafruit:SEWINGTAP_0.5"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -108827,7 +108805,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SEWINGTAP_0.4"
+	(property "Footprint" "PCM_Adafruit:SEWINGTAP_0.4"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -108871,7 +108849,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SEWINGTAP_2.0"
+	(property "Footprint" "PCM_Adafruit:SEWINGTAP_2.0"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -108915,7 +108893,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:BIGTAP"
+	(property "Footprint" "PCM_Adafruit:BIGTAP"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -108959,7 +108937,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL28-3"
+	(property "Footprint" "PCM_Adafruit:DIL28-3"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -109269,7 +109247,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO28W"
+	(property "Footprint" "PCM_Adafruit:SO28W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -109579,7 +109557,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SSOP28"
+	(property "Footprint" "PCM_Adafruit:SSOP28"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -109889,7 +109867,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:QFN28-ML_6X6MM"
+	(property "Footprint" "PCM_Adafruit:QFN28-ML_6X6MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -110199,7 +110177,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL28-3-ROUND"
+	(property "Footprint" "PCM_Adafruit:DIL28-3-ROUND"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -110509,7 +110487,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO08-SKINNYPADS"
+	(property "Footprint" "PCM_Adafruit:SO08-SKINNYPADS"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -110642,7 +110620,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DFN-6"
+	(property "Footprint" "PCM_Adafruit:DFN-6"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -110745,7 +110723,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23-W"
+	(property "Footprint" "PCM_Adafruit:SOT23-W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -110907,7 +110885,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23"
+	(property "Footprint" "PCM_Adafruit:SOT23"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -111069,7 +111047,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO220V"
+	(property "Footprint" "PCM_Adafruit:TO220V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -111231,7 +111209,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOIC8_208MIL"
+	(property "Footprint" "PCM_Adafruit:SOIC8_208MIL"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -111364,7 +111342,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:JSTPH3"
+	(property "Footprint" "PCM_Adafruit:JSTPH3"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -111447,7 +111425,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ARDUINOR3"
+	(property "Footprint" "PCM_Adafruit:ARDUINOR3"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -111899,7 +111877,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ARDUINOR3-BPLACE"
+	(property "Footprint" "PCM_Adafruit:ARDUINOR3-BPLACE"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -112351,7 +112329,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LCD1602-RGB"
+	(property "Footprint" "PCM_Adafruit:LCD1602-RGB"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -112615,7 +112593,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:6MM"
+	(property "Footprint" "PCM_Adafruit:6MM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -112753,7 +112731,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SLIDEPOT-45"
+	(property "Footprint" "PCM_Adafruit:SLIDEPOT-45"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -112891,7 +112869,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TRIM-3386"
+	(property "Footprint" "PCM_Adafruit:TRIM-3386"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -113029,7 +113007,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X08-IDC"
+	(property "Footprint" "PCM_Adafruit:2X08-IDC"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -113242,7 +113220,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO16W"
+	(property "Footprint" "PCM_Adafruit:SO16W"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -113455,7 +113433,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X08-IDC"
+	(property "Footprint" "PCM_Adafruit:2X08-IDC"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -113668,7 +113646,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23-6"
+	(property "Footprint" "PCM_Adafruit:SOT23-6"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -113781,7 +113759,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TO220V"
+	(property "Footprint" "PCM_Adafruit:TO220V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -113925,7 +113903,6 @@
 	)
 )
 (symbol "DPDT"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -113938,7 +113915,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:EG1390"
+	(property "Footprint" "PCM_Adafruit:EG1390"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -114154,7 +114131,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:BEAGLEBONE_SHIELD"
+	(property "Footprint" "PCM_Adafruit:BEAGLEBONE_SHIELD"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -115238,7 +115215,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ARDUINOR3-NOTEXT-NOIOREF"
+	(property "Footprint" "PCM_Adafruit:ARDUINOR3-NOTEXT-NOIOREF"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -115668,7 +115645,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:FGPMMOPA6B"
+	(property "Footprint" "PCM_Adafruit:FGPMMOPA6B"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -115838,7 +115815,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:FGPMMOPA6C"
+	(property "Footprint" "PCM_Adafruit:FGPMMOPA6C"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -116018,7 +115995,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X04"
+	(property "Footprint" "PCM_Adafruit:2X04"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -116156,7 +116133,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:2X04_90"
+	(property "Footprint" "PCM_Adafruit:2X04_90"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -116294,7 +116271,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ARDUINOMICRO"
+	(property "Footprint" "PCM_Adafruit:ARDUINOMICRO"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -116724,7 +116701,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SPRINGTERMINAL-17"
+	(property "Footprint" "PCM_Adafruit:SPRINGTERMINAL-17"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -117148,7 +117125,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TSSOP28"
+	(property "Footprint" "PCM_Adafruit:TSSOP28"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -117519,7 +117496,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:FGPMMOPA6H"
+	(property "Footprint" "PCM_Adafruit:FGPMMOPA6H"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -117807,7 +117784,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC49_S"
+	(property "Footprint" "PCM_Adafruit:HC49_S"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -117903,7 +117880,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC49GW"
+	(property "Footprint" "PCM_Adafruit:HC49GW"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -117999,7 +117976,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC49TL-H"
+	(property "Footprint" "PCM_Adafruit:HC49TL-H"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -118095,7 +118072,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC49U-H"
+	(property "Footprint" "PCM_Adafruit:HC49U-H"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -118191,7 +118168,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC49U-LM"
+	(property "Footprint" "PCM_Adafruit:HC49U-LM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -118287,7 +118264,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC49U-V"
+	(property "Footprint" "PCM_Adafruit:HC49U-V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -118383,7 +118360,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC49U70"
+	(property "Footprint" "PCM_Adafruit:HC49U70"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -118479,7 +118456,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC49UP"
+	(property "Footprint" "PCM_Adafruit:HC49UP"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -118575,7 +118552,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC13U-H"
+	(property "Footprint" "PCM_Adafruit:HC13U-H"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -118671,7 +118648,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC18U-H"
+	(property "Footprint" "PCM_Adafruit:HC18U-H"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -118767,7 +118744,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC18U-V"
+	(property "Footprint" "PCM_Adafruit:HC18U-V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -118863,7 +118840,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC33U-H"
+	(property "Footprint" "PCM_Adafruit:HC33U-H"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -118959,7 +118936,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HC33U-V"
+	(property "Footprint" "PCM_Adafruit:HC33U-V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -119055,7 +119032,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SM49"
+	(property "Footprint" "PCM_Adafruit:SM49"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -119151,7 +119128,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TC26H"
+	(property "Footprint" "PCM_Adafruit:TC26H"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -119247,7 +119224,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TC26V"
+	(property "Footprint" "PCM_Adafruit:TC26V"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -119343,7 +119320,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TC38H"
+	(property "Footprint" "PCM_Adafruit:TC38H"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -119439,7 +119416,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:86SMX"
+	(property "Footprint" "PCM_Adafruit:86SMX"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -119535,7 +119512,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MM20SS"
+	(property "Footprint" "PCM_Adafruit:MM20SS"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -119631,7 +119608,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MM39SL"
+	(property "Footprint" "PCM_Adafruit:MM39SL"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -119727,7 +119704,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:CTS406"
+	(property "Footprint" "PCM_Adafruit:CTS406"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -119823,7 +119800,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL16"
+	(property "Footprint" "PCM_Adafruit:DIL16"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -120036,7 +120013,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO14"
+	(property "Footprint" "PCM_Adafruit:SO14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -120229,7 +120206,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ARDUINOR3_ICSP"
+	(property "Footprint" "PCM_Adafruit:ARDUINOR3_ICSP"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -120747,7 +120724,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ARDUINOR3_ICSP_SMT"
+	(property "Footprint" "PCM_Adafruit:ARDUINOR3_ICSP_SMT"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -121265,7 +121242,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ARDUINOR3_ICSP_NODIM"
+	(property "Footprint" "PCM_Adafruit:ARDUINOR3_ICSP_NODIM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -121783,7 +121760,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:B3F-40XX"
+	(property "Footprint" "PCM_Adafruit:B3F-40XX"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -121911,7 +121888,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:B3F-40XX-ROUND"
+	(property "Footprint" "PCM_Adafruit:B3F-40XX-ROUND"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -122027,7 +122004,6 @@
 	)
 )
 (symbol "4093_N"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -122040,7 +122016,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:DIL14"
+	(property "Footprint" "PCM_Adafruit:DIL14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -122330,7 +122306,6 @@
 	)
 )
 (symbol "4093_D"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -122343,7 +122318,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SO14"
+	(property "Footprint" "PCM_Adafruit:SO14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -122633,7 +122608,6 @@
 	)
 )
 (symbol "4093_DT"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -122646,7 +122620,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:MC14093B-TSSOP14"
+	(property "Footprint" "PCM_Adafruit:MC14093B-TSSOP14"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -122936,7 +122910,6 @@
 	)
 )
 (symbol "TLC5947"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -122949,7 +122922,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HTSSOP32DAP"
+	(property "Footprint" "PCM_Adafruit:HTSSOP32DAP"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -123322,7 +123295,6 @@
 	)
 )
 (symbol "TLC59711"
-	(unit_name_hidden no)
 	(pin_names (offset 0.254))
 	(exclude_from_sim no)
 	(in_bom yes)
@@ -123335,7 +123307,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:HTSSOP20DAP"
+	(property "Footprint" "PCM_Adafruit:HTSSOP20DAP"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -123600,7 +123572,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23-5L"
+	(property "Footprint" "PCM_Adafruit:SOT23-5L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -123700,7 +123672,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SOT23-5L"
+	(property "Footprint" "PCM_Adafruit:SOT23-5L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -123898,7 +123870,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:U.FL"
+	(property "Footprint" "PCM_Adafruit:U.FL"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -123978,7 +123950,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SMA90_DIP"
+	(property "Footprint" "PCM_Adafruit:SMA90_DIP"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -124121,7 +124093,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SMA_EDGELAUNCH"
+	(property "Footprint" "PCM_Adafruit:SMA_EDGELAUNCH"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -124264,7 +124236,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SMA_EDGELAUNCH_UFL"
+	(property "Footprint" "PCM_Adafruit:SMA_EDGELAUNCH_UFL"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -124407,7 +124379,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TFT_2.83IN_240X320_50PIN"
+	(property "Footprint" "PCM_Adafruit:TFT_2.83IN_240X320_50PIN"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -125221,7 +125193,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TFT_CTP28"
+	(property "Footprint" "PCM_Adafruit:TFT_CTP28"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -125987,7 +125959,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TFT_2.83IN_240X320_50PIN"
+	(property "Footprint" "PCM_Adafruit:TFT_2.83IN_240X320_50PIN"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -126753,7 +126725,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PROTRINKET"
+	(property "Footprint" "PCM_Adafruit:PROTRINKET"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -127098,7 +127070,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:ESP-12"
+	(property "Footprint" "PCM_Adafruit:ESP-12"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -127363,7 +127335,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SIM800L"
+	(property "Footprint" "PCM_Adafruit:SIM800L"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -128182,7 +128154,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:SIM900_SMT"
+	(property "Footprint" "PCM_Adafruit:SIM900_SMT"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -128980,7 +128952,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:PUSHBUTTON_SMD_SJ"
+	(property "Footprint" "PCM_Adafruit:PUSHBUTTON_SMD_SJ"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -129058,7 +129030,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:TACT_PANA-EVQ"
+	(property "Footprint" "PCM_Adafruit:TACT_PANA-EVQ"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -129136,7 +129108,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:BTN_CK_KSS"
+	(property "Footprint" "PCM_Adafruit:BTN_CK_KSS"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -129214,7 +129186,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:FEATHERWING"
+	(property "Footprint" "PCM_Adafruit:FEATHERWING"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -129612,7 +129584,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:FEATHERWING_DIM"
+	(property "Footprint" "PCM_Adafruit:FEATHERWING_DIM"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -130010,7 +129982,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:WS2812B"
+	(property "Footprint" "PCM_Adafruit:WS2812B"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -130243,7 +130215,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:WS2812B-NARROW"
+	(property "Footprint" "PCM_Adafruit:WS2812B-NARROW"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)
@@ -130476,7 +130448,7 @@
 		(at 0 10.16 0)
 		(effects (font (size 1.27 1.27)))
 	)
-	(property "Footprint" "Adafruit:LED3535"
+	(property "Footprint" "PCM_Adafruit:LED3535"
 		(at 0 7.62 0)
 		(effects (font (size 1.27 1.27)) (hide yes))
 	)

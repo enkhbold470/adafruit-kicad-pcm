@@ -3,16 +3,74 @@ Adafruit KiCad Library — PCM add-on
 
 LIBRARY CONTENT
 ---------------
-The schematic symbols and footprints distributed by this package are derived
-from the Adafruit EAGLE Library:
+Two Adafruit sources are redistributed here, both © Adafruit Industries.
 
-    Copyright (c) Adafruit Industries
+1. The Adafruit EAGLE Library (symbols and footprints in the "Adafruit"
+   library):
+
     Source:  https://github.com/adafruit/Adafruit-Eagle-Library
-    License: Creative Commons Attribution-ShareAlike 4.0 International
-             (CC-BY-SA-4.0)
-             https://creativecommons.org/licenses/by-sa/4.0/
+             adafruit.lbr at commit 4abf84c3 (2015-12-07), the current HEAD
+    License: the repository carries no license file; its GitHub description
+             states that the library is released into the public domain and
+             asks that the author e-mail / URL be kept in part descriptions.
+             Part descriptions are carried over verbatim.
 
-Redistributed under the same CC-BY-SA-4.0 terms, as ShareAlike requires.
+2. EAGLE board files for individual products (the "Adafruit_Boards" library
+   is derived from these), each from its own repository at the commit pinned
+   in tools/boards.json:
+
+    adafruit/Adafruit-TCS3448-14-Channel-Light-Color-Sensor-Breakout-PCB @ ff0a1a5f90e6
+        "Adafruit TCS3448 14-Channel Light Color Sensor Breakout rev E.brd"
+    adafruit/Adafruit-TSL2585-Digital-UVA-and-Ambient-Light-Sensor-PCB @ 44dec43c6e09
+        "Adafruit TSL2585 Digital UVA and Ambient Light Sensor - STEMMA QT.brd"
+    adafruit/Adafruit-TMF8801-Time-of-Flight-Distance-Sensor-PCB @ 274138c35563
+        "Adafruit TMF8801 Time of Flight Sensor rev B.brd"
+    adafruit/Adafruit-GP8403-Breakout-Board-PCB @ e1326df4fb03
+        "Adafruit GP8403 Breakout Board rev B.brd"
+    adafruit/Adafruit-SCD-4x-PCB @ c83995482b4c
+        "Adafruit SCD43 rev A.brd"
+    adafruit/Adafruit-SCD-4x-PCB @ c83995482b4c
+        "Adafruit SCD-41.brd"
+    adafruit/Adafruit-TMF8806-Time-of-Flight-Distance-Sensor-PCB @ 00602b9a3252
+        "Adafruit TMF8806 Time of Flight Sensor rev B.brd"
+    adafruit/Adafruit-MAX44009-Lux-Light-Sensor-PCB @ 8105e22700e7
+        "Adafruit MAX44009 Lux Light Sensor.brd"
+    adafruit/Adafruit-Terminal-Block-BFF-PCB @ 6e2c47d43d37
+        "Adafruit Terminal Block BFF.brd"
+    adafruit/Adafruit-ADS7128-8-Channel-ADC-and-GPIO-Expander-PCB @ ecc6fd2b2e97
+        "Adafruit ADS7128 8-Channel ADC and GPIO Expander.brd"
+    adafruit/Adafruit-VCNL4030-Proximity-and-Lux-Sensor-PCB @ 2cb43e92b399
+        "Adafruit VCNL4030 Proximity and Lux Breakout.brd"
+    adafruit/Adafruit-TMAG5273-3D-Hall-Effect-Magnetometer-Breakout-PCB @ 543c3c93357a
+        "Adafruit TMAG5273A2 3D Hall Effect Magnetometer Breakout.brd"
+    adafruit/Adafruit-TMAG5273-3D-Hall-Effect-Magnetometer-Breakout-PCB @ 543c3c93357a
+        "Adafruit TMAG5273A1 3D Hall Effect Magnetometer Breakout.brd"
+    adafruit/Adafruit-TMP119-Temperature-Sensor-PCB @ fe8ae26b0f83
+        "Adafruit TMP119 Temperature Sensor.brd"
+    adafruit/Adafruit-TCS3430-Ambient-Tri-Stimulus-Color-Sensor-PCB @ 66a56ff8cdb4
+        "Adafruit TCS3430 Ambient Tri-Stimulus Color Sensor.brd"
+    adafruit/Adafruit-STCC4-and-SHT41-CO2-Temperature-and-Humidity-Sensor-PCB @ 3bf8a8ea4042
+        "Adafruit STCC4 and SHT41 CO2 Temperature and Humidity Sensor.brd"
+    adafruit/Adafruit-AS7343-14-Channel-Light-Color-Sensor-PCB @ ce4bb797425e
+        "Adafruit AS7343 14 Channel Light Color Sensor Breakout.brd"
+    adafruit/Adafruit-AS7331-UV-UVA-UVB-UVC-Sensor-PCB @ 3e07d4ead4e0
+        "Adafruit AS7331 UV UVA UVB UVC Sensor.brd"
+    adafruit/Adafruit-MatrixPortal-S3-PCB @ 1ff841b511d7
+        "Adafruit MatrixPortal S3.brd"
+    adafruit/Adafruit-APDS9999-Proximity-Light-and-Color-Sensor-PCB @ 0f0fc27bab6c
+        "Adafruit APDS9999 Proximity Light Color Sensor.brd"
+    adafruit/Adafruit-SGP41-Gas-Sensor-Breakout-PCB @ 9c8e8c6d195e
+        "Adafruit SGP41 Gas Sensor Breakout rev A.brd"
+    adafruit/Adafruit-ADS122C04-24-Bit-ADC-PCB @ bb60e307305d
+        "Adafruit ADS122C04 24-Bit ADC.brd"
+
+    License: each repository ships license.txt, Creative Commons
+             Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0),
+             https://creativecommons.org/licenses/by-sa/3.0/
+
+This package is distributed under CC BY-SA 4.0, which section 4(b) of
+CC BY-SA 3.0 permits for adaptations ("a later version of this License with
+the same License Elements").
 
 STATEMENT OF MODIFICATIONS
 --------------------------
@@ -29,6 +87,13 @@ made to the original material:
   * Octagonal pads were converted to circular pads; KiCad has no octagon pad
     primitive.
   * Copper keepout geometry on EAGLE layers 41, 42 and 43 was dropped.
+  * From each product board file, tools/brd2module.py extracted only the
+    board outline, mounting holes, non-plated holes, the through-hole pads of
+    header and terminal-block packages, and connector outlines, and wrote them
+    as one KiCad footprint centred on the outline; pads were renumbered 1..N
+    with the original net name kept as the pad's pin function. A schematic
+    symbol with the same pin numbers and names was generated from that list.
+    All other board content (components, copper, silkscreen) was omitted.
   * No part was redrawn, retuned or dimensionally altered by hand.
 
 This derivative was not produced by, reviewed by, or endorsed by Adafruit

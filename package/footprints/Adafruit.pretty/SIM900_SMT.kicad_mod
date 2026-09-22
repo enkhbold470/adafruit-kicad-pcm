@@ -14,7 +14,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:SIM900_SMT"
+	(property "Footprint" "PCM_Adafruit:SIM900_SMT"
 		(at -11.4300 -13.9700 0)
 		(layer "F.Fab")
 		(hide yes)

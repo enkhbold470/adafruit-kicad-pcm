@@ -39,7 +39,10 @@ stats = Counter()
 
 
 def q(s):
-    return '"' + str(s).replace("\\", "\\\\").replace('"', '\\"') + '"'
+    """Quote for an s-expression. KiCad's lexer rejects a raw newline inside a
+    quoted string, so it has to be escaped along with backslash and quote."""
+    s = str(s).replace("\\", "\\\\").replace('"', '\\"')
+    return '"' + s.replace("\r\n", "\\n").replace("\n", "\\n").replace("\r", "\\n") + '"'
 
 
 def num(v, default=0.0):
@@ -84,7 +87,7 @@ def arc_mid(p1, p2, curve):
 
 
 # --------------------------------------------------------------- footprints
-def convert_package(pkg, prefix):
+def convert_package(pkg, prefix, nickname):
     name = safe(pkg.get("name"))
     out = [f'(footprint {q(name)}',
            '\t(version 20240108)',
@@ -114,7 +117,7 @@ def convert_package(pkg, prefix):
 
     for key, val, layer, hide in (("Reference", "REF**", "F.SilkS", False),
                                   ("Value", name, "F.Fab", False),
-                                  ("Footprint", f"{prefix}:{name}", "F.Fab", True),
+                                  ("Footprint", f"{nickname}:{name}", "F.Fab", True),
                                   ("Datasheet", "", "F.Fab", True),
                                   ("Description", descr[:300], "F.Fab", True)):
         at = ref_at if key == "Reference" else val_at
@@ -335,7 +338,7 @@ def symbol_body(sym_el, unit, pad_of, sym_name):
     return blocks
 
 
-def convert_deviceset(ds, symbols, prefix, used):
+def convert_deviceset(ds, symbols, nickname, used):
     gates = ds.findall("gates/gate")
     devices = ds.findall("devices/device")
     if not gates:
@@ -379,11 +382,9 @@ def convert_deviceset(ds, symbols, prefix, used):
                 f'\t(exclude_from_sim no)',
                 f'\t(in_bom yes)',
                 f'\t(on_board yes)']
-        if unit > 1:
-            head.insert(1, "\t(unit_name_hidden no)")
         props = [("Reference", ds.get("prefix") or "U", False),
                  ("Value", name, False),
-                 ("Footprint", f"{prefix}:{pkg_name}" if pkg_name else "", True),
+                 ("Footprint", f"{nickname}:{pkg_name}" if pkg_name else "", True),
                  ("Datasheet", "https://github.com/adafruit/Adafruit-Eagle-Library", True),
                  ("Description", descr[:500], True)]
         for i, (key, val, hide) in enumerate(props):
@@ -406,7 +407,11 @@ def main():
     ap.add_argument("lbr")
     ap.add_argument("outdir")
     ap.add_argument("--prefix", default="Adafruit")
+    ap.add_argument("--nickname", help="library nickname written into Footprint "
+                    "links; the PCM registers a library as PCM_<name> "
+                    "(default: PCM_<prefix>)")
     a = ap.parse_args()
+    nickname = a.nickname or f"PCM_{a.prefix}"
 
     lib = ET.parse(a.lbr).getroot().find(".//library")
     out = Path(a.outdir)
@@ -416,7 +421,7 @@ def main():
 
     seen = set()
     for pkg in lib.findall("packages/package"):
-        name, text = convert_package(pkg, a.prefix)
+        name, text = convert_package(pkg, a.prefix, nickname)
         if name in seen:
             stats["duplicate footprint names skipped"] += 1
             continue
@@ -427,7 +432,7 @@ def main():
     symbols = {s.get("name"): s for s in lib.findall("symbols/symbol")}
     used, blocks = set(), []
     for ds in lib.findall("devicesets/deviceset"):
-        blocks += convert_deviceset(ds, symbols, a.prefix, used)
+        blocks += convert_deviceset(ds, symbols, nickname, used)
 
     lib_text = ("(kicad_symbol_lib\n\t(version 20231120)\n"
                 '\t(generator "eagle2kicad")\n\t(generator_version "8.0")\n'

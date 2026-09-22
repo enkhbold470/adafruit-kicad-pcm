@@ -15,7 +15,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:TO92-INLINE"
+	(property "Footprint" "PCM_Adafruit:TO92-INLINE"
 		(at 3.1750 1.2700 0)
 		(layer "F.Fab")
 		(hide yes)

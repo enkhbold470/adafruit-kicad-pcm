@@ -14,7 +14,7 @@
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
-	(property "Footprint" "Adafruit:THUMBWHEEL"
+	(property "Footprint" "PCM_Adafruit:THUMBWHEEL"
 		(at -3.1000 2.6000 0)
 		(layer "F.Fab")
 		(hide yes)
