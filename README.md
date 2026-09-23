@@ -190,6 +190,13 @@ between machines, so build and upload from the same checkout.
 
 ## Changelog
 
+**1.1.1**
+
+- Generated output is now byte-identical across platforms: the converters
+  fold negative zero (`-0.0000`, which libm noise or an EAGLE `0` mirrored in
+  Y can produce) to `0.0000`. Library content is unchanged; this only makes
+  CI's "committed output matches the tools" check reproducible on Linux.
+
 **1.1.0**
 
 - New `Adafruit_Boards` library: 22 module footprints and symbols for the

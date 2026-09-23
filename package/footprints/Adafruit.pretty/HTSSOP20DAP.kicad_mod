@@ -196,7 +196,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "EXP" smd rect
-		(at 0.0000 -0.0000 0)
+		(at 0.0000 0.0000 0)
 		(size 6.5000 3.4000)
 		(layers "F.Cu")
 	)

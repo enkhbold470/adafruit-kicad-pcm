@@ -49,7 +49,7 @@
 		(stroke (width 0.1270) (type solid)) (fill solid) (layer "B.Cu")
 	)
 	(pad "TAP" thru_hole circle
-		(at 0.0000 -0.0000 0)
+		(at 0.0000 0.0000 0)
 		(size 2.1844 2.1844) (drill 1.2000)
 		(layers "*.Cu" "*.Mask")
 	)

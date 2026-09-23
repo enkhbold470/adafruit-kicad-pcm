@@ -45,6 +45,14 @@ def q(s):
     return '"' + s.replace("\r\n", "\\n").replace("\n", "\\n").replace("\r", "\\n") + '"'
 
 
+def f4(v):
+    """Coordinate text with 4 decimals. -0.0000 (an EAGLE 0 mirrored in Y, or
+    libm noise of 1e-17 from an arc midpoint) becomes 0.0000, so the output
+    is byte-identical on every platform."""
+    s = f"{v:.4f}"
+    return "0.0000" if s == "-0.0000" else s
+
+
 def num(v, default=0.0):
     try:
         return float(v)
@@ -122,7 +130,7 @@ def convert_package(pkg, prefix, nickname):
                                   ("Description", descr[:300], "F.Fab", True)):
         at = ref_at if key == "Reference" else val_at
         out.append(f'\t(property {q(key)} {q(val)}')
-        out.append(f'\t\t(at {at[0]:.4f} {at[1]:.4f} {at[2]:.0f})')
+        out.append(f'\t\t(at {f4(at[0])} {f4(at[1])} {at[2]:.0f})')
         out.append(f'\t\t(layer {q(layer)})')
         if hide or key in ("Footprint", "Datasheet", "Description"):
             out.append("\t\t(hide yes)")
@@ -131,7 +139,7 @@ def convert_package(pkg, prefix, nickname):
 
     for txt, pos, size, layer in free:
         out.append(f'\t(fp_text user {q(txt)}')
-        out.append(f'\t\t(at {pos[0]:.4f} {pos[1]:.4f} {pos[2]:.0f})')
+        out.append(f'\t\t(at {f4(pos[0])} {f4(pos[1])} {pos[2]:.0f})')
         out.append(f'\t\t(layer {q(layer)})')
         out.append(f'\t\t(effects (font (size {size:.3f} {size:.3f}) '
                    f'(thickness {size * 0.15:.3f})))')
@@ -149,12 +157,12 @@ def convert_package(pkg, prefix, nickname):
         if curve:
             # Y was negated, so the arc's sense reverses.
             mx, my = arc_mid(p1, p2, -curve)
-            out.append(f'\t(fp_arc (start {p1[0]:.4f} {p1[1]:.4f}) '
-                       f'(mid {mx:.4f} {my:.4f}) (end {p2[0]:.4f} {p2[1]:.4f})')
+            out.append(f'\t(fp_arc (start {f4(p1[0])} {f4(p1[1])}) '
+                       f'(mid {f4(mx)} {f4(my)}) (end {f4(p2[0])} {f4(p2[1])})')
         else:
-            out.append(f'\t(fp_line (start {p1[0]:.4f} {p1[1]:.4f}) '
-                       f'(end {p2[0]:.4f} {p2[1]:.4f})')
-        out.append(f'\t\t(stroke (width {width:.4f}) (type solid)) (layer {q(layer)})')
+            out.append(f'\t(fp_line (start {f4(p1[0])} {f4(p1[1])}) '
+                       f'(end {f4(p2[0])} {f4(p2[1])})')
+        out.append(f'\t\t(stroke (width {f4(width)}) (type solid)) (layer {q(layer)})')
         out.append("\t)")
 
     for r in pkg.findall("rectangle"):
@@ -164,7 +172,7 @@ def convert_package(pkg, prefix, nickname):
             continue
         x1, x2 = sorted((num(r.get("x1")), num(r.get("x2"))))
         y1, y2 = sorted((-num(r.get("y1")), -num(r.get("y2"))))
-        out.append(f'\t(fp_rect (start {x1:.4f} {y1:.4f}) (end {x2:.4f} {y2:.4f})')
+        out.append(f'\t(fp_rect (start {f4(x1)} {f4(y1)}) (end {f4(x2)} {f4(y2)})')
         out.append(f'\t\t(stroke (width 0.05) (type solid)) (fill solid) '
                    f'(layer {q(layer)})')
         out.append("\t)")
@@ -179,9 +187,9 @@ def convert_package(pkg, prefix, nickname):
         fill = "solid" if width == 0 else "none"
         if width == 0:
             rad, width = rad, 0.05
-        out.append(f'\t(fp_circle (center {cx:.4f} {cy:.4f}) '
-                   f'(end {cx + rad:.4f} {cy:.4f})')
-        out.append(f'\t\t(stroke (width {max(width, 0.01):.4f}) (type solid)) '
+        out.append(f'\t(fp_circle (center {f4(cx)} {f4(cy)}) '
+                   f'(end {f4(cx + rad)} {f4(cy)})')
+        out.append(f'\t\t(stroke (width {f4(max(width, 0.01))}) (type solid)) '
                    f'(fill {fill}) (layer {q(layer)})')
         out.append("\t)")
 
@@ -191,8 +199,8 @@ def convert_package(pkg, prefix, nickname):
         if not layer or len(pts) < 3:
             continue
         out.append("\t(fp_poly")
-        out.append("\t\t(pts " + " ".join(f"(xy {x:.4f} {y:.4f})" for x, y in pts) + ")")
-        out.append(f'\t\t(stroke (width {max(num(p.get("width"), 0.05), 0.01):.4f}) '
+        out.append("\t\t(pts " + " ".join(f"(xy {f4(x)} {f4(y)})" for x, y in pts) + ")")
+        out.append(f'\t\t(stroke (width {f4(max(num(p.get("width"), 0.05), 0.01))}) '
                    f'(type solid)) (fill solid) (layer {q(layer)})')
         out.append("\t)")
 
@@ -205,7 +213,7 @@ def convert_package(pkg, prefix, nickname):
             extra = ""
         elif roundness > 0:
             shape = "roundrect"
-            extra = f" (roundrect_rratio {roundness / 200:.4f})"
+            extra = f" (roundrect_rratio {f4(roundness / 200)})"
         else:
             shape = "rect"
             extra = ""
@@ -215,9 +223,9 @@ def convert_package(pkg, prefix, nickname):
         if s.get("stop") != "no":
             layers.append("B.Mask" if back else "F.Mask")
         out.append(f'\t(pad {q(s.get("name") or "")} smd {shape}')
-        out.append(f'\t\t(at {num(s.get("x")):.4f} {-num(s.get("y")):.4f} '
+        out.append(f'\t\t(at {f4(num(s.get("x")))} {f4(-num(s.get("y")))} '
                    f'{rot_of(s):.0f})')
-        out.append(f'\t\t(size {dx:.4f} {dy:.4f})')
+        out.append(f'\t\t(size {f4(dx)} {f4(dy)})')
         out.append("\t\t(layers " + " ".join(q(l) for l in layers) + ")" + extra)
         out.append("\t)")
         stats["smd pads"] += 1
@@ -236,9 +244,9 @@ def convert_package(pkg, prefix, nickname):
             if shp == "octagon":
                 stats["octagon pads mapped to circle"] += 1
         out.append(f'\t(pad {q(p.get("name") or "")} thru_hole {shape}')
-        out.append(f'\t\t(at {num(p.get("x")):.4f} {-num(p.get("y")):.4f} '
+        out.append(f'\t\t(at {f4(num(p.get("x")))} {f4(-num(p.get("y")))} '
                    f'{rot_of(p):.0f})')
-        out.append(f'\t\t(size {size[0]:.4f} {size[1]:.4f}) (drill {drill:.4f})')
+        out.append(f'\t\t(size {f4(size[0])} {f4(size[1])}) (drill {f4(drill)})')
         out.append('\t\t(layers "*.Cu" "*.Mask")')
         out.append("\t)")
         stats["through-hole pads"] += 1
@@ -246,8 +254,8 @@ def convert_package(pkg, prefix, nickname):
     for h in pkg.findall("hole"):
         drill = num(h.get("drill"), 1.0)
         out.append('\t(pad "" np_thru_hole circle')
-        out.append(f'\t\t(at {num(h.get("x")):.4f} {-num(h.get("y")):.4f})')
-        out.append(f'\t\t(size {drill:.4f} {drill:.4f}) (drill {drill:.4f})')
+        out.append(f'\t\t(at {f4(num(h.get("x")))} {f4(-num(h.get("y")))})')
+        out.append(f'\t\t(size {f4(drill)} {f4(drill)}) (drill {f4(drill)})')
         out.append('\t\t(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")')
         out.append("\t)")
 
@@ -266,32 +274,32 @@ def symbol_body(sym_el, unit, pad_of, sym_name):
         curve = num(w.get("curve"))
         if curve:
             mx, my = arc_mid((x1, y1), (x2, y2), curve)
-            g.append(f'\t\t(arc (start {x1:.4f} {y1:.4f}) (mid {mx:.4f} {my:.4f}) '
-                     f'(end {x2:.4f} {y2:.4f})\n'
-                     f'\t\t\t(stroke (width {width:.4f}) (type default)) '
+            g.append(f'\t\t(arc (start {f4(x1)} {f4(y1)}) (mid {f4(mx)} {f4(my)}) '
+                     f'(end {f4(x2)} {f4(y2)})\n'
+                     f'\t\t\t(stroke (width {f4(width)}) (type default)) '
                      f'(fill (type none))\n\t\t)')
         else:
-            g.append(f'\t\t(polyline\n\t\t\t(pts (xy {x1:.4f} {y1:.4f}) '
-                     f'(xy {x2:.4f} {y2:.4f}))\n'
-                     f'\t\t\t(stroke (width {width:.4f}) (type default)) '
+            g.append(f'\t\t(polyline\n\t\t\t(pts (xy {f4(x1)} {f4(y1)}) '
+                     f'(xy {f4(x2)} {f4(y2)}))\n'
+                     f'\t\t\t(stroke (width {f4(width)}) (type default)) '
                      f'(fill (type none))\n\t\t)')
     for r in sym_el.findall("rectangle"):
         x1, x2 = sorted((num(r.get("x1")), num(r.get("x2"))))
         y1, y2 = sorted((num(r.get("y1")), num(r.get("y2"))))
-        g.append(f'\t\t(rectangle (start {x1:.4f} {y1:.4f}) (end {x2:.4f} {y2:.4f})\n'
+        g.append(f'\t\t(rectangle (start {f4(x1)} {f4(y1)}) (end {f4(x2)} {f4(y2)})\n'
                  f'\t\t\t(stroke (width 0.254) (type default)) '
                  f'(fill (type background))\n\t\t)')
     for c in sym_el.findall("circle"):
         width = num(c.get("width"), 0.254)
-        g.append(f'\t\t(circle (center {num(c.get("x")):.4f} {num(c.get("y")):.4f}) '
-                 f'(radius {num(c.get("radius")):.4f})\n'
-                 f'\t\t\t(stroke (width {max(width, 0.01):.4f}) (type default)) '
+        g.append(f'\t\t(circle (center {f4(num(c.get("x")))} {f4(num(c.get("y")))}) '
+                 f'(radius {f4(num(c.get("radius")))})\n'
+                 f'\t\t\t(stroke (width {f4(max(width, 0.01))}) (type default)) '
                  f'(fill (type {"background" if width == 0 else "none"}))\n\t\t)')
     for poly in sym_el.findall("polygon"):
         pts = [(num(v.get("x")), num(v.get("y"))) for v in poly.findall("vertex")]
         if len(pts) >= 3:
             g.append("\t\t(polyline\n\t\t\t(pts " +
-                     " ".join(f"(xy {x:.4f} {y:.4f})" for x, y in pts) + ")\n"
+                     " ".join(f"(xy {f4(x)} {f4(y)})" for x, y in pts) + ")\n"
                      '\t\t\t(stroke (width 0.254) (type default)) '
                      "(fill (type background))\n\t\t)")
     for t in sym_el.findall("text"):
@@ -299,8 +307,8 @@ def symbol_body(sym_el, unit, pad_of, sym_name):
         if txt in (">NAME", ">VALUE", ""):
             continue
         size = max(num(t.get("size"), 1.27), 0.5)
-        g.append(f'\t\t(text {q(txt)} (at {num(t.get("x")):.4f} '
-                 f'{num(t.get("y")):.4f} 0)\n'
+        g.append(f'\t\t(text {q(txt)} (at {f4(num(t.get("x")))} '
+                 f'{f4(num(t.get("y")))} 0)\n'
                  f'\t\t\t(effects (font (size {size:.3f} {size:.3f})))\n\t\t)')
 
     seen = Counter()
@@ -321,9 +329,9 @@ def symbol_body(sym_el, unit, pad_of, sym_name):
         p.append(
             f'\t\t(pin {ELEC.get(pin.get("direction"), "passive")} '
             f'{SHAPE.get(pin.get("function"), "line")}\n'
-            f'\t\t\t(at {num(pin.get("x")):.4f} {num(pin.get("y")):.4f} '
+            f'\t\t\t(at {f4(num(pin.get("x")))} {f4(num(pin.get("y")))} '
             f'{rot_of(pin):.0f})\n'
-            f'\t\t\t(length {PIN_LEN.get(pin.get("length"), 2.54):.4f})\n'
+            f'\t\t\t(length {f4(PIN_LEN.get(pin.get("length"), 2.54))})\n'
             f'\t\t\t(name {q(pname)}\n\t\t\t\t(effects (font (size 1.27 1.27))'
             f'{hide_name})\n\t\t\t)\n'
             f'\t\t\t(number {q(number)}\n\t\t\t\t(effects (font (size 1.27 1.27))'

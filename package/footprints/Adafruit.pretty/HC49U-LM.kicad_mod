@@ -11,24 +11,24 @@
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
 	(property "Value" "HC49U-LM"
-		(at -4.5720 -0.0000 0)
+		(at -4.5720 0.0000 0)
 		(layer "F.Fab")
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
 	(property "Footprint" "PCM_Adafruit:HC49U-LM"
-		(at -4.5720 -0.0000 0)
+		(at -4.5720 0.0000 0)
 		(layer "F.Fab")
 		(hide yes)
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
 	(property "Datasheet" ""
-		(at -4.5720 -0.0000 0)
+		(at -4.5720 0.0000 0)
 		(layer "F.Fab")
 		(hide yes)
 		(effects (font (size 1 1) (thickness 0.15)))
 	)
 	(property "Description" "CRYSTAL"
-		(at -4.5720 -0.0000 0)
+		(at -4.5720 0.0000 0)
 		(layer "F.Fab")
 		(hide yes)
 		(effects (font (size 1 1) (thickness 0.15)))

@@ -87,21 +87,21 @@
 		(stroke (width 0.1270) (type solid)) (layer "F.SilkS")
 	)
 	(fp_poly
-		(pts (xy -7.6200 -0.0000) (xy 0.0000 7.6200) (xy 7.6200 -0.0000) (xy 0.0000 -7.6200))
+		(pts (xy -7.6200 0.0000) (xy 0.0000 7.6200) (xy 7.6200 0.0000) (xy 0.0000 -7.6200))
 		(stroke (width 0.1270) (type solid)) (fill solid) (layer "F.Mask")
 	)
 	(pad "-" smd oval
-		(at 0.0000 -0.0000 0)
+		(at 0.0000 0.0000 0)
 		(size 10.1600 10.1600)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "+1" thru_hole circle
-		(at -10.6680 -0.0000 0)
+		(at -10.6680 0.0000 0)
 		(size 3.8100 3.8100) (drill 2.0000)
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "+2" thru_hole circle
-		(at 10.6680 -0.0000 0)
+		(at 10.6680 0.0000 0)
 		(size 3.8100 3.8100) (drill 2.0000)
 		(layers "*.Cu" "*.Mask")
 	)

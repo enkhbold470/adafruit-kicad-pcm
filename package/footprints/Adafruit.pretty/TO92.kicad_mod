@@ -61,7 +61,7 @@
 		(stroke (width 0.1524) (type solid)) (layer "F.Fab")
 	)
 	(pad "1" thru_hole circle
-		(at -1.2700 -0.0000 0)
+		(at -1.2700 0.0000 0)
 		(size 1.6764 1.6764) (drill 0.8128)
 		(layers "*.Cu" "*.Mask")
 	)
@@ -71,7 +71,7 @@
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "3" thru_hole circle
-		(at 1.2700 -0.0000 0)
+		(at 1.2700 0.0000 0)
 		(size 1.6764 1.6764) (drill 0.8128)
 		(layers "*.Cu" "*.Mask")
 	)

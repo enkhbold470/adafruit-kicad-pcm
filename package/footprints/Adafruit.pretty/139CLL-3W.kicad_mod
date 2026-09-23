@@ -112,12 +112,12 @@
 		(stroke (width 0.05) (type solid)) (fill solid) (layer "F.Fab")
 	)
 	(pad "+" smd roundrect
-		(at 7.1500 -0.0000 0)
+		(at 7.1500 0.0000 0)
 		(size 4.3000 6.0000)
 		(layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2500)
 	)
 	(pad "-" smd roundrect
-		(at -7.1500 -0.0000 0)
+		(at -7.1500 0.0000 0)
 		(size 4.3000 6.0000)
 		(layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2500)
 	)

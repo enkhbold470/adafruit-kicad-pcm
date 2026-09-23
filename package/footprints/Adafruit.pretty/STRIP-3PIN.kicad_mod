@@ -37,17 +37,17 @@
 		(stroke (width 0.1270) (type solid)) (fill solid) (layer "F.Cu")
 	)
 	(pad "" np_thru_hole circle
-		(at 0.0000 -0.0000)
+		(at 0.0000 0.0000)
 		(size 1.0000 1.0000) (drill 1.0000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at -2.5400 -0.0000)
+		(at -2.5400 0.0000)
 		(size 1.0000 1.0000) (drill 1.0000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at 2.5400 -0.0000)
+		(at 2.5400 0.0000)
 		(size 1.0000 1.0000) (drill 1.0000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)

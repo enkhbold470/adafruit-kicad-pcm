@@ -103,7 +103,7 @@
 	(fp_rect (start -1.5000 1.5000) (end 1.5000 3.2000)
 		(stroke (width 0.05) (type solid)) (fill solid) (layer "F.Mask")
 	)
-	(fp_circle (center 0.0000 -0.0000) (end 1.1000 -0.0000)
+	(fp_circle (center 0.0000 0.0000) (end 1.1000 0.0000)
 		(stroke (width 0.2032) (type solid)) (fill none) (layer "F.SilkS")
 	)
 	(pad "C" smd rect
@@ -117,7 +117,7 @@
 		(layers "F.Cu")
 	)
 	(pad "" np_thru_hole circle
-		(at 0.0000 -0.0000)
+		(at 0.0000 0.0000)
 		(size 2.8000 2.8000) (drill 2.8000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)

@@ -81,12 +81,12 @@
 		(stroke (width 0.1270) (type solid)) (layer "F.SilkS")
 	)
 	(pad "P$1" smd rect
-		(at 2.0000 -0.0000 0)
+		(at 2.0000 0.0000 0)
 		(size 2.0000 2.4000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "P$2" smd rect
-		(at -2.0000 -0.0000 180)
+		(at -2.0000 0.0000 180)
 		(size 2.0000 2.4000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)

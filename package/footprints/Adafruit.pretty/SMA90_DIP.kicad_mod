@@ -219,7 +219,7 @@
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "ANTENNA" thru_hole circle
-		(at 0.0000 -0.0000 0)
+		(at 0.0000 0.0000 0)
 		(size 2.5400 2.5400) (drill 1.5000)
 		(layers "*.Cu" "*.Mask")
 	)

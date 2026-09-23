@@ -35,6 +35,15 @@
       ],
       "versions": [
         {
+          "version": "1.1.1",
+          "status": "testing",
+          "kicad_version": "8.0",
+          "download_url": "https://github.com/enkhbold470/adafruit-kicad-pcm/releases/download/v1.1.1/adafruit-kicad-library-1.1.1.zip",
+          "download_sha256": "d8947f18173e001d290184ac9fe3f859f5284a85c183fb74b99c82045ef3c2af",
+          "download_size": 828396,
+          "install_size": 7701032
+        },
+        {
           "version": "1.1.0",
           "status": "testing",
           "kicad_version": "8.0",

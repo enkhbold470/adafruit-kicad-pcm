@@ -66,17 +66,17 @@
 		(stroke (width 0.1270) (type solid)) (layer "F.SilkS")
 	)
 	(pad "1" thru_hole oval
-		(at -2.5400 -0.0000 90)
+		(at -2.5400 0.0000 90)
 		(size 2.5256 1.2628) (drill 0.8128)
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "3" thru_hole oval
-		(at 2.5400 -0.0000 90)
+		(at 2.5400 0.0000 90)
 		(size 2.5256 1.2628) (drill 0.8128)
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "2" thru_hole oval
-		(at 0.0000 -0.0000 90)
+		(at 0.0000 0.0000 90)
 		(size 2.5256 1.2628) (drill 0.8128)
 		(layers "*.Cu" "*.Mask")
 	)

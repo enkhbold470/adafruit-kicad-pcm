@@ -70,10 +70,10 @@
 	(fp_line (start 0.0000 -4.8260) (end -0.5080 -4.3180)
 		(stroke (width 0.1270) (type solid)) (layer "F.SilkS")
 	)
-	(fp_circle (center 0.0000 -0.0000) (end 6.0973 -0.0000)
+	(fp_circle (center 0.0000 0.0000) (end 6.0973 0.0000)
 		(stroke (width 0.1270) (type solid)) (fill none) (layer "F.SilkS")
 	)
-	(fp_circle (center 0.0000 -0.0000) (end 6.8580 -0.0000)
+	(fp_circle (center 0.0000 0.0000) (end 6.8580 0.0000)
 		(stroke (width 0.1270) (type solid)) (fill none) (layer "F.SilkS")
 	)
 	(pad "17" thru_hole circle

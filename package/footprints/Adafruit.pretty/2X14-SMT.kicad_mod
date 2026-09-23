@@ -185,12 +185,12 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at -15.2400 -0.0000)
+		(at -15.2400 0.0000)
 		(size 1.0000 1.0000) (drill 1.0000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at 15.2400 -0.0000)
+		(at 15.2400 0.0000)
 		(size 1.0000 1.0000) (drill 1.0000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)

@@ -56,7 +56,7 @@
 	(fp_circle (center 2.9340 2.6880) (end 3.0754 2.6880)
 		(stroke (width 0.1270) (type solid)) (fill none) (layer "F.SilkS")
 	)
-	(fp_circle (center 0.0000 -0.0000) (end 2.1000 -0.0000)
+	(fp_circle (center 0.0000 0.0000) (end 2.1000 0.0000)
 		(stroke (width 0.1270) (type solid)) (fill none) (layer "F.SilkS")
 	)
 	(pad "NC" smd rect
@@ -65,7 +65,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "LEDVDD" smd rect
-		(at -2.0000 -0.0000 0)
+		(at -2.0000 0.0000 0)
 		(size 2.0000 1.1000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
@@ -80,7 +80,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "DI" smd rect
-		(at 2.0000 -0.0000 0)
+		(at 2.0000 0.0000 0)
 		(size 2.0000 1.1000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)

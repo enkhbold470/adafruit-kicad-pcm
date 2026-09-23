@@ -118,7 +118,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "P$9" smd oval
-		(at -12.4000 -0.0000 0)
+		(at -12.4000 0.0000 0)
 		(size 2.0000 0.6000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
@@ -288,7 +288,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "P$43" smd oval
-		(at 12.4000 -0.0000 180)
+		(at 12.4000 0.0000 180)
 		(size 2.0000 0.6000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)

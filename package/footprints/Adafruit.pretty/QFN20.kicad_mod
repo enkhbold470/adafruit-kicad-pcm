@@ -76,7 +76,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "3" smd rect
-		(at -2.0000 -0.0000 0)
+		(at -2.0000 0.0000 0)
 		(size 0.7500 0.3000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
@@ -126,7 +126,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "13" smd rect
-		(at 2.0000 -0.0000 180)
+		(at 2.0000 0.0000 180)
 		(size 0.7500 0.3000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)

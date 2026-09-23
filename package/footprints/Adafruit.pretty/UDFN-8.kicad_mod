@@ -108,7 +108,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "THERM" smd rect
-		(at 0.0000 -0.0000 0)
+		(at 0.0000 0.0000 0)
 		(size 1.5240 1.0160)
 		(layers "F.Cu")
 	)

@@ -63,7 +63,7 @@
 	(fp_line (start -4.4450 0.5080) (end -4.4450 1.5748)
 		(stroke (width 0.1524) (type solid)) (layer "F.SilkS")
 	)
-	(fp_arc (start -4.4450 -0.5080) (mid -3.9370 -0.0000) (end -4.4450 0.5080)
+	(fp_arc (start -4.4450 -0.5080) (mid -3.9370 0.0000) (end -4.4450 0.5080)
 		(stroke (width 0.1524) (type solid)) (layer "F.SilkS")
 	)
 	(fp_line (start -4.4450 1.6002) (end 4.4450 1.6002)

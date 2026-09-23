@@ -318,10 +318,10 @@
 	(fp_rect (start 9.1948 -6.8580) (end 10.0076 0.3810)
 		(stroke (width 0.05) (type solid)) (fill solid) (layer "F.SilkS")
 	)
-	(fp_circle (center -16.6624 -0.0000) (end -15.0114 -0.0000)
+	(fp_circle (center -16.6624 0.0000) (end -15.0114 0.0000)
 		(stroke (width 0.1524) (type solid)) (fill none) (layer "F.SilkS")
 	)
-	(fp_circle (center 16.6624 -0.0000) (end 18.3134 -0.0000)
+	(fp_circle (center 16.6624 0.0000) (end 18.3134 0.0000)
 		(stroke (width 0.1524) (type solid)) (fill none) (layer "F.SilkS")
 	)
 	(pad "1" thru_hole circle
@@ -400,12 +400,12 @@
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at -16.6624 -0.0000)
+		(at -16.6624 0.0000)
 		(size 3.3020 3.3020) (drill 3.3020)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at 16.6624 -0.0000)
+		(at 16.6624 0.0000)
 		(size 3.3020 3.3020) (drill 3.3020)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)

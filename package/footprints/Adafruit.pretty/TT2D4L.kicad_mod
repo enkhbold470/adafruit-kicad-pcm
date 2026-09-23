@@ -80,7 +80,7 @@
 	(fp_line (start -2.1590 -7.7470) (end -2.1590 -1.6510)
 		(stroke (width 0.1524) (type solid)) (layer "F.SilkS")
 	)
-	(fp_arc (start -2.1590 -7.7470) (mid -0.0000 -9.9060) (end 2.1590 -7.7470)
+	(fp_arc (start -2.1590 -7.7470) (mid 0.0000 -9.9060) (end 2.1590 -7.7470)
 		(stroke (width 0.1524) (type solid)) (layer "F.SilkS")
 	)
 	(fp_rect (start -1.6510 -1.0160) (end -0.8890 -0.6350)
@@ -99,12 +99,12 @@
 		(stroke (width 0.05) (type solid)) (fill solid) (layer "F.SilkS")
 	)
 	(pad "-" thru_hole circle
-		(at 1.2700 -0.0000 0)
+		(at 1.2700 0.0000 0)
 		(size 1.6002 1.6002) (drill 0.8128)
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "+" thru_hole circle
-		(at -1.2700 -0.0000 0)
+		(at -1.2700 0.0000 0)
 		(size 1.6002 1.6002) (drill 0.8128)
 		(layers "*.Cu" "*.Mask")
 	)

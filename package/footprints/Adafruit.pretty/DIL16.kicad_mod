@@ -48,7 +48,7 @@
 	(fp_line (start -10.1600 2.9210) (end -10.1600 1.0160)
 		(stroke (width 0.1524) (type solid)) (layer "F.SilkS")
 	)
-	(fp_arc (start -10.1600 -1.0160) (mid -9.1440 -0.0000) (end -10.1600 1.0160)
+	(fp_arc (start -10.1600 -1.0160) (mid -9.1440 0.0000) (end -10.1600 1.0160)
 		(stroke (width 0.1524) (type solid)) (layer "F.SilkS")
 	)
 	(pad "1" thru_hole oval

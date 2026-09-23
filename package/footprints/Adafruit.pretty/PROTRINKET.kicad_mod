@@ -241,7 +241,7 @@
 	(fp_circle (center -6.9850 -25.7810) (end -5.7150 -25.7810)
 		(stroke (width 0.1270) (type solid)) (fill none) (layer "F.Fab")
 	)
-	(fp_circle (center 0.0000 -0.0000) (end 1.2700 -0.0000)
+	(fp_circle (center 0.0000 0.0000) (end 1.2700 0.0000)
 		(stroke (width 0.1270) (type solid)) (fill none) (layer "F.Fab")
 	)
 	(pad "A5" thru_hole circle
@@ -385,7 +385,7 @@
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at 0.0000 -0.0000)
+		(at 0.0000 0.0000)
 		(size 2.2000 2.2000) (drill 2.2000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)

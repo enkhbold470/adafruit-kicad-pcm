@@ -186,7 +186,9 @@ class Board:
 
 
 def fmt(v):
-    return f"{v:.4f}".rstrip("0").rstrip(".") if abs(v) > 1e-9 else "0"
+    """Trimmed 4-decimal text; rounds first so -0.00004 prints as 0, not -0."""
+    v = round(v, 4)
+    return "0" if v == 0 else f"{v:.4f}".rstrip("0").rstrip(".")
 
 
 def line_or_arc(p1, p2, curve, layer, width):

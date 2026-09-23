@@ -84,7 +84,7 @@
 	(fp_rect (start 1.4500 -0.3000) (end 1.8000 0.3000)
 		(stroke (width 0.05) (type solid)) (fill solid) (layer "F.Fab")
 	)
-	(fp_circle (center 0.0000 -0.0000) (end 1.4500 -0.0000)
+	(fp_circle (center 0.0000 0.0000) (end 1.4500 0.0000)
 		(stroke (width 0.1016) (type solid)) (fill none) (layer "F.Fab")
 	)
 	(fp_poly
@@ -92,12 +92,12 @@
 		(stroke (width 0.1016) (type solid)) (fill solid) (layer "F.Fab")
 	)
 	(pad "-" smd rect
-		(at -1.3000 -0.0000 0)
+		(at -1.3000 0.0000 0)
 		(size 2.0000 1.5000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "+" smd rect
-		(at 1.3000 -0.0000 0)
+		(at 1.3000 0.0000 0)
 		(size 2.0000 1.5000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)

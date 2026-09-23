@@ -53,12 +53,12 @@
 		(effects (font (size 1.016 1.016) (thickness 0.152)))
 	)
 	(fp_text user "XL"
-		(at -19.5000 -0.0000 0)
+		(at -19.5000 0.0000 0)
 		(layer "F.Fab")
 		(effects (font (size 1.676 1.676) (thickness 0.251)))
 	)
 	(fp_text user "XR"
-		(at 19.5000 -0.0000 0)
+		(at 19.5000 0.0000 0)
 		(layer "F.Fab")
 		(effects (font (size 1.676 1.676) (thickness 0.251)))
 	)

@@ -247,7 +247,7 @@
 		(layers "F.Cu") (roundrect_rratio 0.1000)
 	)
 	(pad "4" smd roundrect
-		(at -2.7000 -0.0000 0)
+		(at -2.7000 0.0000 0)
 		(size 0.7000 0.3500)
 		(layers "F.Cu") (roundrect_rratio 0.1000)
 	)
@@ -317,7 +317,7 @@
 		(layers "F.Cu") (roundrect_rratio 0.1000)
 	)
 	(pad "18" smd roundrect
-		(at 2.7000 -0.0000 0)
+		(at 2.7000 0.0000 0)
 		(size 0.7000 0.3500)
 		(layers "F.Cu") (roundrect_rratio 0.1000)
 	)
@@ -372,7 +372,7 @@
 		(layers "F.Cu") (roundrect_rratio 0.1000)
 	)
 	(pad "EXP" smd roundrect
-		(at 0.0000 -0.0000 0)
+		(at 0.0000 0.0000 0)
 		(size 3.7000 3.7000)
 		(layers "F.Cu") (roundrect_rratio 0.1000)
 	)

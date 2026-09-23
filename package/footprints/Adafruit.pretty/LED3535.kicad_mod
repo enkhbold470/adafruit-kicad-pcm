@@ -62,7 +62,7 @@
 	(fp_line (start 1.9000 1.9000) (end 1.9000 1.6000)
 		(stroke (width 0.1270) (type solid)) (layer "F.SilkS")
 	)
-	(fp_circle (center 0.0000 -0.0000) (end 1.4000 -0.0000)
+	(fp_circle (center 0.0000 0.0000) (end 1.4000 0.0000)
 		(stroke (width 0.1270) (type solid)) (fill none) (layer "F.Fab")
 	)
 	(fp_poly

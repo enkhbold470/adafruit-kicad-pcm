@@ -63,7 +63,7 @@
 	(fp_line (start -1.5350 0.7980) (end 1.5350 0.7980)
 		(stroke (width 0.2032) (type solid)) (layer "F.SilkS")
 	)
-	(fp_line (start 0.7000 -0.0000) (end 1.2600 -0.0000)
+	(fp_line (start 0.7000 0.0000) (end 1.2600 0.0000)
 		(stroke (width 0.2032) (type solid)) (layer "F.Fab")
 	)
 	(fp_line (start 0.9700 0.2600) (end 0.9700 -0.3000)
@@ -73,12 +73,12 @@
 		(stroke (width 0.05) (type solid)) (fill solid) (layer "F.Fab")
 	)
 	(pad "+" smd rect
-		(at 1.4000 -0.0000 0)
+		(at 1.4000 0.0000 0)
 		(size 2.0000 1.2000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "-" smd rect
-		(at -1.4000 -0.0000 0)
+		(at -1.4000 0.0000 0)
 		(size 2.0000 1.2000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)

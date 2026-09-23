@@ -57,7 +57,7 @@
 		(stroke (width 0.1270) (type solid)) (layer "F.SilkS")
 	)
 	(fp_poly
-		(pts (xy 14.7320 -0.0000) (xy 13.9700 -0.7620) (xy -13.9700 -0.7620) (xy -14.7320 -0.0000) (xy -13.9700 0.7620) (xy 13.9700 0.7620))
+		(pts (xy 14.7320 0.0000) (xy 13.9700 -0.7620) (xy -13.9700 -0.7620) (xy -14.7320 0.0000) (xy -13.9700 0.7620) (xy 13.9700 0.7620))
 		(stroke (width 0.3048) (type solid)) (fill solid) (layer "B.Cu")
 	)
 	(fp_poly
@@ -65,7 +65,7 @@
 		(stroke (width 0.1270) (type solid)) (fill solid) (layer "B.Mask")
 	)
 	(fp_poly
-		(pts (xy -14.7320 -0.0000) (xy -13.9700 -0.7620) (xy 13.9700 -0.7620) (xy 14.7320 -0.0000) (xy 13.9700 0.7620) (xy -13.9700 0.7620))
+		(pts (xy -14.7320 0.0000) (xy -13.9700 -0.7620) (xy 13.9700 -0.7620) (xy 14.7320 0.0000) (xy 13.9700 0.7620) (xy -13.9700 0.7620))
 		(stroke (width 0.3048) (type solid)) (fill solid) (layer "F.Cu")
 	)
 	(fp_poly
@@ -73,62 +73,62 @@
 		(stroke (width 0.1270) (type solid)) (fill solid) (layer "F.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at -13.9700 -0.0000)
+		(at -13.9700 0.0000)
 		(size 1.1000 1.1000) (drill 1.1000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at -1.2700 -0.0000)
+		(at -1.2700 0.0000)
 		(size 1.1000 1.1000) (drill 1.1000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at 13.9700 -0.0000)
+		(at 13.9700 0.0000)
 		(size 1.1000 1.1000) (drill 1.1000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at -3.8100 -0.0000)
+		(at -3.8100 0.0000)
 		(size 1.1000 1.1000) (drill 1.1000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at 1.2700 -0.0000)
+		(at 1.2700 0.0000)
 		(size 1.1000 1.1000) (drill 1.1000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at -6.3500 -0.0000)
+		(at -6.3500 0.0000)
 		(size 1.1000 1.1000) (drill 1.1000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at 3.8100 -0.0000)
+		(at 3.8100 0.0000)
 		(size 1.1000 1.1000) (drill 1.1000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at 6.3500 -0.0000)
+		(at 6.3500 0.0000)
 		(size 1.1000 1.1000) (drill 1.1000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at -11.4300 -0.0000)
+		(at -11.4300 0.0000)
 		(size 1.1000 1.1000) (drill 1.1000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at -8.8900 -0.0000)
+		(at -8.8900 0.0000)
 		(size 1.1000 1.1000) (drill 1.1000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at 8.8900 -0.0000)
+		(at 8.8900 0.0000)
 		(size 1.1000 1.1000) (drill 1.1000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at 11.4300 -0.0000)
+		(at 11.4300 0.0000)
 		(size 1.1000 1.1000) (drill 1.1000)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)

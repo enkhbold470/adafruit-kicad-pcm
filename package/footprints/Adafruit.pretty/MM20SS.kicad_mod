@@ -189,7 +189,7 @@
 	(fp_line (start -1.1430 0.6350) (end -1.1430 1.0160)
 		(stroke (width 0.0508) (type solid)) (layer "F.SilkS")
 	)
-	(fp_circle (center 3.0480 -0.0000) (end 3.3020 -0.0000)
+	(fp_circle (center 3.0480 0.0000) (end 3.3020 0.0000)
 		(stroke (width 0.1524) (type solid)) (fill none) (layer "F.SilkS")
 	)
 	(pad "1" smd rect

@@ -115,7 +115,7 @@
 		(stroke (width 0.3048) (type solid)) (fill none) (layer "F.SilkS")
 	)
 	(pad "P$THERMAL" smd rect
-		(at 0.0000 -0.0000 0)
+		(at 0.0000 0.0000 0)
 		(size 1.2700 2.3500)
 		(layers "F.Cu" "F.Mask")
 	)
@@ -135,7 +135,7 @@
 		(layers "F.Cu")
 	)
 	(pad "P$4" smd rect
-		(at -1.4750 -0.0000 0)
+		(at -1.4750 0.0000 0)
 		(size 0.7000 0.2000)
 		(layers "F.Cu")
 	)
@@ -170,7 +170,7 @@
 		(layers "F.Cu")
 	)
 	(pad "P$11" smd rect
-		(at 1.4750 -0.0000 0)
+		(at 1.4750 0.0000 0)
 		(size 0.7000 0.2000)
 		(layers "F.Cu")
 	)

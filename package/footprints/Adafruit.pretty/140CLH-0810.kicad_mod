@@ -76,12 +76,12 @@
 		(stroke (width 0.2032) (type solid)) (layer "F.Fab")
 	)
 	(pad "+" smd rect
-		(at 3.2500 -0.0000 0)
+		(at 3.2500 0.0000 0)
 		(size 3.5000 2.5000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)
 	(pad "-" smd rect
-		(at -3.2500 -0.0000 0)
+		(at -3.2500 0.0000 0)
 		(size 3.5000 2.5000)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 	)

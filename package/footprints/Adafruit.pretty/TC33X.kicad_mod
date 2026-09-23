@@ -62,7 +62,7 @@
 	(fp_rect (start -0.1500 -1.1500) (end 0.1500 1.1500)
 		(stroke (width 0.05) (type solid)) (fill solid) (layer "F.Fab")
 	)
-	(fp_circle (center 0.0000 -0.0000) (end 1.1500 -0.0000)
+	(fp_circle (center 0.0000 0.0000) (end 1.1500 0.0000)
 		(stroke (width 0.1016) (type solid)) (fill none) (layer "F.Fab")
 	)
 	(pad "2" smd rect

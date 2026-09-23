@@ -161,22 +161,22 @@
 		(stroke (width 0.05) (type solid)) (fill solid) (layer "F.Fab")
 	)
 	(pad "GND" thru_hole rect
-		(at 0.0000 -0.0000 90)
+		(at 0.0000 0.0000 90)
 		(size 1.9304 1.9304) (drill 1.0160)
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "RST" thru_hole circle
-		(at 2.5400 -0.0000 90)
+		(at 2.5400 0.0000 90)
 		(size 1.9304 1.9304) (drill 1.0160)
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "RX" thru_hole circle
-		(at 5.0800 -0.0000 90)
+		(at 5.0800 0.0000 90)
 		(size 1.9304 1.9304) (drill 1.0160)
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "TX" thru_hole circle
-		(at 7.6200 -0.0000 90)
+		(at 7.6200 0.0000 90)
 		(size 1.9304 1.9304) (drill 1.0160)
 		(layers "*.Cu" "*.Mask")
 	)

@@ -220,7 +220,7 @@
 		(layers "F.Cu" "F.Mask")
 	)
 	(pad "P" smd rect
-		(at 3.0480 -0.0000 90)
+		(at 3.0480 0.0000 90)
 		(size 1.0160 2.0320)
 		(layers "F.Cu" "F.Mask")
 	)

@@ -76,7 +76,7 @@
 	(fp_line (start -1.2700 2.5400) (end -1.2700 -2.5400)
 		(stroke (width 0.1524) (type solid)) (layer "F.SilkS")
 	)
-	(fp_arc (start -5.2070 -2.5400) (mid -7.7470 -0.0000) (end -5.2070 2.5400)
+	(fp_arc (start -5.2070 -2.5400) (mid -7.7470 0.0000) (end -5.2070 2.5400)
 		(stroke (width 0.1524) (type solid)) (layer "F.SilkS")
 	)
 	(fp_line (start -6.9850 -0.6350) (end -6.9850 0.6350)
@@ -105,7 +105,7 @@
 		(layers "*.Cu" "*.Mask")
 	)
 	(pad "" np_thru_hole circle
-		(at 0.0000 -0.0000)
+		(at 0.0000 0.0000)
 		(size 0.8128 0.8128) (drill 0.8128)
 		(layers "F.Cu" "B.Cu" "F.Mask" "B.Mask")
 	)

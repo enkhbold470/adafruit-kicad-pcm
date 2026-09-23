@@ -259,7 +259,7 @@
 		(layers "F.Cu" "F.Paste")
 	)
 	(pad "3" smd rect
-		(at 1.9050 -0.0000 0)
+		(at 1.9050 0.0000 0)
 		(size 1.0000 0.2500)
 		(layers "F.Cu" "F.Paste")
 	)
