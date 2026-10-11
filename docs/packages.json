@@ -30,10 +30,19 @@
         "symbols",
         "footprints",
         "modules",
-        "stemma qt",
+        "stemma-qt",
         "breakout"
       ],
       "versions": [
+        {
+          "version": "1.1.2",
+          "status": "testing",
+          "kicad_version": "8.0",
+          "download_url": "https://github.com/enkhbold470/adafruit-kicad-pcm/releases/download/v1.1.2/adafruit-kicad-library-1.1.2.zip",
+          "download_sha256": "da89fc3e4b4cd19819b14b5ef6e99f8989154a843a8a8c6ddecc9bac1410b47c",
+          "download_size": 828402,
+          "install_size": 7701127
+        },
         {
           "version": "1.1.1",
           "status": "testing",

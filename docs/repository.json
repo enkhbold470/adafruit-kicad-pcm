@@ -9,14 +9,14 @@
   },
   "packages": {
     "url": "https://enkhbold470.github.io/adafruit-kicad-pcm/packages.json",
-    "sha256": "c1b5e79f8b9a1895bc416d9eccfd0b5b2b2508bba857dc280dfcbb6f73d38398",
-    "update_timestamp": 1790138828,
-    "update_time_utc": "2026-09-23 04:47:08"
+    "sha256": "e1a16498618ef9a01c833d5b761c8457254a3d33e90b0df3d8ed9fa4406b28a7",
+    "update_timestamp": 1791693891,
+    "update_time_utc": "2026-10-11 04:44:51"
   },
   "resources": {
     "url": "https://enkhbold470.github.io/adafruit-kicad-pcm/resources.zip",
     "sha256": "5c9cb9de56ca20b106e49793bed87edc9855f0eda07ecf0f4b1e47783a253889",
-    "update_timestamp": 1790138828,
-    "update_time_utc": "2026-09-23 04:47:08"
+    "update_timestamp": 1791693891,
+    "update_time_utc": "2026-10-11 04:44:51"
   }
 }
