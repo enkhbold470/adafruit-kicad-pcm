@@ -242,6 +242,61 @@
       "commit": "bb60e307305d48648d0d77d3edcdef25bee5c94a",
       "sha256": "34b8736670da2cbc1154a81d4d6d4439c209634117e73bf0feff3ea2ba02c4d9",
       "keywords": "adafruit stemma qt i2c breakout 24-bit adc ads122c04"
+    },
+        {
+      "name": "Adafruit_TLV320DAC3100_DAC",
+      "pid": 6309,
+      "title": "Adafruit TLV320DAC3100 I2S DAC with Headphone and Speaker Out PCB",
+      "url": "https://www.adafruit.com/product/6309",
+      "repo": "adafruit/Adafruit-TLV320DAC3100-I2S-DAC-PCB",
+      "path": "Adafruit TLV320DAC3100 I2S DAC.brd",
+      "commit": "4456a62a418b1a25ce2500ce0335ab6fe1eceacf",
+      "sha256": "89eedc64efa6ae153ffb9bb82a75cc548a111cdaef5bed5cd7b74a2f3ae1834a",
+      "keywords": "adafruit stemma qt i2c breakout"
+    },
+    {
+      "name": "Adafruit_TPS61023_MiniBoost",
+      "pid": 4654,
+      "title": "Adafruit Adafruit MiniBoost 5V at 1A - TPS61023",
+      "url": "https://www.adafruit.com/product/4654",
+      "repo": "adafruit/Adafruit-TPS61023-PCB",
+      "path": "Adafruit TPS61023.brd",
+      "commit": "82b5a33a1900a5c13849029bc84e7856a44086e0",
+      "sha256": "3120167e68e07fa2f51759855c7cdb7ceba8e4b1cba024be39dd1c0edd274a68",
+      "keywords": "adafruit boost breakout"
+    },
+    {
+      "name": "Adafruit_ICS-43434_Microphone",
+      "pid": 6049,
+      "title": "Adafruit I2S MEMS Microphone Breakout - ICS-43434",
+      "url": "https://www.adafruit.com/product/6049",
+      "repo": "adafruit/Adafruit-I2S-MEMS-Microphone-Breakout-PCB",
+      "path": "Adafruit I2S MEMS Microphone Breakout - ICS-43434.brd",
+      "commit": "cde79ddef57c7df69a5e7268b66567fa50b7e42d",
+      "sha256": "7d9e59db046d49f8e54f1896ad9cf11875e30911d32c8ab85071b79651eecd4f",
+      "keywords": "adafruit mems microphone i2s breakout"
+    },
+    {
+      "name": "Adafruit_DRV2605L_Haptic-Motor-Controller",
+      "pid": 2305,
+      "title": "Adafruit DRV2605L Haptic Motor Controller - STEMMA QT / Qwiic",
+      "url": "https://www.adafruit.com/product/2305",
+      "repo": "adafruit/Adafruit-DRV2605-PCB",
+      "path": "Adafruit DRV2605L STEMMA QT.brd",
+      "commit": "78a53522699b0f0661ed8fec2f3d5eb2d617e4b0",
+      "sha256": "b432a293b2e9a9c2d4f98ba3e9d21dc6e2374f9711554fe568b67acf4f3193b5",
+      "keywords": "adafruit stemma qt i2c breakout haptic controller"
+    },
+    {
+      "name": "Adafruit_Stemma-QT_Hub",
+      "pid": 5625,
+      "title": "Adafruit Qwiic / Stemma QT 5 Port Hub",
+      "url": "https://www.adafruit.com/product/5625",
+      "repo": "adafruit/Adafruit-Qwiic-Stemma-QT-5-Port-Hub-PCB",
+      "path": "Adafruit Stemma QT 5 Port Hub.brd",
+      "commit": "6e0b58b27cc36f2f4f2ae72371457032f9a1dc75",
+      "sha256": "f672895bdded6cf7cafd0561f77ba7539391ef21df848d2ed41b0fe0ba83e5dd",
+      "keywords": "adafruit stemma qt i2c hub"
     }
   ]
 }
